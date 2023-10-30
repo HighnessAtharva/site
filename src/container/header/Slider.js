@@ -26,13 +26,9 @@ class Slider extends Component {
                   // data-aos-offset="300"
                   // data-aos-easing="ease-in-sine"
                 >
-                  <h1> First slide label First slide label </h1>
+                  <h1> VISION </h1>
                   <p>
-                    Nulla vitae elit libero, a pharetra augue mollis interdum.
-                    Nulla vitae elit libero, a pharetra augue mollis interdum.
-                    Nulla vitae elit libero, a pharetra augue mollis interdum.
-                    Nulla vitae elit libero, a pharetra augue mollis interdum.
-                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  “To produce Telecommunication Engineers capable of effectively using the scientific and technical knowledge for the betterment of society.”
                   </p>
                   <Button variant="danger" style={{ marginBottom: 10 }}>
                     Now
