@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  overflow: hidden;
+}
+
+.ReactGridGallery_title-viewport img {
+  width: 100% !important;
+  height: 100%;
+  margin-left: 0;
+}
+
+@media (min-width: 990px) {
+  .form-inline .form-control {
+    width: 90px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .form-inline .form-control {
+    width: 200px;
+  }
+}
+
+@media (max-width: 990px) {
+  .form-inline .form-control {
+    width: auto;
+    margin-top: 10px;
+  }
+  .enroll-btn {
+    margin-top: 10px;
+  }
+}
+
+.message-container {
+  display: grid;
+}
+
+.video-frame {
+  width: 100%;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 990px) {
+  .video-frame {
+    height: 260px;
+  }
+}
+
+@media (max-width: 800px) {
+  .video-frame {
+    height: 250px;
+  }
+}
+
+@media (max-width: 660px) {
+  .video-frame {
+    height: 190px;
+  }
+}
+
+@media (max-width: 575px) {
+  .video-frame {
+    height: 290px;
+  }
+}
+
+@media (max-width: 450px) {
+  .video-frame {
+    height: 230px;
+  }
+}
+
+.video-frame:hover {
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  transform: scale(0.95);
+}
+
+.btn-gallery a {
+  color: white;
+}
+
+.carousel-item img {
+  height: calc(100vh - 76px) !important;
+}
