@@ -9,9 +9,9 @@ const LocationPin = ({ text }) => (
 );
 
 const location = {
-  address: "1600 Amphitheatre Parkway, Mountain View, california.",
-  lat: 37.42216,
-  lng: -122.08427,
+  address: "S.P.I.T Munshi Nagar, Andheri West, Mumbai, Maharashtra 400058.",
+  lat: 19.129780,
+  lng: 72.836891,
 };
 
 const Map = () => (
@@ -23,10 +23,12 @@ const Map = () => (
         defaultZoom={17}
       >
         <LocationPin
-          lat={37.42216}
-          lng={-122.08427}
-          text={"1600 Amphitheatre Parkway, Mountain View, california."}
+          lat={19.129780}
+          lng={72.836891}
+          text={"S.P.I.T Munshi Nagar, Andheri West, Mumbai, Maharashtra 400058."}
+          className="location-pin"
         />
+         
       </GoogleMapReact>
     </div>
   </div>

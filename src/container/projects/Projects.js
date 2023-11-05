@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import course01 from "../../images/course01.jpeg";
-import "./courses.css";
+import "./projects.css";
 
-export class Courses extends Component {
+export class projects extends Component {
   render() {
     const displayCourse = ["course01", "course02", "course03", "course04"].map(
       (course, index) => (
@@ -38,12 +38,12 @@ export class Courses extends Component {
     );
 
     return (
-      <section id="courses" className="courses py-5">
+      <section id="projects" className="projects py-5">
         <Container>
           <Row>
             <Col xs={10} sm={6} className="mx-auto text-center course-title">
               <h1 className="text-capitalize">
-                Our Featured <strong style={{ color: "brown" }}>Courses</strong>
+                Our Featured <strong style={{ color: "brown" }}>projects</strong>
               </h1>
               <p
                 style={{
@@ -53,7 +53,7 @@ export class Courses extends Component {
                 }}
               ></p>
               <p className="text-muted" data-aos="fade-up">
-                Our Featured Courses are selected through a rigorous process and
+                Our Featured projects are selected through a rigorous process and
                 uniquely created for each semester.
               </p>
             </Col>
@@ -72,4 +72,4 @@ export class Courses extends Component {
   }
 }
 
-export default Courses;
+export default projects;

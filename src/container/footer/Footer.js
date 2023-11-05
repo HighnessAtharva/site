@@ -25,7 +25,7 @@ export class Footer extends Component {
             >
               <Image src={college} fluid />
               <h4 className="mt-3 text-center">
-                University of <br /> York
+                Sardar Patel <br /> Institute of Technology 
               </h4>
             </Col>
             <Col
@@ -43,19 +43,19 @@ export class Footer extends Component {
                   <span class="mr-4 footer-icon">
                     <i class="fas fa-map"></i>
                   </span>
-                  <span>221 baker street, London</span>
+                  <span>Munshi Nagar, Andheri (West), Mumbai 400 058</span>
                 </p>
                 <p class="d-flex flex-wrap">
                   <span class="mr-4 footer-icon">
                     <i class="fas fa-phone"></i>
                   </span>
-                  <span>+91 9834905510 </span>
+                  <span>+91 9930362014 / 9930309463 </span>
                 </p>
                 <p class="d-flex flex-wrap">
                   <span class="mr-4 footer-icon">
                     <i class="fas fa-envelope"></i>
                   </span>
-                  <span>enolaholmes@email.com</span>
+                  <span>principal@spit.ac.in</span>
                 </p>
               </div>
             </Col>
@@ -100,8 +100,8 @@ export class Footer extends Component {
           <Row>
             <Col md={8} sm={6} xs={12}>
               <p class="copyright-text">
-                Copyright &copy; 2017 All Rights Reserved by
-                <a href="#copyright"> Company</a>.
+                Copyright &copy; 2023 All Rights Reserved by
+                <a href="#copyright"> SPIT</a>.
               </p>
             </Col>
             <Col md={4} sm={6} xs={12}>
