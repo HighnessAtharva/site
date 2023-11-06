@@ -7,10 +7,16 @@ import Topbar from "./container/header/Topbar";
 import About from "./container/about/About";
 import VideoPage from "./container/videoSection/VideoPage";
 
+//  
+import BTech from "./container/Btech/BTechPage";
+import MTech from "./container/MTech/MTechPage";
+import PhD from "./container/Phd/PhdPage";
+
 // R&D Tabs
 import Projects from "./container/projects/Projects";
 import Publications from "./container/publications/Publications";
 import Consultancy from "./container/consultancy/Consultancy";
+
 
 import Message from "./container/Messages/Message";
 import PhotoGallary from "./container/gallery/PhotoGallery";
@@ -50,14 +56,28 @@ class App extends React.Component {
               <Projects />
               <PhotoGallary />
             </Route>
-            <Route exact path="/about">
+            {/* <Route exact path="/about">
               <AboutPage />
             </Route>
             <Route exact path="/gallery">
               <FullGallery />
-            </Route>
+            </Route> */}
             <Route exact path="/vision-and-mission">
               <VisionAndMissionPage />
+            </Route>
+
+            {/* PROGRAMS TABS */}
+
+            <Route exact path="/btech">
+               <BTech />
+            </Route>
+
+            <Route exact path="/mtech">
+               <MTech />
+            </Route>
+
+            <Route exact path="/phd">
+               <PhD />
             </Route>
 
             <Route exact path="/faculty">
