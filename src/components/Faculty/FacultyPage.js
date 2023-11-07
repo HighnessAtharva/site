@@ -1,73 +1,109 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import "./faculty.css";
+import facultyData from "./facultyData";
+import supportStaffData from "./supportStaffData";
 
 class FacultyPage extends Component {
   render() {
-    const displayFaculty = [
-      "Shashank Shahare",
-      "Enola Holmes",
-      "TidbitsJS",
-      "Sherlock Holmes",
-      "Bilbo Baggins",
-      "Mr. Matrix",
-    ].map((member, index) => (
-      <Col xs={12} sm={6} md={4} lg={3} key={index + member}>
-        <div className="our-team">
-          <div className="picture">
-            <Image src="https://picsum.photos/130/130?image=1027" fluid />
-          </div>
-          <div className="team-content">
-            <h3 className="name">{member}</h3>
-            <h4 className="title">Web Developer</h4>
-          </div>
-          <ul class="social">
-            <li>
-              <a class="facebook" href="#fb">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li>
-              <a class="twitter" href="#twitter">
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li>
-              <a class="dribbble" href="#dribble">
-                <i class="fab fa-dribbble"></i>
-              </a>
-            </li>
-            <li>
-              <a class="linkedin" href="#linkedin">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </Col>
+    const facultyRows = this.createRows(facultyData, 2).map((row, index) => (
+      <Row key={index}>
+        {row.map((faculty) => (
+          <Col xs={12} sm={6} md={6} lg={6} key={faculty.name}>
+            {this.renderFacultyCard(faculty)}
+          </Col>
+        ))}
+      </Row>
+    ));
+
+    const supportStaffRows = this.createRows(supportStaffData, 2).map((row, index) => (
+      <Row key={index}>
+        {row.map((staff) => (
+          <Col xs={12} sm={6} md={6} lg={6} key={staff.name}>
+            {this.renderSupportStaffCard(staff)}
+          </Col>
+        ))}
+      </Row>
     ));
 
     return (
       <section>
         <Container
-          style={{ backgroundColor: "brown", color: "#fff" }}
-          className="text-center py-5 aboutpage"
+          style={{ backgroundColor: "brown", color: "#fff", height: "80px" }}
+          // className="text-center py-5 aboutpage"
           fluid
         >
           <Row>
             <Col>
-              <h1>Faculty</h1>
-              <p>
-                Home / <span style={{ color: "brown" }}>Faculty</span>
-              </p>
+              <h1 style={{ textAlign: "center", margin: "5px", padding: "10px" }}>
+                List of Faculties
+              </h1>
             </Col>
           </Row>
         </Container>
-        <Container className="mt-5 mb-5">
-          <Row>{displayFaculty}</Row>
+        <Container>
+          <h1 style={{ textAlign: "center", marginTop: "5px", paddingTop: "10px" }}>
+            Faculty
+          </h1>
         </Container>
+        <Container className="mt-5 mb-5">{facultyRows}</Container>
+        <Container>
+          <h1 style={{ textAlign: "center", marginTop: "5px", paddingTop: "10px" }}>
+            Support Staff
+          </h1>
+        </Container>
+        <Container className="mt-5 mb-5">{supportStaffRows}</Container>
       </section>
     );
+  }
+
+  renderFacultyCard(faculty) {
+    return (
+      <div className="faculty-card">
+        <div className="faculty-image">
+          <Image src={faculty.image} fluid />
+          <a href={faculty.url}>
+            <i className="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+        <div className="faculty-details">
+          <h5 className="name">{faculty.name}</h5>
+          <h6 className="title">{faculty.designation}</h6>
+          <p className="faculty-info">
+            <span>Qualification: {faculty.qualification}</span>
+            <span>Experience: {faculty.experience}</span>
+            <span>Email: {faculty.email}</span>
+            <span>Phone: {faculty.phone}</span>
+          </p>
+        </div>
+      </div>
+    );
+  }
+
+  renderSupportStaffCard(staff) {
+    return (
+      <div className="faculty-card">
+        <div className="faculty-image">
+          <Image src={staff.image} fluid />
+        </div>
+        <div className= "faculty-details">
+          <h5 className="name">{staff.name}</h5>
+          <h6 className="title">{staff.designation}</h6>
+          <p className="faculty-info">
+            <span>Qualification: {staff.qualification}</span>
+            {staff.email && <span>Email: {staff.email}</span>}
+          </p>
+        </div>
+      </div>
+    );
+  }
+
+  createRows(data, itemsPerRow) {
+    const rows = [];
+    for (let i = 0; i < data.length; i += itemsPerRow) {
+      rows.push(data.slice(i, i + itemsPerRow));
+    }
+    return rows;
   }
 }
 
