@@ -7,7 +7,7 @@ import {
   FormControl,
   Button,
 } from "react-bootstrap";
-import logo from "../../images/logo.png";
+import logo from "../../images/spit-logo.jpg";
 import "./header.css";
 import { Link } from "react-router-dom";
 
@@ -31,17 +31,7 @@ export class Topbar extends Component {
             <Link to="/vision-and-mission">
               <Nav.Link href="/vision-and-mission">Vision & Mission</Nav.Link>
             </Link>
-            <NavDropdown title="Programs" id="administration-dropdown">
-              {/* <Link to="/programs">
-                <NavDropdown.Item href="/programs">Courses</NavDropdown.Item>
-              </Link>
-              <Link to="/gallery">
-                <NavDropdown.Item href="/gallery">gallery</NavDropdown.Item>
-              </Link>
-              <Link to="/events">
-                <NavDropdown.Item href="/events">events</NavDropdown.Item>
-              </Link> */}
-
+            <NavDropdown title="Academics" id="administration-dropdown">
               <Link to="/btech">
                 <NavDropdown.Item href="/btech">B.Tech</NavDropdown.Item>
               </Link>
@@ -51,11 +41,49 @@ export class Topbar extends Component {
               <Link to="/phd">
                 <NavDropdown.Item href="/phd">PhD</NavDropdown.Item>
               </Link>
+              <Link to="/bos">
+                <NavDropdown.Item href="/bos">BOS</NavDropdown.Item>
+              </Link>
             </NavDropdown>
 
-            <Link to="/faculty">
-              <Nav.Link href="/faculty">Faculty</Nav.Link>
-            </Link>
+            <NavDropdown title="Faculty" id="faculty-dropdown">
+              <Link to="/faculty">
+                <NavDropdown.Item href="/faculty">
+                  Professors and Staff
+                </NavDropdown.Item>
+              </Link>
+              <Link to="/faculty-achievements">
+                <NavDropdown.Item href="/faculty-achievements">
+                  Achievements
+                </NavDropdown.Item>
+              </Link>
+              <Link to="/faculty-publications">
+                <NavDropdown.Item href="/faculty-publications">
+                  Publications
+                </NavDropdown.Item>
+              </Link>
+            </NavDropdown>
+
+            <NavDropdown title="Students" id="students-dropdown">
+              <Link to="/placement">
+                <NavDropdown.Item href="/placement">Placement</NavDropdown.Item>
+              </Link>
+              <Link to="/internship">
+                <NavDropdown.Item href="/internship">
+                  Internship
+                </NavDropdown.Item>
+              </Link>
+              <Link to="/student-publications">
+                <NavDropdown.Item href="/student-publications">
+                  Publications
+                </NavDropdown.Item>
+              </Link>
+              <Link to="/student-achievements">
+                <NavDropdown.Item href="/student-achievements">
+                  Achievements
+                </NavDropdown.Item>
+              </Link>
+            </NavDropdown>
 
             <NavDropdown title="R&D" id="r&d-dropdown">
               <Link to="/projects">
@@ -73,16 +101,16 @@ export class Topbar extends Component {
               </Link>
             </NavDropdown>
 
-            {/* <Link to="/admission">
-              <Nav.Link href="/admission">Admission</Nav.Link>
-            </Link>
-
-            <Link to="/about">
-              <Nav.Link href="/about">About</Nav.Link>
-            </Link>
-            <Link to="/contact">
-              <Nav.Link href="/contact">Contact</Nav.Link>
-            </Link> */}
+            <NavDropdown title="FDP" id="fdp-dropdown">
+              <Link to="/conducted">
+                <NavDropdown.Item href="/conducted">Conducted</NavDropdown.Item>
+              </Link>
+              <Link to="/participation">
+                <NavDropdown.Item href="/participation">
+                  Participation
+                </NavDropdown.Item>
+              </Link>
+            </NavDropdown>
 
             <Link to="/infrastructure">
               <Nav.Link href="/infrastructure">Infrastructure</Nav.Link>
@@ -94,12 +122,7 @@ export class Topbar extends Component {
             <Link to="/fets">
               <Nav.Link href="/fets">FETS Committee</Nav.Link>
             </Link>
-
           </Nav>
-          <Form inline>
-            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-            <Button variant="outline-success enroll-btn">Enroll</Button>
-          </Form>
         </Navbar.Collapse>
       </Navbar>
     );

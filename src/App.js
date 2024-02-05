@@ -57,12 +57,6 @@ class App extends React.Component {
               <Projects />
               <PhotoGallary />
             </Route>
-            {/* <Route exact path="/about">
-              <AboutPage />
-            </Route>
-            <Route exact path="/gallery">
-              <FullGallery />
-            </Route> */}
             <Route exact path="/vision-and-mission">
               <VisionAndMissionPage />
             </Route>

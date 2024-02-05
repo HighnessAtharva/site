@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import college from "../../images/College Logo.png";
+import college from "../../images/spit-logo.jpg";
 import "./about.css";
 import { Link } from "react-router-dom";
 
