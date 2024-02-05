@@ -3,9 +3,6 @@ import {
   Navbar,
   Nav,
   NavDropdown,
-  Form,
-  FormControl,
-  Button,
 } from "react-bootstrap";
 import logo from "../../images/spit-logo.jpg";
 import "./header.css";

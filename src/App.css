@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+h1{
+  /*Align Center always*/
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .App {
   overflow: hidden;
 }

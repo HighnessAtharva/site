@@ -6,7 +6,7 @@ class VisionAndMissionPage extends Component {
   render() {
     return (
       <>
-        <h1>Vision and Mission Page</h1>
+        <h1>Vision and Mission</h1>
       </>
     );
   }

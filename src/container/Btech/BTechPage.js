@@ -2,6 +2,14 @@ import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./BTech.css";
 
+//pdf imports
+
+import SEPDF from "../../pdfs/btech_timetable/SE_EXTC_ DIV A_B_ODD_2023-2024.pdf";
+import TEPDF from "../../pdfs/btech_timetable/TE_EXTC_ DIV A_B_ODD_2023-2024.pdf";
+import labPDF from "../../pdfs/btech_timetable/LAB.pdf";
+import EXTCPDF from "../../pdfs/btech_timetable/BE _EXTC_ETRX_ODD_2023-2024.pdf";
+
+
 class BTech extends Component {
   render() {
     return (
@@ -19,7 +27,7 @@ class BTech extends Component {
                   marginTop: 20,
                 }}
               ></p>
-              <p className="text-muted" data-aos="fade-up">
+              <p data-aos="fade-up">
                 Our Featured BTech programs are selected through a rigorous process and uniquely created for each semester.
               </p>
             </Col>
@@ -29,26 +37,12 @@ class BTech extends Component {
               <div className="btech-container">
                 <div className="btech-item">
                   <h1>Timetable</h1>
-                  <Row>
-                    <Col xs={12} sm={6}>
-                      <h2>LAB Timetable</h2>
-                      <embed src="https://drive.google.com/file/d/1qS6YPdrPVs2hp2E5fa-yQEyfEb9mAXyJ/preview" type="application/pdf" width="100%" height="350px" />
-                    </Col>
-                    <Col xs={12} sm={6}>
-                      <h2>EXTC Timetable</h2>
-                      <embed src="https://drive.google.com/file/d/19ajLNuY44S-I8LZjhhCM7MpGFN6hBhvC/preview" type="application/pdf" width="100%" height="350px" />
-                    </Col>
-                  </Row>
-                  <Row>
-                    <Col xs={12} sm={6}>
-                      <h2>SE Timetable</h2>
-                      <embed src="https://drive.google.com/file/d/1RatNe_cCBsWK_pn793U-qVco7ICJ3nY_/preview" type="application/pdf" width="100%" height="350px" />
-                    </Col>
-                    <Col xs={12} sm={6}>
-                      <h2>TE Timetable</h2>
-                      <embed src="https://drive.google.com/file/d/1ov0jxps0lchjLbMkq9HL7_iHSb98Qz6i/preview" type="application/pdf" width="100%" height="350px" />
-                    </Col>
-                  </Row>
+                  <ul>
+                    <li><a href={labPDF} target="_blank"><h2>LAB Timetable</h2></a></li>
+                    <li><a href={EXTCPDF} target="_blank"><h2>EXTC Timetable</h2></a></li>
+                    <li><a href={SEPDF} target="_blank"><h2>SE Timetable</h2></a></li>
+                    <li><a href={TEPDF} target="_blank"><h2>TE Timetable</h2></a></li>
+                  </ul>
                 </div>
                 <div className="btech-item">
                   <h1>Syllabus</h1>
