@@ -1,7 +1,7 @@
 /* Alumni.css */
 
 .alumni-container {
-    margin-top: 20px;
+    margin: 20px 50px;
   }
   
   .alumni-heading {
@@ -37,3 +37,12 @@
     line-height: 1.4;
   }
   
+div.row{
+  margin: 20px 50px;
+  min-height: max-content;
+}
+
+div.card{
+  height: 100vh;
+  height: 100%;
+}

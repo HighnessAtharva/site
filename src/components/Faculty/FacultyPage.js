@@ -29,22 +29,17 @@ class FacultyPage extends Component {
     return (
       <section>
         <Container
-          style={{ backgroundColor: "brown", color: "#fff", height: "80px" }}
-          // className="text-center py-5 aboutpage"
+          style={{ backgroundColor: "brown", color: "#fff", height: "60px" }}
+          className="text-center"
           fluid
         >
           <Row>
             <Col>
               <h1 style={{ textAlign: "center", margin: "5px", padding: "10px" }}>
-                List of Faculties
+                Faculty List 
               </h1>
             </Col>
           </Row>
-        </Container>
-        <Container>
-          <h1 style={{ textAlign: "center", marginTop: "5px", paddingTop: "10px" }}>
-            Faculty
-          </h1>
         </Container>
         <Container className="mt-5 mb-5">{facultyRows}</Container>
         <Container>

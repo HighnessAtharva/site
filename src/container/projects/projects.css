@@ -24,6 +24,10 @@
   cursor: pointer;
 }
 
+h2{
+  color: white;
+}
+
 .course-img {
   transition: all 1s ease-in-out;
 }
