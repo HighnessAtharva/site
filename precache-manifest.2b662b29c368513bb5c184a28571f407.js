@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e4994e66685f8b2020b0dd26b1537e08",
+    "revision": "8c185a5f21011c86260468c0499b16d0",
     "url": "/React-University-Website/index.html"
   },
   {
-    "revision": "b93113135b0bf7ebbc4e",
+    "revision": "323fe1f0186ef2ae3371",
     "url": "/React-University-Website/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "ca83bb01c9dcda41e35d",
-    "url": "/React-University-Website/static/css/main.95b0811e.chunk.css"
+    "revision": "5d2232617848210e2e04",
+    "url": "/React-University-Website/static/css/main.0c9d159c.chunk.css"
   },
   {
-    "revision": "b93113135b0bf7ebbc4e",
-    "url": "/React-University-Website/static/js/2.34f85b91.chunk.js"
+    "revision": "323fe1f0186ef2ae3371",
+    "url": "/React-University-Website/static/js/2.cd1d961c.chunk.js"
   },
   {
     "revision": "cfe63c1848a227eaaf4c756b8cf4bf44",
-    "url": "/React-University-Website/static/js/2.34f85b91.chunk.js.LICENSE.txt"
+    "url": "/React-University-Website/static/js/2.cd1d961c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ca83bb01c9dcda41e35d",
-    "url": "/React-University-Website/static/js/main.5d0285ff.chunk.js"
+    "revision": "5d2232617848210e2e04",
+    "url": "/React-University-Website/static/js/main.4ae24925.chunk.js"
   },
   {
     "revision": "f5cc168e2cb2070e5d4f",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7c6312efb180c288ff20552bff3499b7",
     "url": "/React-University-Website/static/media/Book.7c6312ef.mp4"
-  },
-  {
-    "revision": "c42c654c3d81d8f40749fe93d2c1b352",
-    "url": "/React-University-Website/static/media/College Logo.c42c654c.png"
   },
   {
     "revision": "c3b4bda5c02949459f1e040657351fb5",
@@ -152,16 +148,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-University-Website/static/media/SF9.40110c1d.jpg"
   },
   {
-    "revision": "c42c654c3d81d8f40749fe93d2c1b352",
-    "url": "/React-University-Website/static/media/clogo.c42c654c.png"
-  },
-  {
     "revision": "acdcb857adf691c097f5aa6e0d243791",
     "url": "/React-University-Website/static/media/course01.acdcb857.jpeg"
-  },
-  {
-    "revision": "c42c654c3d81d8f40749fe93d2c1b352",
-    "url": "/React-University-Website/static/media/logo.c42c654c.png"
   },
   {
     "revision": "19c27dc8b35e90d8b99089f8a393bb70",
