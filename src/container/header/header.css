@@ -1,3 +1,12 @@
+.text-capitalize {
+  text-transform: capitalize !important;
+  color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0,0,0);
+}
+
 .nav-link {
   font-size: 1.2rem;
   padding: 0 1rem !important;
@@ -7,6 +16,20 @@
 .nav-link a {
   text-decoration: none !important;
 }
+
+
+.nav-item{
+  border-right: 1px solid rgba(0,0,0,0.3);
+}
+
+.nav{
+  border: 5px solid black;
+}
+
+a{
+  border-right: 1px solid rgba(0,0,0,0.3);
+}
+
 
 a:hover {
   text-decoration: none;
