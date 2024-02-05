@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/React-University-Website/static/css/main.0c9d159c.chunk.css",
-    "main.js": "/React-University-Website/static/js/main.4ae24925.chunk.js",
-    "main.js.map": "/React-University-Website/static/js/main.4ae24925.chunk.js.map",
+    "main.css": "/React-University-Website/static/css/main.d6eb14ea.chunk.css",
+    "main.js": "/React-University-Website/static/js/main.68fd2996.chunk.js",
+    "main.js.map": "/React-University-Website/static/js/main.68fd2996.chunk.js.map",
     "runtime-main.js": "/React-University-Website/static/js/runtime-main.5ce4461a.js",
     "runtime-main.js.map": "/React-University-Website/static/js/runtime-main.5ce4461a.js.map",
     "static/css/2.4707e12a.chunk.css": "/React-University-Website/static/css/2.4707e12a.chunk.css",
-    "static/js/2.cd1d961c.chunk.js": "/React-University-Website/static/js/2.cd1d961c.chunk.js",
-    "static/js/2.cd1d961c.chunk.js.map": "/React-University-Website/static/js/2.cd1d961c.chunk.js.map",
+    "static/js/2.66337bbc.chunk.js": "/React-University-Website/static/js/2.66337bbc.chunk.js",
+    "static/js/2.66337bbc.chunk.js.map": "/React-University-Website/static/js/2.66337bbc.chunk.js.map",
     "index.html": "/React-University-Website/index.html",
-    "precache-manifest.2b662b29c368513bb5c184a28571f407.js": "/React-University-Website/precache-manifest.2b662b29c368513bb5c184a28571f407.js",
+    "precache-manifest.3e1c092ef32d3cf17583683a9472202c.js": "/React-University-Website/precache-manifest.3e1c092ef32d3cf17583683a9472202c.js",
     "service-worker.js": "/React-University-Website/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/React-University-Website/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.0c9d159c.chunk.css.map": "/React-University-Website/static/css/main.0c9d159c.chunk.css.map",
-    "static/js/2.cd1d961c.chunk.js.LICENSE.txt": "/React-University-Website/static/js/2.cd1d961c.chunk.js.LICENSE.txt",
+    "static/css/main.d6eb14ea.chunk.css.map": "/React-University-Website/static/css/main.d6eb14ea.chunk.css.map",
+    "static/js/2.66337bbc.chunk.js.LICENSE.txt": "/React-University-Website/static/js/2.66337bbc.chunk.js.LICENSE.txt",
+    "static/media/BE _EXTC_ETRX_ODD_2023-2024.pdf": "/React-University-Website/static/media/BE _EXTC_ETRX_ODD_2023-2024.9feb2237.pdf",
     "static/media/Book.mp4": "/React-University-Website/static/media/Book.7c6312ef.mp4",
     "static/media/F1.png": "/React-University-Website/static/media/F1.c3b4bda5.png",
     "static/media/F10.png": "/React-University-Website/static/media/F10.5efbdc82.png",
@@ -35,6 +36,8 @@
     "static/media/F6.png": "/React-University-Website/static/media/F6.3dadbf05.png",
     "static/media/F7.jpg": "/React-University-Website/static/media/F7.11d4ed49.jpg",
     "static/media/F9.jpg": "/React-University-Website/static/media/F9.24cdcd0f.jpg",
+    "static/media/LAB.pdf": "/React-University-Website/static/media/LAB.89a1cf7a.pdf",
+    "static/media/SE_EXTC_ DIV A_B_ODD_2023-2024.pdf": "/React-University-Website/static/media/SE_EXTC_ DIV A_B_ODD_2023-2024.d9eaeb84.pdf",
     "static/media/SF10.jpg": "/React-University-Website/static/media/SF10.be861a2d.jpg",
     "static/media/SF2.jpg": "/React-University-Website/static/media/SF2.7bb2cbed.jpg",
     "static/media/SF3.jpg": "/React-University-Website/static/media/SF3.abfc1402.jpg",
@@ -44,6 +47,7 @@
     "static/media/SF7.jpg": "/React-University-Website/static/media/SF7.e0fefae8.jpg",
     "static/media/SF8.jpg": "/React-University-Website/static/media/SF8.596d41ee.jpg",
     "static/media/SF9.jpg": "/React-University-Website/static/media/SF9.40110c1d.jpg",
+    "static/media/TE_EXTC_ DIV A_B_ODD_2023-2024.pdf": "/React-University-Website/static/media/TE_EXTC_ DIV A_B_ODD_2023-2024.4949ecc0.pdf",
     "static/media/course01.jpeg": "/React-University-Website/static/media/course01.acdcb857.jpeg",
     "static/media/slide-01.jpg": "/React-University-Website/static/media/slide-01.19c27dc8.jpg",
     "static/media/about.css": "/React-University-Website/static/media/slide-02.f50f8336.jpg",
@@ -52,8 +56,8 @@
   "entrypoints": [
     "static/js/runtime-main.5ce4461a.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.cd1d961c.chunk.js",
-    "static/css/main.0c9d159c.chunk.css",
-    "static/js/main.4ae24925.chunk.js"
+    "static/js/2.66337bbc.chunk.js",
+    "static/css/main.d6eb14ea.chunk.css",
+    "static/js/main.68fd2996.chunk.js"
   ]
 }
