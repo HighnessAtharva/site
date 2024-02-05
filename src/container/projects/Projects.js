@@ -3,6 +3,19 @@ import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import course01 from "../../images/course01.jpeg";
 import "./projects.css";
 
+// MINI PROJECTS PDF IMPORTS
+import SY_ETRX_20_21_pdf from "../../pdfs/mini_projects/Mini Project-SY ETRX 20-21.pdf";
+import SY_ETRX_21_22_pdf from "../../pdfs/mini_projects/Mini Project-SY ETRX 21-22.pdf";
+import SY_EXTC_22_23_pdf from "../../pdfs/mini_projects/Mini Project-SY EXTC 22-23.pdf";
+
+// MAJOR PROJECTS PDF IMPORTS
+import BTech22_23_ETRX_pdf from "../../pdfs/major_projects/B.Tech Project Details 2022_23 ETRX.pdf";
+import BE_19_20_pdf from "../../pdfs/major_projects/BE PROJECT CAT 1 and CAT 2 2019-20.pdf";
+import BE_20_21_pdf from "../../pdfs/major_projects/BE PROJECT CAT 1 and CAT 2 2020-21.pdf";
+import BE_ETRX_20_21_pdf from "../../pdfs/major_projects/Major Project_Mentor Allocation-BE ETRX-23-24.pdf";
+import ProjectList_18_19_pdf from "../../pdfs/major_projects/Project List 2018-19.pdf";
+import BE_Groups_21_22_xls from "../../pdfs/major_projects/BE Project Groups-AY 2021-22(CAT 1).xlsx";
+
 export class projects extends Component {
   render() {
     const displayCourse = ["course01", "course02", "course03"].map(
@@ -40,13 +53,12 @@ export class projects extends Component {
     return (
       <section id="projects" className="projects py-5">
         <Container>
-          
           {/* MINI PROJECTS SECTION */}
-          
+
           <Row>
             <Col xs={10} sm={6} className="mx-auto text-center course-title">
               <h1 className="text-capitalize">
-                Student {" "}
+                Student{" "}
                 <strong style={{ color: "brown" }}>Mini Projects</strong>
               </h1>
               <p
@@ -57,52 +69,36 @@ export class projects extends Component {
                 }}
               ></p>
               <p className="text-muted" data-aos="fade-up">
-                Our Featured projects are selected through a rigorous process and uniquely created for each semester.
+                Our Featured projects are selected through a rigorous process
+                and uniquely created for each semester.
               </p>
             </Col>
           </Row>
-          
-          <Row>
-            <Col xs={12} sm={6}>
-              <h2>SY EXTC 22-23</h2>
-              <embed
-                src="https://drive.google.com/file/d/19OfF4FVAE7XpBepBY6nmKmCuMeOkXFA4/preview"
-                type="application/pdf"
-                width="100%"
-                height="350px"
-              />
-            </Col>
-            <Col xs={12} sm={6}>
-              <h2>SY ETRX 21-22</h2>
-              <embed
-                src="https://drive.google.com/file/d/1q1qePBgxRiSr0mTc6-mq4AAxEboZyrhc/preview"
-                type="application/pdf"
-                width="100%"
-                height="350px"
-              />
-            </Col>
-          </Row>
-          <Row>
-            <Col xs={12} sm={6}>
-              <h2>SE ETRX 20-21</h2>
-              <embed
-                src="https://drive.google.com/file/d/1JW_MesmUWIzyyJ7fD8UbmUsjZB5Yd0aR/preview"
-                type="application/pdf"
-                width="100%"
-                height="350px"
-              />
-            </Col>
-          </Row>  
-          
 
-          
+          <ul>
+            <li>
+              <a href={SY_ETRX_20_21_pdf} target="_blank">
+                <h2>SY ETRX 20-21</h2>
+              </a>
+            </li>
+            <li>
+              <a href={SY_ETRX_21_22_pdf} target="_blank">
+                <h2>SY ETRX 21-22</h2>
+              </a>
+            </li>
+            <li>
+              <a href={SY_EXTC_22_23_pdf} target="_blank">
+                <h2>SY EXTC 22-23 </h2>
+              </a>
+            </li>
+          </ul>
 
           {/* MAJOR PROJECTS SECTION */}
-          
+
           <Row>
             <Col xs={10} sm={6} className="mx-auto text-center course-title">
               <h1 className="text-capitalize">
-                Student {" "}
+                Student{" "}
                 <strong style={{ color: "brown" }}>Major Projects</strong>
               </h1>
               <p
@@ -113,73 +109,44 @@ export class projects extends Component {
                 }}
               ></p>
               <p className="text-muted" data-aos="fade-up">
-                Our Featured projects are selected through a rigorous process and uniquely created for each semester.
+                Our Featured projects are selected through a rigorous process
+                and uniquely created for each semester.
               </p>
             </Col>
           </Row>
-          
-          <Row>
-            <Col xs={12} sm={6}>
-              <h2>Project List 2018-19</h2>
-              <embed
-                src="https://drive.google.com/file/d/1OSGN6ENwVYZ4YWhhS3iVvqtAFZdgsf5L/preview"
-                type="application/pdf"
-                width="100%"
-                height="350px"
-              />
-            </Col>
-            <Col xs={12} sm={6}>
-              <h2>Mentors BE ETRX 23-24</h2>
-              <embed
-                src="https://drive.google.com/file/d/17pxaCEE8URXzwEvE6YQ70VCmxjbY4iV2/preview"
-                type="application/pdf"
-                width="100%"
-                height="350px"
-              />
-            </Col>
-          </Row>
-          <Row>
-            <Col xs={12} sm={6}>
-              <h2>BE CAT1 + CAT2 20-21</h2>
-              <embed
-                src="https://drive.google.com/file/d/12j8ex9zhHCfjGnH1RgS7UAZPtklUg_-f/preview"
-                type="application/pdf"
-                width="100%"
-                height="350px"
-              />
-            </Col>
-         
-            <Col xs={12} sm={6}>
-              <h2>BE CAT1 + CAT2 2019-20</h2>
-              <embed
-                src="https://drive.google.com/file/d/18AFNPsocUwWLyhaEsWLZmDfvhLluvnqI/preview"
-                type="application/pdf"
-                width="100%"
-                height="350px"
-              />
-            </Col>
-          </Row>
 
-          <Row>
-            <Col xs={12} sm={6}>
-              <h2>B.Tech Details 2022_23 ETRX</h2>
-              <embed
-                src="https://drive.google.com/file/d/1YunkTvi3DGo1IYYf_2_jXkRMt9uh01Qf/preview"
-                type="application/pdf"
-                width="100%"
-                height="350px"
-              />
-            </Col>
-            <Col xs={12} sm={6}>
-              <h2>BE Groups-AY 2021-22 CAT1</h2>
-              <embed
-                src="https://docs.google.com/spreadsheets/d/1POndDS-jGdQRIBfK5U5Z52Z0GNHzz8d6/preview"
-                type="application/pdf"
-                width="100%"
-                height="350px"
-              />
-            </Col>
-          </Row>
+          <ul>
+            <li>
+              <a href={ProjectList_18_19_pdf} target="_blank">
+                <h2>Project List 2018-19</h2>
+              </a>
+            </li>
+            <li>
+              <a href={BE_ETRX_20_21_pdf} target="_blank">
+                <h2>Mentors BE ETRX 23-24</h2>
+              </a>
+            </li>
+            <li>
+              <a href={BE_20_21_pdf} target="_blank">
+                <h2>BE CAT1 + CAT2 20-21</h2>
+              </a>
+            </li>
+            <li>
+              <a href={BE_19_20_pdf} target="_blank">
+                <h2>BE CAT1 + CAT2 2019-20</h2>
+              </a>
+            </li>
+            <li>
+              <a href={BTech22_23_ETRX_pdf} target="_blank">
+                <h2>B.Tech Details 2022_23 ETRX</h2>
+              </a>
+            </li>
+            <li>
+              <a href={BE_Groups_21_22_xls} target="_blank">
+                <h2>BE Groups-AY 2021-22 CAT1</h2>
+              </a>
+            </li>
+          </ul>
 
           <Row>{displayCourse}</Row>
           <Row>
