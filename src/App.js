@@ -7,17 +7,16 @@ import Topbar from "./container/header/Topbar";
 import About from "./container/about/About";
 import VideoPage from "./container/videoSection/VideoPage";
 
-//  
+//
 import BTech from "./container/Btech/BTechPage";
 import MTech from "./container/MTech/MTechPage";
 import PhD from "./container/Phd/PhdPage";
-
+import BOS from "./container/BOS/BOSPage";
 
 // R&D Tabs
 import Projects from "./container/projects/Projects";
 import Publications from "./container/publications/Publications";
 import Consultancy from "./container/consultancy/Consultancy";
-
 
 import Message from "./container/Messages/Message";
 import PhotoGallary from "./container/gallery/PhotoGallery";
@@ -26,13 +25,28 @@ import Slider from "./container/header/Slider";
 import FullGallery from "./container/gallery/FullGallery";
 import Contact from "./components/contact/Contact";
 import AboutPage from "./container/about/AboutPage";
+
 import FacultyPage from "./components/Faculty/FacultyPage";
-import Event from "./components/Events/Event";
-import Notify from "./components/Notification/Notify";
+import FacultyAchievements from "./components/Faculty_Achievements/facultyAchievements";
+import FacultyPublications from "./components/Faculty_Publications/facultyPublications";
+
+import StudentAchievements from "./components/Student_Achievement/studentAchievements";
+import StudentInternships from "./components/Student_Internship/studentInternships";
+import StudentPlacements from "./components/Student_Placement/studentPlacements";
+import StudentPublications from "./components/Student_Publication/studentPublications";
+
+import FdpConductedPage from "./components/FDP_Conducted/fdpConducted";
+import FdpParticipationPage from "./components/FDP_Participation/fdpParticipation";
+
+// import Event from "./components/Events/Event";
+// import Notify from "./components/Notification/Notify";
 import VisionAndMissionPage from "./components/VisionAndMission/VisionAndMissionPage";
 import InfrastructurePage from "./components/Infrastructure/InfrastructurePage";
 import AlumniPage from "./components/Alumni/AlumniPage";
 import FETSPage from "./components/FETS/FETSPage";
+
+import DepartmentLibrary from "./components/Department_Library/Library";
+import InnovativePage from "./components/Innovative_Teaching_Learning/InnovativePage";
 
 class App extends React.Component {
   constructor(props) {
@@ -61,22 +75,59 @@ class App extends React.Component {
               <VisionAndMissionPage />
             </Route>
 
+            {/* Students  */}
+            <Route exact path="/placement">
+              <StudentPlacements />
+            </Route>
+
+            <Route exact path="/internship">
+              <StudentInternships />
+            </Route>
+
+            <Route exact path="/student-publications">
+              <StudentPublications />
+            </Route>
+
+            <Route exact path="/student-achievements">
+              <StudentAchievements />
+            </Route>
+
+            <Route exact path="/conducted">
+              <FdpConductedPage />
+            </Route>
+
+            <Route exact path="/participation">
+              <FdpParticipationPage />
+            </Route>
+
             {/* PROGRAMS TABS */}
 
             <Route exact path="/btech">
-               <BTech />
+              <BTech />
             </Route>
 
             <Route exact path="/mtech">
-               <MTech />
+              <MTech />
             </Route>
 
             <Route exact path="/phd">
-               <PhD />
+              <PhD />
+            </Route>
+
+            <Route exact path="/bos">
+              <BOS />
             </Route>
 
             <Route exact path="/faculty">
               <FacultyPage />
+            </Route>
+
+            <Route exact path="/faculty-achievements">
+              <FacultyAchievements />
+            </Route>
+
+            <Route exact path="/faculty-publications">
+              <FacultyPublications />
             </Route>
 
             {/* R&D Tabs */}
@@ -92,21 +143,25 @@ class App extends React.Component {
               <Consultancy />
             </Route>
 
-            {/* R&D Tabs Over*/}
-
             <Route exact path="/infrastructure">
               <InfrastructurePage />
             </Route>
 
             <Route exact path="/alumni">
-               <AlumniPage />
+              <AlumniPage />
             </Route>
 
-            
             <Route exact path="/fets">
               <FETSPage />
             </Route>
 
+            <Route exact path="/innovative-teaching-learning">
+              <InnovativePage />
+            </Route>
+
+            <Route exact path="/department-library">
+              <DepartmentLibrary />
+            </Route>
 
             {/* <Route exact path="/events">
               <Event />
