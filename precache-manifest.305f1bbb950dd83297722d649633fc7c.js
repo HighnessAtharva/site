@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "24db7f7c8eedcc01a7beab04b513f431",
+    "revision": "bdf167664cc1a702a81f236d70e24d40",
     "url": "/React-University-Website/index.html"
   },
   {
-    "revision": "c2679ccefd454931d282",
+    "revision": "213b304fa741f63a28a3",
     "url": "/React-University-Website/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "06c7a216b0f564238701",
-    "url": "/React-University-Website/static/css/main.51459697.chunk.css"
+    "revision": "c8537a2efa29e566c5d1",
+    "url": "/React-University-Website/static/css/main.1e3b20d5.chunk.css"
   },
   {
-    "revision": "c2679ccefd454931d282",
-    "url": "/React-University-Website/static/js/2.d8c7fe0d.chunk.js"
+    "revision": "213b304fa741f63a28a3",
+    "url": "/React-University-Website/static/js/2.25419bee.chunk.js"
   },
   {
     "revision": "cfe63c1848a227eaaf4c756b8cf4bf44",
-    "url": "/React-University-Website/static/js/2.d8c7fe0d.chunk.js.LICENSE.txt"
+    "url": "/React-University-Website/static/js/2.25419bee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "06c7a216b0f564238701",
-    "url": "/React-University-Website/static/js/main.ce73fef0.chunk.js"
+    "revision": "c8537a2efa29e566c5d1",
+    "url": "/React-University-Website/static/js/main.bbccfacf.chunk.js"
   },
   {
     "revision": "f5cc168e2cb2070e5d4f",
@@ -46,6 +46,34 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9feb22375d341044208b6647adc2f0ac",
     "url": "/React-University-Website/static/media/BE _EXTC_ETRX_ODD_2023-2024.9feb2237.pdf"
+  },
+  {
+    "revision": "00aa7e876f730abb49a10277b7f5cdb4",
+    "url": "/React-University-Website/static/media/BoS_2017-18.00aa7e87.pdf"
+  },
+  {
+    "revision": "d6ea98660f5f579e32d0a860bc987d5d",
+    "url": "/React-University-Website/static/media/BoS_2018-19.d6ea9866.pdf"
+  },
+  {
+    "revision": "9b16e904fdeca6f86364c3e04ceadb26",
+    "url": "/React-University-Website/static/media/BoS_2019-20.9b16e904.pdf"
+  },
+  {
+    "revision": "e51cf175b25112138633984055182b48",
+    "url": "/React-University-Website/static/media/BoS_2020-21.e51cf175.pdf"
+  },
+  {
+    "revision": "35b70940c960ba36e3b6cae70ace0de8",
+    "url": "/React-University-Website/static/media/BoS_2021-22.35b70940.pdf"
+  },
+  {
+    "revision": "18544122919b9acccee42e8d99953c14",
+    "url": "/React-University-Website/static/media/BoS_2022-23.18544122.pdf"
+  },
+  {
+    "revision": "43977723ca4b4b08e6ae0e257a7717bd",
+    "url": "/React-University-Website/static/media/BoS_2023-24.43977723.pdf"
   },
   {
     "revision": "7c6312efb180c288ff20552bff3499b7",
