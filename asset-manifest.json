@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/React-University-Website/static/css/main.1e3b20d5.chunk.css",
-    "main.js": "/React-University-Website/static/js/main.bbccfacf.chunk.js",
-    "main.js.map": "/React-University-Website/static/js/main.bbccfacf.chunk.js.map",
+    "main.js": "/React-University-Website/static/js/main.362ff583.chunk.js",
+    "main.js.map": "/React-University-Website/static/js/main.362ff583.chunk.js.map",
     "runtime-main.js": "/React-University-Website/static/js/runtime-main.5ce4461a.js",
     "runtime-main.js.map": "/React-University-Website/static/js/runtime-main.5ce4461a.js.map",
     "static/css/2.4707e12a.chunk.css": "/React-University-Website/static/css/2.4707e12a.chunk.css",
     "static/js/2.25419bee.chunk.js": "/React-University-Website/static/js/2.25419bee.chunk.js",
     "static/js/2.25419bee.chunk.js.map": "/React-University-Website/static/js/2.25419bee.chunk.js.map",
     "index.html": "/React-University-Website/index.html",
-    "precache-manifest.305f1bbb950dd83297722d649633fc7c.js": "/React-University-Website/precache-manifest.305f1bbb950dd83297722d649633fc7c.js",
+    "precache-manifest.60a6ea82e31b6b6ec8cfbfe44839e02c.js": "/React-University-Website/precache-manifest.60a6ea82e31b6b6ec8cfbfe44839e02c.js",
     "service-worker.js": "/React-University-Website/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/React-University-Website/static/css/2.4707e12a.chunk.css.map",
     "static/css/main.1e3b20d5.chunk.css.map": "/React-University-Website/static/css/main.1e3b20d5.chunk.css.map",
@@ -74,6 +74,6 @@
     "static/css/2.4707e12a.chunk.css",
     "static/js/2.25419bee.chunk.js",
     "static/css/main.1e3b20d5.chunk.css",
-    "static/js/main.bbccfacf.chunk.js"
+    "static/js/main.362ff583.chunk.js"
   ]
 }
