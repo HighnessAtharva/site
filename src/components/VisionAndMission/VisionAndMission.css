@@ -1,0 +1,21 @@
+.container-style {
+  background-color: #f0f8ff; 
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); 
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.container-style h1 {
+  color: #333; 
+}
+
+.container-style p,
+.container-style ul {
+  color: #555;
+}
+
+.container-style ul {
+  padding-left: 20px;
+}

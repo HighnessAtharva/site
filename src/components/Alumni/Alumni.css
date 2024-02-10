@@ -15,7 +15,8 @@
   }
   
   .alumni-image {
-    object-fit: cover;
+    object-fit: contain;
+    padding-top: 5px;
     height: 200px;
   }
   
@@ -30,6 +31,7 @@
     font-weight: bold;
     font-size: 1.2rem;
     margin-bottom: 5px;
+    text-align: center;
   }
   
   .card-text {

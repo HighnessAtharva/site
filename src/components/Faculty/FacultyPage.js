@@ -9,7 +9,7 @@ class FacultyPage extends Component {
     const facultyRows = this.createRows(facultyData, 2).map((row, index) => (
       <Row key={index}>
         {row.map((faculty) => (
-          <Col xs={12} sm={6} md={6} lg={6} key={faculty.name}>
+          <Col sm={12} md={8} lg={6} key={faculty.name}>
             {this.renderFacultyCard(faculty)}
           </Col>
         ))}
@@ -19,7 +19,7 @@ class FacultyPage extends Component {
     const supportStaffRows = this.createRows(supportStaffData, 2).map((row, index) => (
       <Row key={index}>
         {row.map((staff) => (
-          <Col xs={12} sm={6} md={6} lg={6} key={staff.name}>
+          <Col sm={12} md={8} lg={6} key={staff.name}>
             {this.renderSupportStaffCard(staff)}
           </Col>
         ))}
