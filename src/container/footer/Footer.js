@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import college from "../../images/spit-logo.jpg";
 import "./footer.css";
-import MapContainer from "./MapContainer";
+
 
 export class Footer extends Component {
   render() {
@@ -14,7 +14,7 @@ export class Footer extends Component {
       >
         <Container fluid>
           <Row>
-            <MapContainer />
+            
           </Row>
           <Row className="mt-5">
             <Col

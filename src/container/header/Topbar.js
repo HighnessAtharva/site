@@ -21,7 +21,7 @@ export class Topbar extends Component {
           </Navbar.Brand>
           <Navbar.Text className="ml-3">
             <h1 className="text-capitalize mb-0">
-              Department of Electronics Engineering
+              Department of Electronics & Telecommunication Engineering
             </h1>
           </Navbar.Text>
         </Navbar>
