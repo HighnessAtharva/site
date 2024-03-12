@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/React-University-Website/static/css/main.1e3b20d5.chunk.css",
-    "main.js": "/React-University-Website/static/js/main.362ff583.chunk.js",
-    "main.js.map": "/React-University-Website/static/js/main.362ff583.chunk.js.map",
+    "main.css": "/React-University-Website/static/css/main.ebe1448c.chunk.css",
+    "main.js": "/React-University-Website/static/js/main.e73d4f87.chunk.js",
+    "main.js.map": "/React-University-Website/static/js/main.e73d4f87.chunk.js.map",
     "runtime-main.js": "/React-University-Website/static/js/runtime-main.5ce4461a.js",
     "runtime-main.js.map": "/React-University-Website/static/js/runtime-main.5ce4461a.js.map",
     "static/css/2.4707e12a.chunk.css": "/React-University-Website/static/css/2.4707e12a.chunk.css",
-    "static/js/2.25419bee.chunk.js": "/React-University-Website/static/js/2.25419bee.chunk.js",
-    "static/js/2.25419bee.chunk.js.map": "/React-University-Website/static/js/2.25419bee.chunk.js.map",
+    "static/js/2.da22b41b.chunk.js": "/React-University-Website/static/js/2.da22b41b.chunk.js",
+    "static/js/2.da22b41b.chunk.js.map": "/React-University-Website/static/js/2.da22b41b.chunk.js.map",
     "index.html": "/React-University-Website/index.html",
-    "precache-manifest.60a6ea82e31b6b6ec8cfbfe44839e02c.js": "/React-University-Website/precache-manifest.60a6ea82e31b6b6ec8cfbfe44839e02c.js",
+    "precache-manifest.d6c3be59ca34bfc66ec879b781585136.js": "/React-University-Website/precache-manifest.d6c3be59ca34bfc66ec879b781585136.js",
     "service-worker.js": "/React-University-Website/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/React-University-Website/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.1e3b20d5.chunk.css.map": "/React-University-Website/static/css/main.1e3b20d5.chunk.css.map",
-    "static/js/2.25419bee.chunk.js.LICENSE.txt": "/React-University-Website/static/js/2.25419bee.chunk.js.LICENSE.txt",
+    "static/css/main.ebe1448c.chunk.css.map": "/React-University-Website/static/css/main.ebe1448c.chunk.css.map",
+    "static/js/2.da22b41b.chunk.js.LICENSE.txt": "/React-University-Website/static/js/2.da22b41b.chunk.js.LICENSE.txt",
     "static/media/B.Tech Project Details 2022_23 ETRX.pdf": "/React-University-Website/static/media/B.Tech Project Details 2022_23 ETRX.68b1e619.pdf",
     "static/media/BE PROJECT CAT 1 and CAT 2 2019-20.pdf": "/React-University-Website/static/media/BE PROJECT CAT 1 and CAT 2 2019-20.d8768766.pdf",
     "static/media/BE PROJECT CAT 1 and CAT 2 2020-21.pdf": "/React-University-Website/static/media/BE PROJECT CAT 1 and CAT 2 2020-21.35eaeb6a.pdf",
@@ -27,6 +27,7 @@
     "static/media/BoS_2022-23.pdf": "/React-University-Website/static/media/BoS_2022-23.18544122.pdf",
     "static/media/BoS_2023-24.pdf": "/React-University-Website/static/media/BoS_2023-24.43977723.pdf",
     "static/media/Book.mp4": "/React-University-Website/static/media/Book.7c6312ef.mp4",
+    "static/media/EXTC_Video.mp4": "/React-University-Website/static/media/EXTC_Video.d6fc84a5.mp4",
     "static/media/F1.png": "/React-University-Website/static/media/F1.c3b4bda5.png",
     "static/media/F10.png": "/React-University-Website/static/media/F10.5efbdc82.png",
     "static/media/F11.png": "/React-University-Website/static/media/F11.d7760f02.png",
@@ -65,15 +66,16 @@
     "static/media/SF9.jpg": "/React-University-Website/static/media/SF9.40110c1d.jpg",
     "static/media/TE_EXTC_ DIV A_B_ODD_2023-2024.pdf": "/React-University-Website/static/media/TE_EXTC_ DIV A_B_ODD_2023-2024.4949ecc0.pdf",
     "static/media/course01.jpeg": "/React-University-Website/static/media/course01.acdcb857.jpeg",
+    "static/media/hod-desk-img.jpg": "/React-University-Website/static/media/hod-desk-img.74432582.jpg",
     "static/media/slide-01.jpg": "/React-University-Website/static/media/slide-01.19c27dc8.jpg",
-    "static/media/about.css": "/React-University-Website/static/media/slide-02.f50f8336.jpg",
+    "static/media/slide-02.jpg": "/React-University-Website/static/media/slide-02.f50f8336.jpg",
     "static/media/slide-03.jpg": "/React-University-Website/static/media/slide-03.347bdbf6.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5ce4461a.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.25419bee.chunk.js",
-    "static/css/main.1e3b20d5.chunk.css",
-    "static/js/main.362ff583.chunk.js"
+    "static/js/2.da22b41b.chunk.js",
+    "static/css/main.ebe1448c.chunk.css",
+    "static/js/main.e73d4f87.chunk.js"
   ]
 }
