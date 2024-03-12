@@ -38,8 +38,8 @@ class BTech extends Component {
                 <div className="btech-item">
                   <h1>Timetable</h1>
                   <ul>
-                    <li><a href={labPDF} target="_blank"><h2>LAB Timetable</h2></a></li>
-                    <li><a href={EXTCPDF} target="_blank"><h2>EXTC Timetable</h2></a></li>
+                    {/* <li><a href={labPDF} target="_blank"><h2>LAB Timetable</h2></a></li> */}
+                    <li><a href={EXTCPDF} target="_blank"><h2>BE ETRX/EXTC Timetable</h2></a></li>
                     <li><a href={SEPDF} target="_blank"><h2>SE Timetable</h2></a></li>
                     <li><a href={TEPDF} target="_blank"><h2>TE Timetable</h2></a></li>
                   </ul>
