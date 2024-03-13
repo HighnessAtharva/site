@@ -20,7 +20,7 @@ class PhotoGallery extends Component {
           <Row>
             <Col className="mx-auto my-3 text-center text-capitalize">
               <h1>
-                University <strong style={{ color: "brown" }}>Gallery</strong>
+                <strong style={{ color: "brown" }}>Gallery</strong>
               </h1>
             </Col>
           </Row>
