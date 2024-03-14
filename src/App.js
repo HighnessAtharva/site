@@ -42,6 +42,7 @@ import FdpParticipationPage from "./components/FDP_Participation/fdpParticipatio
 // import Notify from "./components/Notification/Notify";
 import VisionAndMissionPage from "./components/VisionAndMission/VisionAndMissionPage";
 import InfrastructurePage from "./components/Infrastructure/InfrastructurePage";
+import embeddedSystem from "./components/Infrastructure/embeddedSystem";
 import AlumniPage from "./components/Alumni/AlumniPage";
 import FETSPage from "./components/FETS/FETSPage";
 
@@ -145,6 +146,10 @@ class App extends React.Component {
 
             <Route exact path="/infrastructure">
               <InfrastructurePage />
+            </Route>
+
+            <Route exact path="/embeddedSystem">
+              <embeddedSystem />
             </Route>
 
             <Route exact path="/alumni">

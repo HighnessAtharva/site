@@ -9,7 +9,8 @@ class PhotoGallery extends Component {
     super(props);
 
     this.state = {
-      imageData: IMAGES.slice(0, 10),
+      imageData: IMAGES.slice(0, 5),
+      labData: IMAGES.slice(6,9),
     };
   }
 
@@ -18,22 +19,22 @@ class PhotoGallery extends Component {
       <section id="gallary" style={{ backgroundColor: "#fff" }}>
         <Container fluid className="message-container">
           <Row>
-            <Col className="mx-auto my-3 text-center text-capitalize">
+            {/* <Col className="mx-auto my-3 text-center text-capitalize">
               <h1>
                 <strong style={{ color: "brown" }}>Gallery</strong>
               </h1>
-            </Col>
+            </Col> */}
           </Row>
           <Gallery images={this.state.imageData} />
           <div className="text-center">
-            <Button
+            {/* <Button
               variant="danger"
               data-aos="zoom-in"
               style={{ margin: "20px 0", color: "#fff" }}
               className=" btn-gallery"
             >
-              <Link to="/gallery">View More</Link>
-            </Button>
+               <Link to="/gallery">View More</Link> 
+            </Button> */}
           </div>
         </Container>
       </section>

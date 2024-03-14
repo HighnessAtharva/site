@@ -1,17 +1,42 @@
 export const IMAGES = [
+
   {
-    src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-    thumbnail:
-      "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-    thumbnailWidth: 300,
-    thumbnailHeight: 212,
-    isSelected: true,
-    tags: [
-      { value: "Ocean", title: "Ocean" },
-      { value: "People", title: "People" },
-    ],
-    caption: "Boats (Jeshu John - designerspics.com)",
+    src: "https://i.ibb.co/Yc4dyMr/106.jpg",
+    thumbnail: "https://i.ibb.co/Yc4dyMr/106_thumb.jpg",
+    thumbnailWidth: 800,
+    thumbnailHeight: 500,
   },
+  {
+    src: "https://i.ibb.co/6rHKxg8/105.jpg",
+    thumbnail: "https://i.ibb.co/6rHKxg8/105_thumb.jpg",
+    thumbnailWidth: 800,
+    thumbnailHeight: 500,
+  },
+  {
+    src: "https://i.ibb.co/2sTBPdX/102.jpg",
+    thumbnail: "https://i.ibb.co/2sTBPdX/102_thumb.jpg",
+    thumbnailWidth: 800,
+    thumbnailHeight: 500,
+  },
+  {
+    src: "https://i.ibb.co/GJsyzb4/101.jpg",
+    thumbnail: "https://i.ibb.co/GJsyzb4/101_thumb.jpg",
+    thumbnailWidth: 800,
+    thumbnailHeight: 500,
+  },
+  {
+    src: "https://i.ibb.co/DzywQXn/103.jpg",
+    thumbnail: "https://i.ibb.co/DzywQXn/103_thumb.jpg",
+    thumbnailWidth: 800,
+    thumbnailHeight: 500,
+  },
+  {
+    src: "https://i.ibb.co/Q6sSWpY/104.jpg",
+    thumbnail: "https://i.ibb.co/Q6sSWpY/104_thumb.jpg",
+    thumbnailWidth: 800,
+    thumbnailHeight: 500,
+  },
+  
 
   {
     src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",

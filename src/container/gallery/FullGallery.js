@@ -9,7 +9,7 @@ class FullGallery extends Component {
     super(props);
 
     this.state = {
-      imageData: IMAGES,
+      imageData: IMAGES.slice(0,5),
     };
   }
 
