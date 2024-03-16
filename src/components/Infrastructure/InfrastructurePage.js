@@ -10,7 +10,7 @@ class InfrastructurePage extends Component {
 
         <ul>
           <li>
-            <Link to="/embeddedSystem">Embedded Systems Lab</Link>
+            <Link to="/EmbeddedSystem">Embedded Systems Lab</Link>
           </li>
         </ul>
       </>

@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import Gallery from "react-grid-gallery";
-import { IMAGES } from "./Data";
+import { IMAGES } from "./EmbeddedLabData";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-class PhotoGallery extends Component {
+class LabGallery extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      imageData: IMAGES.slice(0, 6),
+      imageData: IMAGES.slice(0, 10),
       
     };
   }
@@ -42,4 +42,4 @@ class PhotoGallery extends Component {
   }
 }
 
-export default PhotoGallery;
+export default LabGallery;
