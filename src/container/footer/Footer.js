@@ -3,7 +3,6 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import college from "../../images/spit-logo.jpg";
 import "./footer.css";
 
-
 export class Footer extends Component {
   render() {
     return (
@@ -13,9 +12,7 @@ export class Footer extends Component {
         style={{ backgroundColor: "#fff" }}
       >
         <Container fluid>
-          <Row>
-            
-          </Row>
+          <Row></Row>
           <Row className="mt-5">
             <Col
               sm={6}
@@ -25,7 +22,7 @@ export class Footer extends Component {
             >
               <Image src={college} fluid />
               <h4 className="mt-3 text-center">
-                Sardar Patel <br /> Institute of Technology 
+                Sardar Patel <br /> Institute of Technology
               </h4>
             </Col>
             <Col
@@ -40,22 +37,24 @@ export class Footer extends Component {
                 style={{ borderTop: "2px solid green", paddingTop: "0.5rem" }}
               >
                 <p class="d-flex flex-wrap">
-                  <span class="mr-4 footer-icon">
-                    <i class="fas fa-map"></i>
+                  <span><b>Dr. Reena Sonkusare</b>, Head of Department, Electronics and
+                    Telecommunication Engineering, Room No. 501, 5th Floor,
+                    Sardar Patel Institute of Technology, Bhavan’s Campus,
+                    Munshi Nagar, Andheri-West, Mumbai – 58, India.
                   </span>
-                  <span>Munshi Nagar, Andheri (West), Mumbai 400 058</span>
                 </p>
                 <p class="d-flex flex-wrap">
-                  <span class="mr-4 footer-icon">
+                  <span class="mr-2 footer-icon">
                     <i class="fas fa-phone"></i>
                   </span>
-                  <span>+91 9930362014 / 9930309463 </span>
+                  <span>022-26707440, 26708520, 26701410, 26287250 Ext : 382{" "}
+                  </span>
                 </p>
                 <p class="d-flex flex-wrap">
                   <span class="mr-4 footer-icon">
                     <i class="fas fa-envelope"></i>
                   </span>
-                  <span>principal@spit.ac.in</span>
+                  <span>reena_kumbhare@spit.ac.in</span>
                 </p>
               </div>
             </Col>

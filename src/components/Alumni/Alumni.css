@@ -1,50 +1,56 @@
 /* Alumni.css */
 
+.fc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .alumni-container {
-    margin: 20px 50px;
-  }
-  
-  .alumni-heading {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  .alumni-card {
-    margin-bottom: 20px;
-  }
-  
-  .alumni-image {
-    object-fit: contain;
-    padding-top: 5px;
-    height: 200px;
-  }
-  
-  /* Customize card styles as needed */
-  .card {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .card-title {
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin-bottom: 5px;
-    text-align: center;
-  }
-  
-  .card-text {
-    font-size: 1rem;
-    line-height: 1.4;
-  }
-  
-div.row{
+  margin: 20px 50px;
+}
+
+.alumni-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.alumni-card {
+  margin-bottom: 20px;
+}
+
+.alumni-image {
+  object-fit: contain;
+  padding-top: 5px;
+  height: 200px;
+}
+
+/* Customize card styles as needed */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.card-text {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+div.row {
   margin: 20px 50px;
   min-height: max-content;
 }
 
-div.card{
+div.card {
   height: 100vh;
   height: 100%;
 }

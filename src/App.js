@@ -42,7 +42,7 @@ import FdpParticipationPage from "./components/FDP_Participation/fdpParticipatio
 // import Notify from "./components/Notification/Notify";
 import VisionAndMissionPage from "./components/VisionAndMission/VisionAndMissionPage";
 import InfrastructurePage from "./components/Infrastructure/InfrastructurePage";
-import EmbeddedSystem from "./components/Infrastructure/EmbeddedSystem";
+import EmbeddedSystem from "./components/Infrastructure/embeddedSystem";
 import AlumniPage from "./components/Alumni/AlumniPage";
 import FETSPage from "./components/FETS/FETSPage";
 

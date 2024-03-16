@@ -26,7 +26,8 @@ class FacultyAchievements extends Component {
                       <img
                         src={item.imageUrl}
                         alt={`Image ${index}`}
-                        className="img-fluid custom-image"
+                        className="img-fluid"
+                        style={{ height: item.height, width: item.width }}
                       />
                     </td>
                     <td>{item.text}</td>
