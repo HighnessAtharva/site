@@ -67,11 +67,12 @@ class App extends React.Component {
             <Route exact path="/">
               <Slider />
               <About />
-              <Message />
+              {/* <Message />
               <VideoPage />
-              <Projects />
+              <Projects /> */}
               <PhotoGallary />
             </Route>
+
             <Route exact path="/vision-and-mission">
               <VisionAndMissionPage />
             </Route>
@@ -168,16 +169,7 @@ class App extends React.Component {
               <DepartmentLibrary />
             </Route>
 
-            {/* <Route exact path="/events">
-              <Event />
-            </Route>
-            <Route exact path="/notification">
-              <Notify />
-            </Route> */}
 
-            {/* <Route exact path="/contact">
-              <Contact />
-            </Route> */}
           </Switch>
           <Footer />
         </div>
