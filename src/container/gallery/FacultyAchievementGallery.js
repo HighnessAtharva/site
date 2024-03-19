@@ -1,18 +1,18 @@
 import React, { Component } from "react";
 import Gallery from "react-grid-gallery";
-import { IMAGES } from "./Data";
+import { IMAGES } from "./FacultyAchievementImg";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 
-class PhotoGallery extends Component {
+class FacultyAchievementGallery extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      imageData: IMAGES.slice(0, 6),
+      imageData: IMAGES.slice(0, 10),
       
     };
   }
@@ -35,7 +35,7 @@ class PhotoGallery extends Component {
 
     const imageStyle = {
       maxWidth: "100%",
-      maxHeight: "100%",
+      maxHeight: "500px",
       margin: "0 auto",
     };
 
@@ -53,4 +53,4 @@ class PhotoGallery extends Component {
   }
 }
 
-export default PhotoGallery;
+export default FacultyAchievementGallery;

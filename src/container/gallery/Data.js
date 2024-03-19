@@ -3,38 +3,26 @@ export const IMAGES = [
   {
     src: "https://i.ibb.co/Yc4dyMr/106.jpg",
     thumbnail: "https://i.ibb.co/Yc4dyMr/106_thumb.jpg",
-    thumbnailWidth: 800,
-    thumbnailHeight: 500,
   },
   {
     src: "https://i.ibb.co/6rHKxg8/105.jpg",
     thumbnail: "https://i.ibb.co/6rHKxg8/105_thumb.jpg",
-    thumbnailWidth: 800,
-    thumbnailHeight: 500,
   },
   {
     src: "https://i.ibb.co/2sTBPdX/102.jpg",
     thumbnail: "https://i.ibb.co/2sTBPdX/102_thumb.jpg",
-    thumbnailWidth: 800,
-    thumbnailHeight: 500,
   },
   {
     src: "https://i.ibb.co/GJsyzb4/101.jpg",
     thumbnail: "https://i.ibb.co/GJsyzb4/101_thumb.jpg",
-    thumbnailWidth: 800,
-    thumbnailHeight: 500,
   },
   {
     src: "https://i.ibb.co/DzywQXn/103.jpg",
     thumbnail: "https://i.ibb.co/DzywQXn/103_thumb.jpg",
-    thumbnailWidth: 800,
-    thumbnailHeight: 500,
   },
   {
     src: "https://i.ibb.co/Q6sSWpY/104.jpg",
     thumbnail: "https://i.ibb.co/Q6sSWpY/104_thumb.jpg",
-    thumbnailWidth: 800,
-    thumbnailHeight: 500,
   },
   
 

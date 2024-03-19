@@ -7,11 +7,13 @@ import PhotoGallary from "./../../container/gallery/PhotoGallery";
 class StudentAchievements extends Component {
   render() {
     return (
-      <Container >
+      <Container>
         <h1 className="text-center mb-4">Student Achievements</h1>
-        <PhotoGallary />
-        <Card className="mt-4">
+
+        <Card className="mt-2">
           <Card.Body>
+            <PhotoGallary />
+            <br /> <br />
             <table className="table table-striped">
               <thead>
                 <tr>

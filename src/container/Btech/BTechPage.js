@@ -9,6 +9,7 @@ import TEPDF from "../../pdfs/btech_timetable/TE_EXTC_ DIV A_B_ODD_2023-2024.pdf
 import labPDF from "../../pdfs/btech_timetable/LAB.pdf";
 import EXTCPDF from "../../pdfs/btech_timetable/BE _EXTC_ETRX_ODD_2023-2024.pdf";
 
+import EXTC_Syllabus_SEM_III from "../../pdfs/btech_syllabus/UG_Syllabus_2021-22_EXTC_Sem_III-IV.pdf"
 import EXTC_Syllabus_SEM_V from "../../pdfs/btech_syllabus/UG_Syllabus_2021-22_EXTC_Sem_V-VI.pdf"
 import EXTC_Syllabus_SEM_VII from "../../pdfs/btech_syllabus/UG_Syllabus_2021-22_EXTC_Sem_VII-VIII.pdf"
 
@@ -50,6 +51,7 @@ class BTech extends Component {
                 <div className="btech-item">
                   <h1>Syllabus</h1>
                   <ul>
+                  <li><a href={EXTC_Syllabus_SEM_III} target="_blank"><h2>FE Class (EXTC 2021-2025)</h2></a></li>
                   <li><a href={EXTC_Syllabus_SEM_V} target="_blank"><h2>TE Class (EXTC 2021-2025)</h2></a></li>
                     <li><a href={EXTC_Syllabus_SEM_VII} target="_blank"><h2>BE Class (EXTC 2021-2025)</h2></a></li>
                     </ul>

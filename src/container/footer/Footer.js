@@ -58,7 +58,7 @@ export class Footer extends Component {
                 </p>
               </div>
             </Col>
-            <Col
+            {/* <Col
               sm={6}
               md={4}
               data-aos="fade-left"
@@ -91,7 +91,7 @@ export class Footer extends Component {
                   </div>
                 </div>
               </div>
-            </Col>
+            </Col> */}
           </Row>
           <hr />
         </Container>

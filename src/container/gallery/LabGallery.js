@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Gallery from "react-grid-gallery";
 import { IMAGES } from "./EmbeddedLabData";
 import { Container, Row, Col, Button } from "react-bootstrap";
@@ -10,33 +13,40 @@ class LabGallery extends Component {
 
     this.state = {
       imageData: IMAGES.slice(0, 10),
-      
     };
   }
 
   render() {
+    const settings = {
+      dots: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 2000,
+    };
+    const centerStyle = {
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+    };
+
+    const imageStyle = {
+      maxWidth: "100%",
+      maxHeight: "400px",
+      margin: "0 auto",
+    };
+
     return (
-      <section id="gallary" style={{ backgroundColor: "#fff" }}>
-        <Container fluid className="message-container">
-          <Row>
-            {/* <Col className="mx-auto my-3 text-center text-capitalize">
-              <h1>
-                <strong style={{ color: "brown" }}>Gallery</strong>
-              </h1>
-            </Col> */}
-          </Row>
-          <Gallery images={this.state.imageData} />
-          <div className="text-center">
-            {/* <Button
-              variant="danger"
-              data-aos="zoom-in"
-              style={{ margin: "20px 0", color: "#fff" }}
-              className=" btn-gallery"
-            >
-               <Link to="/gallery">View More</Link> 
-            </Button> */}
-          </div>
-        </Container>
+      <section id="gallery" style={{ backgroundColor: "#fff" }}>
+        <Slider {...settings}>
+          {this.state.imageData.map((image, index) => (
+            <div key={index} style={centerStyle}>
+              <img src={image.src} alt={image.src} style={imageStyle} />
+            </div>
+          ))}
+        </Slider>
       </section>
     );
   }
