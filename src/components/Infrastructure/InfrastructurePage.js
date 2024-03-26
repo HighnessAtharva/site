@@ -10,15 +10,18 @@ class InfrastructurePage extends Component {
         <h1>Infrastructure</h1>
         <Card>
           <Card.Body>
-          <ul>
-          <li>
-            <Link to="/EmbeddedSystem">Embedded Systems Lab</Link>
-          </li>
-        </ul>
+            <ul>
+              <li>
+                <Link to="/EmbeddedSystem">301: Embedded Systems Lab</Link>
+              </li>
+              <li>
+                <Link to="/CompCommNetwork">
+                  503: Computer Communication Networking Lab
+                </Link>
+              </li>
+            </ul>
           </Card.Body>
         </Card>
-
-        
       </Container>
     );
   }

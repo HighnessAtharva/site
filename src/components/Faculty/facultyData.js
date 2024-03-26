@@ -120,17 +120,7 @@ module.exports=[
         "phone": "(022) – 69846900 EXT: 984",
         "url": ""
       },
-      {
-        "name": "Prof. Vijaya Kamble",
-        "designation": "Assistant Professor",
-        "image": require("../../images/facultyImg/F12.png"),
-        "qualification": "M.E. (Electronics), Pursuing PhD",
-        "experience": "15 Years",
-        "expertise": "Digital Signal Processing and Applications, Digital Image & Video Processing, Neural networks and Fuzzy logic, Wireless Communication Networks, Television & Radar Engineering, Digital forensics, Cyber Security",
-        "email": "vijaya_kamble@spit.ac.in",
-        "phone": "(022) – 69846900 EXT: 984",
-        "url": "https://www.linkedin.com/in/vijaya-kamble-2378b658/"
-      },
+      
       {
         "name": "Prof. Payal Shah",
         "designation": "Assistant Professor",
