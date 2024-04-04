@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6ce40a4a7c58c48fcf5f19749ec31266",
+    "revision": "ff8e77fe934d9cce154a7e98fd0bec62",
     "url": "/React-University-Website/index.html"
   },
   {
-    "revision": "c3e09e75729bf236298f",
+    "revision": "5368e924eda7a3ded2cb",
     "url": "/React-University-Website/static/css/2.a2d1f71e.chunk.css"
   },
   {
-    "revision": "6e553d61ad2928f5f40b",
-    "url": "/React-University-Website/static/css/main.39e5308d.chunk.css"
+    "revision": "3f158fc25400c3e2a5cb",
+    "url": "/React-University-Website/static/css/main.6d6e8d4d.chunk.css"
   },
   {
-    "revision": "c3e09e75729bf236298f",
-    "url": "/React-University-Website/static/js/2.3549d733.chunk.js"
+    "revision": "5368e924eda7a3ded2cb",
+    "url": "/React-University-Website/static/js/2.409321ab.chunk.js"
   },
   {
     "revision": "cfe63c1848a227eaaf4c756b8cf4bf44",
-    "url": "/React-University-Website/static/js/2.3549d733.chunk.js.LICENSE.txt"
+    "url": "/React-University-Website/static/js/2.409321ab.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6e553d61ad2928f5f40b",
-    "url": "/React-University-Website/static/js/main.e647e365.chunk.js"
+    "revision": "3f158fc25400c3e2a5cb",
+    "url": "/React-University-Website/static/js/main.2e366fb7.chunk.js"
   },
   {
     "revision": "f5cc168e2cb2070e5d4f",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9feb22375d341044208b6647adc2f0ac",
     "url": "/React-University-Website/static/media/BE _EXTC_ETRX_ODD_2023-2024.9feb2237.pdf"
+  },
+  {
+    "revision": "1900256566ebd380a849f37ae49692ca",
+    "url": "/React-University-Website/static/media/BTECH_EXTC_2021-2025_Scheme_modified.19002565.pdf"
   },
   {
     "revision": "00aa7e876f730abb49a10277b7f5cdb4",
@@ -188,6 +192,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-University-Website/static/media/SE_EXTC_ DIV A_B_ODD_2023-2024.d9eaeb84.pdf"
   },
   {
+    "revision": "00733253a1d7d68d4d574d51d90feb92",
+    "url": "/React-University-Website/static/media/SE_EXTC_Syllabus.00733253.pdf"
+  },
+  {
     "revision": "be861a2d12249e63a07b796f22ffb4f2",
     "url": "/React-University-Website/static/media/SF10.be861a2d.jpg"
   },
@@ -240,12 +248,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-University-Website/static/media/UG_Syllabus_2021-22_EXTC_Sem_VII-VIII.87bd3e0d.pdf"
   },
   {
+    "revision": "8e250a5e30169f49f71d3de9b3e66d48",
+    "url": "/React-University-Website/static/media/companies.8e250a5e.png"
+  },
+  {
     "revision": "acdcb857adf691c097f5aa6e0d243791",
     "url": "/React-University-Website/static/media/course01.acdcb857.jpeg"
   },
   {
     "revision": "7443258228745a5020dccc977be83916",
     "url": "/React-University-Website/static/media/hod-desk-img.74432582.jpg"
+  },
+  {
+    "revision": "84a9ccbbec24c12bd527b3e2378a5a97",
+    "url": "/React-University-Website/static/media/mtech-extc-scheme-2020.84a9ccbb.pdf"
+  },
+  {
+    "revision": "748e48fd3d81a24968baf04e5eebb831",
+    "url": "/React-University-Website/static/media/mtech-syllabus.748e48fd.pdf"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
