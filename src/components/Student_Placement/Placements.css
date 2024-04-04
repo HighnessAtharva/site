@@ -1,0 +1,24 @@
+
+
+.recruiterList {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 900px;
+    margin-left: -100px !important;
+  }
+
+  .recruiterItem {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  /* Media query to adjust styles for smaller screens */
+  @media (max-width: 768px) {
+    .recruiterItem {
+      padding: 8px;
+    }
+  }

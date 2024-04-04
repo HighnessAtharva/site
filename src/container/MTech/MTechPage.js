@@ -2,10 +2,12 @@ import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import course01 from "../../images/course01.jpeg";
 import "./MTech.css";
+import MTech_EXTC_Scheme from  "../../pdfs/mtech-extc-scheme-2020.pdf";
+import MTech_Syllabus from "../../pdfs/mtech-syllabus.pdf";
 
 export class MTech extends Component {
   render() {
-    
+
     return (
       <section id="MTech" className="MTech py-5">
         <Container>
@@ -35,8 +37,11 @@ export class MTech extends Component {
                   <p>Placeholder text for Timetable</p>
                 </div>
                 <div className="mtech-item">
-                  <h1>Syllabus</h1>
-                  <p>Placeholder text for Syllabus</p>
+                  {/* <h1>Syllabus</h1> */}
+
+                  <a href={MTech_EXTC_Scheme} target="_blank"><h2>Curriculum Scheme</h2></a>
+                  <a href={MTech_Syllabus} target="_blank"><h2>Syllabus</h2></a>
+
                 </div>
               </div>
             </Col>
