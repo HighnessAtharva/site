@@ -1,0 +1,287 @@
+const phdData = [
+  {
+    id: 1,
+    name: "Bhavarthe Pramod",
+    branch: "EXTC/ Jan-2015",
+    registration: "15/29-12-2016",
+    title:
+      "Design of Compact Electromagnetic Band Gap Structures for Enhancement of Microstrip Patch Performances",
+    status: "Defended: 5th November 2018, Awarded Jan2019",
+  },
+  {
+    id: 2,
+    name: "Sukanya A Kulkarni",
+    branch: "EXTC/Jan-2013",
+    registration: "7/24-11-2014",
+    title:
+      "Efficient peak to average power reduction techniques for OFDM system",
+    status: "Defended: 4th February 2019",
+  },
+  {
+    id: 3,
+    name: "SonkusareReena S",
+    branch: "EXTC/July-2013",
+    registration: "10/23-12-2014",
+    title:
+      "Analysis of FinFET for analog performance and its application in analog circuit",
+    status: "Defended: 30th March 2019",
+  },
+  {
+    id: 4,
+    name: "Madhavi Harish Waghmare",
+    branch: "EXTC/Jan-2013",
+    registration: "11/30-12-2014",
+    title:
+      "Enhancement of Bandwidth for broadband communication by using Photonic band gap Structure in optical fiber",
+    status: "Defended: 2ndNovember 2019",
+  },
+  {
+    id: 5,
+    name: "Aarti Milind Karande",
+    branch: "COMP/Jan-2013",
+    registration: "1/15-07-2014",
+    title:
+      "Modeling software solutions leveraging soft computing techniques to improve business process agility",
+    status: "Defended: 8th March 2019",
+  },
+  {
+    id: 6,
+    name: "Tusharika S Banerjee",
+    branch: "EXTC/Jan-2013",
+    registration: "9/27-11-2014",
+    title:
+      "Numerical and analytical study for Microwave generation using backward wave oscillator",
+    status: "Defended: 15th December 2020",
+  },
+  {
+    id: 7,
+    name: "Marathe Dipak Sitaram",
+    branch: "EXTC/Jan-2013",
+    registration: "6/17-11-2014",
+    title: "Parameter optimization of WSN using mixed mode logic",
+    status: "Defended: 15th December 2020",
+  },
+  {
+    id: 8,
+    name: "Talele Kiran Tulshiram Vasumati",
+    branch: "EXTC/Jan-2013",
+    registration: "12/21-01-2015",
+    title: "Emotion Recognition using facial expression",
+    status: "Defended: 7th June 2023",
+  },
+  {
+    id: 9,
+    name: "Bhagat Narendra Anant",
+    branch: "EXTC/Jan-2013",
+    registration: "8/25-11-2014",
+    title:
+      "Current mode technique for optimizing the performance of transmitter and receiver in communication system",
+    status: "Defended: 3rd October 2022",
+  },
+  {
+    id: 10,
+    name: "Sankhe Darshana Nimesh",
+    branch: "EXTC/Jan-2016",
+    registration: "18/18-11-2017",
+    title:
+      "Hardware in the Loop Test Bench for Resonant Inverter Load Characterization",
+    status: "Defended: 1st April 2023",
+  },
+  {
+    id: 11,
+    name: "Kapure Vijay Ramesh",
+    branch: "ETRX/July-2017",
+    registration: "20/29-01-2019",
+    title:
+      "Design of Metamaterial Structure for Triple band-notch Ultra wideband Monopole Antenna",
+    status: "Defended: 29th June 2023",
+  },
+  {
+    id: 12,
+    name: "Ambawade Dayanand D",
+    branch: "EXTC/Jan-2013",
+    registration: "14/04-03-2015",
+    title:
+      "Study of Event Correlation Analysis Techniques for Network Security",
+    status: "Thesis Submitted – 28-10-22",
+  },
+  {
+    id: 13,
+    name: "Sawant Ashwini Satish",
+    branch: "EXTC/Jan-2019",
+    registration: "39-2/06/2021",
+    title: "Medical Image Enhancement and Abnormality Detection",
+    status: "Defended: 05th October 2023",
+  },
+  {
+    id: 14,
+    name: "Keshwani Vidya Rajesh",
+    branch: "ETRX/July-2017",
+    registration: "27/29-01-2019",
+    title:
+      "Design of Compact Monopole Antenna with Low Specific Absorption Rate using Metamaterial",
+    status: "Thesis Submitted – 15-5-23",
+  },
+  {
+    id: 15,
+    name: "Goswami Siddhant Arun",
+    branch: "ETRX/July-2018",
+    registration: "41/09-09-2021",
+    title:
+      "Design and Analysis of Metamaterial Inspired Antenna for Wireless Body Area Network",
+    status: "Synopsis submitted on 16/10/2023",
+  },
+  {
+    id: 16,
+    name: "Bansode Manisha Ravindra",
+    branch: "ETRX/July-2017",
+    registration: "25/29-01-2019",
+    title:
+      "Design of compact electromagnetic band gap structures for high speed signaling.",
+    status: "Synopsis submitted on 04/10/2023",
+  },
+  {
+    id: 17,
+    name: "Shah Payal Hitesh",
+    branch: "ETRX/July-2017",
+    registration: "30/29-01-2019",
+    title:
+      "Modeling and design of silicon neurons and synapse for neuromorphic chip implementation",
+    status: "Synopsis submitted on 04/10/2023",
+  },
+  {
+    id: 18,
+    name: "Sonawane Pooja Dayanand",
+    branch: "EXTC/Jan-2019",
+    registration: "",
+    title: "",
+    status: "",
+  },
+  {
+    id: 19,
+    name: "Sawant Dattatray S.",
+    branch: "EXTC/Jan-2019",
+    registration: "",
+    title: "",
+    status: "",
+  },
+  {
+    id: 20,
+    name: "Raut Karishma Sachin",
+    branch: "EXTC/Jan-2020",
+    registration: "",
+    title: "Temporal Dynamics based Real world Multimodal Affect Recognition",
+    status: "",
+  },
+  {
+    id: 21,
+    name: "Kadam SejalAmeya",
+    branch: "EXTC/Jan-2020",
+    registration: "42-31/05/2022",
+    title:
+      "Investigation of 5G massive MIMO system performance with low resolution ADC and mixed ADC architectures",
+    status: "",
+  },
+  {
+    id: 22,
+    name: "RambhiaJeenalMulchan",
+    branch: "EXTC/ Jan-2020",
+    registration: "",
+    title:
+      "Brain Signal Analysis, Classification and prediction for Imagined Gestures",
+    status: "",
+  },
+  {
+    id: 23,
+    name: "Hemalata Mahesh Mote",
+    branch: "EXTC/ Jan-2020",
+    registration: "",
+    title: "An Optimized Framework for Image Phylogeny Tree Reconstruction",
+    status: "",
+  },
+  {
+    id: 24,
+    name: "Milind Pandurang Paraye",
+    branch: "EXTC/ Jan-2020",
+    registration: "",
+    title:
+      "Data driven impact analysis and load forecasting for Grid-connected PV power-plant",
+    status: "",
+  },
+  {
+    id: 25,
+    name: "Joshi Sonia",
+    branch: "EXTC/ July-2021",
+    registration: "",
+    title: "",
+    status: "",
+  },
+  {
+    id: 26,
+    name: "Vatkar Shilpa Naresh",
+    branch: "EXTC/July-2021",
+    registration: "",
+    title: "",
+    status: "",
+  },
+  {
+    id: 27,
+    name: "Gangurde Pallavi Anil",
+    branch: "EXTC/ Jan-2023",
+    registration: "",
+    title: "",
+    status: "",
+  },
+  {
+    id: 28,
+    name: "Sagale Kaustubh Shivaji",
+    branch: "EXTC/ Jan-2023",
+    registration: "",
+    title: "",
+    status: "",
+  },
+  {
+    id: 29,
+    name: "Mahind Umesh Sarjerao",
+    branch: "ETRX/July-2017",
+    registration: "23/29-01-2019",
+    title:
+      "Development of compressive sensing based iterative solution of sparse signal representation problem",
+    status: "Title Approved",
+  },
+  {
+    id: 30,
+    name: "Thakkar RushaliRitesh",
+    branch: "ETRX/July-2017",
+    registration: "",
+    title:
+      "An Investigation on reliable and efficient power electronic converters and their control for active balancing of energy cells.",
+    status: "Title Approved",
+  },
+  {
+    id: 31,
+    name: "Bera Aprajita S.",
+    branch: "ETRX/Jan-2019",
+    registration: "37/06-07-2021",
+    title: "Power Integrity Analysis and Design for High Speed PCB",
+    status: "Title Approved",
+  },
+  {
+    id: 32,
+    name: "Tulashidas Mane",
+    branch: "ETRX/Jan-2022",
+    registration: "",
+    title: "",
+    status: "",
+  },
+  {
+    id: 33,
+    name: "Govind Tukaram Haldankar",
+    branch: "ETRX/Jan-2023",
+    registration: "",
+    title: "",
+    status: "",
+  },
+];
+
+export default phdData;
