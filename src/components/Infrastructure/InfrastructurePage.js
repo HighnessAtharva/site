@@ -19,6 +19,11 @@ class InfrastructurePage extends Component {
                   503: Computer Communication Networking Lab
                 </Link>
               </li>
+              <li>
+                <Link to="/beeLab">
+                  311: Basic Electrical & Electronics Lab
+                </Link>
+              </li>
             </ul>
           </Card.Body>
         </Card>
