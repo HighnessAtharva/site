@@ -45,6 +45,7 @@ import InfrastructurePage from "./components/Infrastructure/InfrastructurePage";
 import EmbeddedSystem from "./components/Infrastructure/EmbeddedSystem";
 import CompCommNetwork from "./components/Infrastructure/CompCommNetwork";
 import BEELab from "./components/Infrastructure/BEELab";
+import AnalogCircuitLab from "./components/Infrastructure/AnalogCircuitLab";
 import AlumniPage from "./components/Alumni/AlumniPage";
 import FETSPage from "./components/FETS/FETSPage";
 
@@ -159,6 +160,9 @@ class App extends React.Component {
             </Route>
             <Route exact path="/beeLab">
               <BEELab />
+            </Route>
+            <Route exact path="/analogCircuitLab">
+              <AnalogCircuitLab />
             </Route>
 
             <Route exact path="/alumni">
