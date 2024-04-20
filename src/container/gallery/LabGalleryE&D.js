@@ -1,19 +1,18 @@
 import React, { Component } from "react";
-import Gallery from "react-grid-gallery";
-import { IMAGES } from "./Data";
-import { Container, Row, Col, Button } from "react-bootstrap";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Gallery from "react-grid-gallery";
+import { IMAGES } from "./E&DLabData.js";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-class PhotoGallery extends Component {
+class LabGalleryEandD extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      imageData: IMAGES.slice(0, 45),
-      
+      imageData: IMAGES.slice(0, 7),
     };
   }
 
@@ -35,7 +34,7 @@ class PhotoGallery extends Component {
 
     const imageStyle = {
       maxWidth: "100%",
-      maxHeight: "100%",
+      maxHeight: "400px",
       margin: "0 auto",
     };
 
@@ -53,4 +52,4 @@ class PhotoGallery extends Component {
   }
 }
 
-export default PhotoGallery;
+export default LabGalleryEandD;

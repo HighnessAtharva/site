@@ -1,5 +1,4 @@
 export const IMAGES = [
-
   {
     src: "https://i.ibb.co/Yc4dyMr/106.jpg",
     thumbnail: "https://i.ibb.co/Yc4dyMr/106_thumb.jpg",
@@ -24,167 +23,43 @@ export const IMAGES = [
     src: "https://i.ibb.co/Q6sSWpY/104.jpg",
     thumbnail: "https://i.ibb.co/Q6sSWpY/104_thumb.jpg",
   },
-  
-
-  {
-    src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-    thumbnail:
-      "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
-    thumbnailWidth: 300,
-    thumbnailHeight: 212,
-  },
-  {
-    src:
-      "https://images.unsplash.com/photo-1603350183984-52b4ebafb972?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnail:
-      "https://images.unsplash.com/photo-1603350183984-52b4ebafb972?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnailHeight: 212,
-    thumbnailWidth: 320,
-  },
-  {
-    src:
-      "https://images.unsplash.com/photo-1603348890462-3c137f12a152?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnail:
-      "https://images.unsplash.com/photo-1603348890462-3c137f12a152?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnailWidth: 300,
-    thumbnailHeight: 212,
-  },
-  {
-    src:
-      "https://images.unsplash.com/photo-1602962447559-8e11b51f65ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnail:
-      "https://images.unsplash.com/photo-1602962447559-8e11b51f65ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnailWidth: 300,
-    thumbnailHeight: 212,
-  },
-  {
-    src:
-      "https://images.unsplash.com/photo-1536516677467-a8cf206e1066?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnail:
-      "https://images.unsplash.com/photo-1536516677467-a8cf206e1066?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnailWidth: 300,
-    thumbnailHeight: 212,
-  },
-  {
-    src:
-      "https://images.unsplash.com/photo-1603049489988-53ebe4cd1c38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnail:
-      "https://images.unsplash.com/photo-1603049489988-53ebe4cd1c38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnailWidth: 300,
-    thumbnailHeight: 212,
-  },
-  {
-    src:
-      "https://images.unsplash.com/photo-1590678389401-6af2d02e63a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=747&q=80",
-    thumbnail:
-      "https://images.unsplash.com/photo-1590678389401-6af2d02e63a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=747&q=80",
-    thumbnailWidth: 300,
-    thumbnailHeight: 212,
-  },
-  {
-    src:
-      "https://images.unsplash.com/photo-1544256718-3bcf237f3974?ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80",
-    thumbnail:
-      "https://images.unsplash.com/photo-1544256718-3bcf237f3974?ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80",
-    thumbnailWidth: 300,
-    thumbnailHeight: 212,
-  },
-  {
-    src:
-      "https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnail:
-      "https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnailWidth: 300,
-    thumbnailHeight: 212,
-  },
-  {
-    src:
-      "https://images.unsplash.com/photo-1603350183984-52b4ebafb972?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnail:
-      "https://images.unsplash.com/photo-1603350183984-52b4ebafb972?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnailHeight: 212,
-    thumbnailWidth: 320,
-  },
-  {
-    src:
-      "https://images.unsplash.com/photo-1603348890462-3c137f12a152?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnail:
-      "https://images.unsplash.com/photo-1603348890462-3c137f12a152?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnailWidth: 300,
-    thumbnailHeight: 212,
-  },
-  {
-    src:
-      "https://images.unsplash.com/photo-1602962447559-8e11b51f65ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnail:
-      "https://images.unsplash.com/photo-1602962447559-8e11b51f65ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnailWidth: 300,
-    thumbnailHeight: 212,
-  },
-  {
-    src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-    thumbnail:
-      "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-    thumbnailWidth: 300,
-    thumbnailHeight: 212,
-    isSelected: true,
-    tags: [
-      { value: "Ocean", title: "Ocean" },
-      { value: "People", title: "People" },
-    ],
-    caption: "Boats (Jeshu John - designerspics.com)",
-  },
-
-  {
-    src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-    thumbnail:
-      "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
-    thumbnailWidth: 300,
-    thumbnailHeight: 212,
-  },
-  {
-    src:
-      "https://images.unsplash.com/photo-1603350183984-52b4ebafb972?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnail:
-      "https://images.unsplash.com/photo-1603350183984-52b4ebafb972?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnailHeight: 212,
-    thumbnailWidth: 320,
-  },
-  {
-    src:
-      "https://images.unsplash.com/photo-1602962447559-8e11b51f65ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnail:
-      "https://images.unsplash.com/photo-1602962447559-8e11b51f65ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnailWidth: 300,
-    thumbnailHeight: 212,
-  },
-  {
-    src:
-      "https://images.unsplash.com/photo-1536516677467-a8cf206e1066?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnail:
-      "https://images.unsplash.com/photo-1536516677467-a8cf206e1066?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnailWidth: 300,
-    thumbnailHeight: 212,
-  },
-  {
-    src:
-      "https://images.unsplash.com/photo-1603049489988-53ebe4cd1c38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnail:
-      "https://images.unsplash.com/photo-1603049489988-53ebe4cd1c38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-    thumbnailWidth: 300,
-    thumbnailHeight: 212,
-  },
-  {
-    src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-    thumbnail:
-      "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-    thumbnailWidth: 300,
-    thumbnailHeight: 212,
-    isSelected: true,
-    tags: [
-      { value: "Ocean", title: "Ocean" },
-      { value: "People", title: "People" },
-    ],
-    caption: "Boats (Jeshu John - designerspics.com)",
-  },
+  { src: "https://i.ibb.co/b2Hc9hM/img45.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/85wDnrq/img47.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/hDLmbN0/img58.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/Rzd4dtY/img59.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/cbsKq79/img60.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/nkwHwCq/img66.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/68Q2jxp/img67.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/MS8kf5c/img73.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/NZgsGCC/img75.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/NnHHKz0/img76.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/wwPtjks/img82.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/MB4jpJR/img83.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/fv7Bhvx/img88.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/Bn7C2jF/img91.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/3r3WxQm/img92.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/CHCksQW/img98.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/ZN7yzfJ/img102.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/2MBRyST/img106.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/4VdY02K/img107.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/xShnGsX/img108.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/LQ3FYb8/img43.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/yQh0Vhy/img44.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/dGbY6YX/img46.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/NLLxhGf/img48.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/YQVzyS2/img52.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/K5W0n3v/img53.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/k1fv5QV/img54.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/0JD7jZR/img61.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/ng36DQ9/img65.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/DCHyvp6/img68.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/6XvrjCK/img69.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/VwsqFYz/img74.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/QmMHPtK/img84.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/dkd5rhr/img89.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/VBrhMzW/img90.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/N1j3mfF/img96.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/SmN6vCR/img100.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/xf2TvJR/img101.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/YfRD5hb/img109.jpg", thumbnail: "" },
 ];

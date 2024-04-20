@@ -33,7 +33,7 @@ import FacultyPublications from "./components/Faculty_Publications/facultyPublic
 import StudentAchievements from "./components/Student_Achievement/studentAchievements";
 import StudentInternships from "./components/Student_Internship/studentInternships";
 import StudentPlacements from "./components/Student_Placement/studentPlacements";
-import StudentPublications from "./components/Student_Publication/studentPublications";
+// import StudentPublications from "./components/Student_Publication/studentPublications";
 
 import FdpConductedPage from "./components/FDP_Conducted/fdpConducted";
 import FdpParticipationPage from "./components/FDP_Participation/fdpParticipation";
@@ -46,6 +46,8 @@ import EmbeddedSystem from "./components/Infrastructure/EmbeddedSystem";
 import CompCommNetwork from "./components/Infrastructure/CompCommNetwork";
 import BEELab from "./components/Infrastructure/BEELab";
 import AnalogCircuitLab from "./components/Infrastructure/AnalogCircuitLab";
+import VLSILab from "./components/Infrastructure/VLSILab";
+import ElectronicsDeviceLab from "./components/Infrastructure/ElectronicsDeviceLab";
 import AlumniPage from "./components/Alumni/AlumniPage";
 import FETSPage from "./components/FETS/FETSPage";
 
@@ -89,9 +91,9 @@ class App extends React.Component {
               <StudentInternships />
             </Route>
 
-            <Route exact path="/student-publications">
+            {/* <Route exact path="/student-publications">
               <StudentPublications />
-            </Route>
+            </Route> */}
 
             <Route exact path="/student-achievements">
               <StudentAchievements />
@@ -160,6 +162,12 @@ class App extends React.Component {
             </Route>
             <Route exact path="/beeLab">
               <BEELab />
+            </Route>
+            <Route exact path="/VLSILab">
+              <VLSILab/>
+            </Route>
+            <Route exact path="/ElectronicsDeviceLab">
+              <ElectronicsDeviceLab />
             </Route>
             <Route exact path="/analogCircuitLab">
               <AnalogCircuitLab />

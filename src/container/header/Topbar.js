@@ -88,11 +88,11 @@ export class Topbar extends Component {
                     Internship
                   </NavDropdown.Item>
                 </Link>
-                <Link to="/student-publications">
+                {/* <Link to="/student-publications">
                   <NavDropdown.Item href="/student-publications">
                     Publications
                   </NavDropdown.Item>
-                </Link>
+                </Link> */}
                 <Link to="/student-achievements">
                   <NavDropdown.Item href="/student-achievements">
                     Achievements
