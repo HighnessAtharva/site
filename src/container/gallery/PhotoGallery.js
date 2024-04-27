@@ -13,7 +13,7 @@ class PhotoGallery extends Component {
 
     this.state = {
       imageData: IMAGES.slice(0, 6),
-      
+
     };
   }
 
@@ -34,8 +34,9 @@ class PhotoGallery extends Component {
     };
 
     const imageStyle = {
-      maxWidth: "100%",
-      maxHeight: "100%",
+      // maxWidth: "100%",
+      // maxHeight: "100%",
+      width: "400px",
       margin: "0 auto",
     };
 

@@ -1,30 +1,58 @@
 import React, { Component } from "react";
-import { Container, Row, Col, Image, Button } from "react-bootstrap";
+import { Container, Row, Col, Image, Button, Card } from "react-bootstrap";
 import "./FETS.css";
+
+const CommitteeCard = ({ name, description, link, imageUrl }) => (
+  <Col md={4} className="text-center mb-4">
+    <Card className="committee-card">
+      <Card.Img
+        variant="top"
+        src={imageUrl}
+        className="rounded-circle mx-auto mt-3"
+        style={{ width: "130px", height: "130px", objectFit: "cover" }}
+      />
+      <Card.Body>
+        <Card.Title>{name}</Card.Title>
+        <Card.Text>{description}</Card.Text>
+        <Button variant="primary" href={link} target="_blank">
+          Visit Page
+        </Button>
+      </Card.Body>
+    </Card>
+  </Col>
+);
 
 class FETSPage extends Component {
   render() {
     return (
       <Container className="fets-container">
         <Row>
-          <Col md={6} className="text-center">
-            <Image
-              src="https://picsum.photos/130/130?image=1027"
-              alt="FETS Logo"
-              fluid
-              className="fets-logo"
-            />
-          </Col>
-          <Col md={6} className="text-center">
+          <Col md={12} className="text-center mb-4">
             <h1 className="fets-title">FETS Committee Page</h1>
             <p className="fets-description">
-              Welcome to the FETS Committee Page. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit. Aenean varius lorem in semper.
+              Please click on the below links to be directed to the respective sites.
             </p>
-            <Button variant="primary" className="fets-button">
-              Learn More
-            </Button>
           </Col>
+        </Row>
+        <Row>
+          <CommitteeCard
+            name="ISTE"
+            description="To Engage, Empower and Energize educators for academic leadership and granting of academic excellence."
+            link="https://iste.spit.ac.in/events/"
+            imageUrl="https://iste.spit.ac.in/files/2019/11/ISTElogo.jpg"
+          />
+          <CommitteeCard
+            name="IETE"
+            description="Science and Technology for Electronics, Telecommuncation, Computers, Information Technology."
+            link="https://iete.spit.ac.in/"
+            imageUrl="https://iete.spit.ac.in/wp-content/uploads/2020/12/IETE-SPIT-Official-Logo.png"
+          />
+          <CommitteeCard
+            name="FETS"
+            description="Forum for Electronic and telecommunication students (FETS). Website is coming soon."
+            link="#"
+            imageUrl="https://www.spit.ac.in/wp-content/uploads/2021/01/LogoSPIT.png"
+          />
         </Row>
       </Container>
     );

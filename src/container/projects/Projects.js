@@ -58,7 +58,6 @@ export class projects extends Component {
           <Row>
             <Col xs={10} sm={6} className="mx-auto text-center course-title">
               <h1 className="text-capitalize">
-                Student{" "}
                 <strong style={{ color: "brown" }}>Mini Projects</strong>
               </h1>
               <p
@@ -77,18 +76,19 @@ export class projects extends Component {
 
           <ul>
             <li>
-              <a href={SY_ETRX_20_21_pdf} target="_blank">
-                <h2>SY ETRX 20-21</h2>
+              <a href={SY_EXTC_22_23_pdf} target="_blank">
+                <h2>MINI PROJECT 2022-23 </h2>
               </a>
             </li>
+
             <li>
               <a href={SY_ETRX_21_22_pdf} target="_blank">
-                <h2>SY ETRX 21-22</h2>
+                <h2>MINI PROJECT 2021-22</h2>
               </a>
             </li>
             <li>
-              <a href={SY_EXTC_22_23_pdf} target="_blank">
-                <h2>SY EXTC 22-23 </h2>
+              <a href={SY_ETRX_20_21_pdf} target="_blank">
+                <h2>MINI PROJECT 2020-21</h2>
               </a>
             </li>
           </ul>
@@ -98,7 +98,6 @@ export class projects extends Component {
           <Row>
             <Col xs={10} sm={6} className="mx-auto text-center course-title">
               <h1 className="text-capitalize">
-                Student{" "}
                 <strong style={{ color: "brown" }}>Major Projects</strong>
               </h1>
               <p
@@ -117,37 +116,40 @@ export class projects extends Component {
 
           <ul>
             <li>
-              <a href={ProjectList_18_19_pdf} target="_blank">
-                <h2>Project List 2018-19</h2>
-              </a>
-            </li>
-            <li>
               <a href={BE_ETRX_20_21_pdf} target="_blank">
-                <h2>Mentors BE ETRX 23-24</h2>
+                <h2>MAJOR PROJECTS LIST 2023-24</h2>
               </a>
             </li>
-            <li>
-              <a href={BE_20_21_pdf} target="_blank">
-                <h2>BE CAT1 + CAT2 20-21</h2>
-              </a>
-            </li>
-            <li>
-              <a href={BE_19_20_pdf} target="_blank">
-                <h2>BE CAT1 + CAT2 2019-20</h2>
-              </a>
-            </li>
+
             <li>
               <a href={BTech22_23_ETRX_pdf} target="_blank">
-                <h2>B.Tech Details 2022_23 ETRX</h2>
+                <h2>MAJOR PROJECTS LIST 2022-23 </h2>
               </a>
             </li>
             <li>
               <a href={BE_Groups_21_22_xls} target="_blank">
-                <h2>BE Groups-AY 2021-22 CAT1</h2>
+                <h2>MAJOR PROJECTS LIST 2021-22</h2>
+              </a>
+            </li>
+
+            <li>
+              <a href={BE_20_21_pdf} target="_blank">
+                <h2>MAJOR PROJECTS LIST 2020-21</h2>
+              </a>
+            </li>
+
+            <li>
+              <a href={BE_19_20_pdf} target="_blank">
+                <h2>MAJOR PROJECTS LIST 2019-20</h2>
+              </a>
+            </li>
+
+            <li>
+              <a href={ProjectList_18_19_pdf} target="_blank">
+                <h2>MAJOR PROJECTS LIST 2018-19</h2>
               </a>
             </li>
           </ul>
-
           <Row>{displayCourse}</Row>
           <Row>
             <Col className="mx-auto my-3" data-aos="zoom-in">

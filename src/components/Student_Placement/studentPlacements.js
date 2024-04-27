@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import "./Placements.css";
 import BannerImg from "./companies.png";
+import PlacementImg from "./placementbar.png";
 class StudentPlacements extends Component {
   render() {
     const recruiters = [
@@ -138,7 +139,7 @@ class StudentPlacements extends Component {
         <Row className="justify-content-center">
           <Col xs={12} md={8}>
             <h1 className="text-center">Student Placements</h1>
-            <Image src={BannerImg} className="img-fluid" fluid />
+            <Image src={BannerImg} className="spreadImg" width="200%" fluid />
             <hr></hr>
             <p className="mt-3 text-center">
               The Electronics and Telecommunication Engineering Department
@@ -213,6 +214,8 @@ class StudentPlacements extends Component {
               ))}
             </div>
           </Col>
+
+        <Image src={PlacementImg} className="img-fluid" width="200%" fluid />
         </Row>
       </Container>
     );

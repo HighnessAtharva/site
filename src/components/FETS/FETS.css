@@ -1,8 +1,29 @@
-.fets-container{
-    justify-content: space-around;
-    margin: 50px 0px;
+
+.fets-logo {
+    border-radius: 50%;
 }
 
-.fets-logo{
-    border-radius: 50%;
+.committee-card {
+    width: 20rem;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.committee-card .card-body {
+    padding: 1.5rem;
+}
+
+.committee-card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.committee-card .card-text {
+    margin-bottom: 1rem;
+}
+
+.committee-card .btn {
+    width: 100%;
 }

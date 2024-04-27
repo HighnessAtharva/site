@@ -16,7 +16,7 @@ export class Topbar extends Component {
           className="px-4 text-capitalize d-flex justify-content-center align-items-center"
           style={{ backgroundColor: "white", minHeight: "100px" }}
         >
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img src={logo} alt="logo" />
           </Navbar.Brand>
           <Navbar.Text className="ml-3">
