@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import "./style.css";
+import fdpConductedData from "./fdpConductedData.js";
 
 class FdpConductedPage extends Component {
   render() {

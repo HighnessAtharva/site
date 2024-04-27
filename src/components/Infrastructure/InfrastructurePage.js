@@ -37,29 +37,10 @@ class InfrastructurePage extends Component {
               />
               <Card.Body>
                 <Card.Title>
-                  503: Computer Communication Networking Lab
+                303: VLSI Lab
                 </Card.Title>
                 <Link
-                  to="/CompCommNetwork"
-                  className="btn btn-success"
-                  style={{ marginLeft: "40%" }}
-                >
-                  Go to Lab
-                </Link>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col>
-            <Card>
-              <Card.Img
-                variant="top"
-                src="https://www.psyec.edu.in/assets/img/cover/eee.webp"
-                className="img-fluid labBannerImg"
-              />
-              <Card.Body>
-                <Card.Title>311: Basic Electrical & Electronics Lab</Card.Title>
-                <Link
-                  to="/beeLab"
+                  to="/VLSILab"
                   className="btn btn-success"
                   style={{ marginLeft: "40%" }}
                 >
@@ -87,6 +68,70 @@ class InfrastructurePage extends Component {
               </Card.Body>
             </Card>
           </Col>
+
+          <Col>
+            <Card>
+              <Card.Img
+                variant="top"
+                src="https://nsfgradfellows.org/wp-content/uploads/2021/07/AdobeStock_67901546-2-750x400.jpg"
+                className="img-fluid labBannerImg"
+              />
+              <Card.Body>
+                <Card.Title>
+                306: Electronics & Devices Lab
+                </Card.Title>
+                <Link
+                  to="/ElectronicsDeviceLab"
+                  className="btn btn-success"
+                  style={{ marginLeft: "40%" }}
+                >
+                  Go to Lab
+                </Link>
+              </Card.Body>
+            </Card>
+          </Col>
+         
+          <Col>
+            <Card>
+              <Card.Img
+                variant="top"
+                src="https://www.psyec.edu.in/assets/img/cover/eee.webp"
+                className="img-fluid labBannerImg"
+              />
+              <Card.Body>
+                <Card.Title>311: Basic Electrical & Electronics Lab</Card.Title>
+                <Link
+                  to="/beeLab"
+                  className="btn btn-success"
+                  style={{ marginLeft: "40%" }}
+                >
+                  Go to Lab
+                </Link>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+              <Card.Img
+                variant="top"
+                src="https://nsfgradfellows.org/wp-content/uploads/2021/07/AdobeStock_67901546-2-750x400.jpg"
+                className="img-fluid labBannerImg"
+              />
+              <Card.Body>
+                <Card.Title>
+                  503: Computer Communication Networking Lab
+                </Card.Title>
+                <Link
+                  to="/CompCommNetwork"
+                  className="btn btn-success"
+                  style={{ marginLeft: "40%" }}
+                >
+                  Go to Lab
+                </Link>
+              </Card.Body>
+            </Card>
+          </Col>
+        
         </Row>
 
         <h1>Infrastructure (Classrooms)</h1>

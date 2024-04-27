@@ -41,14 +41,15 @@ class BOS extends Component {
                 <div className="btech-item">
                   {/* <h1>Timetable</h1> */}
                   <ul>
-                    <li><a href={BOS1718} target="_blank"><h2>Board of Studies 2017-18</h2></a></li>
-                    <li><a href={BOS1819} target="_blank"><h2>Board of Studies 2018-19</h2></a></li>
-                    <li><a href={BOS1920} target="_blank"><h2>Board of Studies 2019-20</h2></a></li>
-                    <li><a href={BOS2021} target="_blank"><h2>Board of Studies 2020-21</h2></a></li>
-                    <li><a href={BOS2122} target="_blank"><h2>Board of Studies 2021-22</h2></a></li>
-                    <li><a href={BOS2223} target="_blank"><h2>Board of Studies 2022-23</h2></a></li>
                     <li><a href={BOS2324} target="_blank"><h2>Board of Studies 2023-24</h2></a></li>
+                    <li><a href={BOS2223} target="_blank"><h2>Board of Studies 2022-23</h2></a></li>
+                    <li><a href={BOS2122} target="_blank"><h2>Board of Studies 2021-22</h2></a></li>
+                    <li><a href={BOS2021} target="_blank"><h2>Board of Studies 2020-21</h2></a></li>
+                    <li><a href={BOS1920} target="_blank"><h2>Board of Studies 2019-20</h2></a></li>
+                    <li><a href={BOS1819} target="_blank"><h2>Board of Studies 2018-19</h2></a></li>
+                    <li><a href={BOS1718} target="_blank"><h2>Board of Studies 2017-18</h2></a></li>
                   </ul>
+
                 </div>
              </div>
           </Col>

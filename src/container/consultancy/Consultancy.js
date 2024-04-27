@@ -2,72 +2,52 @@ import React, { Component } from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import course01 from "../../images/course01.jpeg";
 import "./consultancy.css";
+import consultancyData from "./consultancyData";
 
 export class consultancy extends Component {
   render() {
-    const displayCourse = ["course01", "course02", "course03", "course04"].map(
-      (course, index) => (
-        <Col
-          xs={10}
-          sm={6}
-          lg={4}
-          className="course-item mx-auto my-3"
-          key={course + index}
-          data-aos="fade-up"
-        >
-          <Card className="course-card">
-            <div className="img-container">
-              <Card.Img variant="top" src={course01} className="course-img" />
-              <span className="course-item-icon">
-                <i className="fas fa-star"></i>
-              </span>
-            </div>
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-              <div className="text-center">
-                <Button variant="primary text-center">Register</Button>
-              </div>
-            </Card.Body>
-          </Card>
-        </Col>
-      )
-    );
-
+    
     return (
-      <section id="consultancy" className="consultancy py-5">
-        <Container>
-          <Row>
-            <Col xs={10} sm={6} className="mx-auto text-center course-title">
-              <h1 className="text-capitalize">
-                Our Featured <strong style={{ color: "brown" }}>consultancy</strong>
-              </h1>
-              <p
-                style={{
-                  borderTop: "3px solid white",
-                  width: 70,
-                  marginTop: 20,
-                }}
-              ></p>
-              <p className="text-muted" data-aos="fade-up">
-                Our Featured consultancy are selected through a rigorous process and
-                uniquely created for each semester.
-              </p>
-            </Col>
-          </Row>
-          <Row>{displayCourse}</Row>
-          <Row>
-            <Col className="mx-auto my-3" data-aos="zoom-in">
-              <div className="text-center">
-                <Button variant="danger">View More</Button>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </section>
+      <Container>
+      <h1 className="text-center mb-4">
+      EXTC Consultancy Projects
+      </h1>
+      <div>
+       
+         
+            <table className="table table-striped">
+              <thead>
+                <tr>
+                  <th>Sr.No.</th>
+                  <th>Name of Faculty</th>
+                  <th>Project Title</th>
+                  <th>Funding Agency</th>
+                  <th>Amount</th>
+                  <th>Duration</th>
+                  <th>Completion Status</th>
+                  
+                 
+                </tr>
+              </thead>
+              <tbody>
+              {consultancyData.map((consultancy) => (
+                  <tr key={consultancy.id}>
+                    <td>{consultancy.id}</td>
+                    <td>{consultancy.name}</td>
+                    <td>{consultancy.title}</td>
+                    <td>{consultancy.agency}</td>
+                    <td>{consultancy.amount}</td>
+                    <td>{consultancy.duration}</td>
+                    <td>{consultancy.status}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+            <br></br>
+          </div>
+       
+     
+    </Container>
     );
   }
 }
