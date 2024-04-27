@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a2429068888c8b7f398c96327b5ccb7b",
+    "revision": "9098af60f69acfe873d9892614060e5e",
     "url": "/React-University-Website/index.html"
   },
   {
-    "revision": "6d27d7213ef5cd6b56d8",
+    "revision": "fcb924bf803618a8c7dd",
     "url": "/React-University-Website/static/css/2.a2d1f71e.chunk.css"
   },
   {
-    "revision": "9c01234b60631fbf9639",
-    "url": "/React-University-Website/static/css/main.933a5d76.chunk.css"
+    "revision": "9c6d2b799319fbcd0f04",
+    "url": "/React-University-Website/static/css/main.72effc47.chunk.css"
   },
   {
-    "revision": "6d27d7213ef5cd6b56d8",
-    "url": "/React-University-Website/static/js/2.e2c106d1.chunk.js"
+    "revision": "fcb924bf803618a8c7dd",
+    "url": "/React-University-Website/static/js/2.243aeafb.chunk.js"
   },
   {
     "revision": "cfe63c1848a227eaaf4c756b8cf4bf44",
-    "url": "/React-University-Website/static/js/2.e2c106d1.chunk.js.LICENSE.txt"
+    "url": "/React-University-Website/static/js/2.243aeafb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9c01234b60631fbf9639",
-    "url": "/React-University-Website/static/js/main.d62c05af.chunk.js"
+    "revision": "9c6d2b799319fbcd0f04",
+    "url": "/React-University-Website/static/js/main.5b21fec9.chunk.js"
   },
   {
     "revision": "f5cc168e2cb2070e5d4f",
@@ -164,6 +164,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-University-Website/static/media/F9.24cdcd0f.jpg"
   },
   {
+    "revision": "5df367ecd87457a604dd168a0327ceb5",
+    "url": "/React-University-Website/static/media/Interning.5df367ec.png"
+  },
+  {
+    "revision": "36c814f54a9c56b09bca480781c49445",
+    "url": "/React-University-Website/static/media/InternshipStats.36c814f5.png"
+  },
+  {
     "revision": "89a1cf7af5e61bcda4c4da63f4819828",
     "url": "/React-University-Website/static/media/LAB.89a1cf7a.pdf"
   },
@@ -266,6 +274,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "748e48fd3d81a24968baf04e5eebb831",
     "url": "/React-University-Website/static/media/mtech-syllabus.748e48fd.pdf"
+  },
+  {
+    "revision": "7a175cf6ae2d74f17d87b12d77d70451",
+    "url": "/React-University-Website/static/media/placementbar.7a175cf6.png"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
