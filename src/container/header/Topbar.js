@@ -1,9 +1,5 @@
 import React, { Component } from "react";
-import {
-  Navbar,
-  Nav,
-  NavDropdown,
-} from "react-bootstrap";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import logo from "../../images/spit-logo.jpg";
 import "./header.css";
 import { Link } from "react-router-dom";
@@ -20,7 +16,7 @@ export class Topbar extends Component {
             <img src={logo} alt="logo" />
           </Navbar.Brand>
           <Navbar.Text className="ml-3">
-            <h1 className="text-capitalize mb-0 bigHeader" >
+            <h1 className="text-capitalize mb-0 bigHeader">
               Department of Electronics & Telecommunication Engineering
             </h1>
           </Navbar.Text>
@@ -59,10 +55,10 @@ export class Topbar extends Component {
                 </Link>
               </NavDropdown>
 
-              <NavDropdown title="Faculty" id="faculty-dropdown">
+              <NavDropdown title="People" id="faculty-dropdown">
                 <Link to="/faculty">
                   <NavDropdown.Item href="/faculty">
-                    Professors and Staff
+                    Faculty and Staff
                   </NavDropdown.Item>
                 </Link>
                 <Link to="/faculty-achievements">
@@ -70,17 +66,12 @@ export class Topbar extends Component {
                     Achievements
                   </NavDropdown.Item>
                 </Link>
-                <Link to="/faculty-publications">
-                  <NavDropdown.Item href="/faculty-publications">
-                    Publications
-                  </NavDropdown.Item>
-                </Link>
               </NavDropdown>
 
               <NavDropdown title="Students" id="students-dropdown">
                 <Link to="/placement">
                   <NavDropdown.Item href="/placement">
-                    Placement
+                    Placements & Higher Studies
                   </NavDropdown.Item>
                 </Link>
                 <Link to="/internship">
@@ -88,15 +79,21 @@ export class Topbar extends Component {
                     Internship
                   </NavDropdown.Item>
                 </Link>
-                {/* <Link to="/student-publications">
-                  <NavDropdown.Item href="/student-publications">
-                    Publications
-                  </NavDropdown.Item>
-                </Link> */}
+
                 <Link to="/student-achievements">
                   <NavDropdown.Item href="/student-achievements">
                     Achievements
                   </NavDropdown.Item>
+                </Link>
+
+                <Link to="/enterpreneurship">
+                  <NavDropdown.Item href="/enterpreneurship">
+                    Enterpreneurship
+                  </NavDropdown.Item>
+                </Link>
+
+                <Link to="/toppers">
+                  <NavDropdown.Item href="/toppers">Toppers</NavDropdown.Item>
                 </Link>
               </NavDropdown>
 
@@ -137,7 +134,7 @@ export class Topbar extends Component {
                 <Nav.Link href="/alumni">Alumni</Nav.Link>
               </Link>
               <Link to="/fets">
-                <Nav.Link href="/fets">FETS</Nav.Link>
+                <Nav.Link href="/fets">Committees</Nav.Link>
               </Link>
 
               <NavDropdown title="Other" id="other-dropdown">

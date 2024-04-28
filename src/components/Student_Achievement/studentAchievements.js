@@ -26,7 +26,7 @@ class StudentAchievements extends Component {
                 </tr>
               </thead>
               <tbody>
-                {studentsData.map((student) => (
+                {studentsData.slice().reverse().map((student) => (
                   <tr key={student.id}>
                     <td>{student.id}</td>
                     <td>{student.name}</td>

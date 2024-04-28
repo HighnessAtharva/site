@@ -7,7 +7,8 @@ class VisionAndMissionPage extends Component {
     return (
       <>
         <Container className="container-style">
-          <h1>Vision</h1>
+
+        <h3 className="text-center mb-4">VISION</h3>
           <p>
             "To create professionally competent engineers, researchers and
             entrepreneurs in the field of electronics engineering for the
@@ -15,7 +16,8 @@ class VisionAndMissionPage extends Component {
           </p>
         </Container>
         <Container className="container-style">
-          <h1>Mission</h1>
+
+        <h3 className="text-center mb-4">MISSION</h3>
           <ul>
             <li>
               To impart quality engineering education as per the industry need

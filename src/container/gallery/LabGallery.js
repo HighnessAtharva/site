@@ -12,7 +12,7 @@ class LabGallery extends Component {
     super(props);
 
     this.state = {
-      imageData: IMAGES.slice(0, 10),
+      imageData: IMAGES.slice(0, 13),
     };
   }
 
@@ -34,6 +34,7 @@ class LabGallery extends Component {
 
     const imageStyle = {
       maxWidth: "100%",
+      minHeight: "400px",
       maxHeight: "400px",
       margin: "0 auto",
     };

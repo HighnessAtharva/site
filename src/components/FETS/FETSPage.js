@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { Container, Row, Col, Image, Button, Card } from "react-bootstrap";
 import "./FETS.css";
 
+import FetsLogo from "./FetsLogo.png"
+
 const CommitteeCard = ({ name, description, link, imageUrl }) => (
   <Col md={4} className="text-center mb-4">
     <Card className="committee-card">
@@ -28,9 +30,9 @@ class FETSPage extends Component {
       <Container className="fets-container">
         <Row>
           <Col md={12} className="text-center mb-4">
-            <h1 className="fets-title">FETS Committee Page</h1>
+            <h3 className="fets-title"> LEARNING BEYOND CURRICULUM</h3>
             <p className="fets-description">
-              Please click on the below links to be directed to the respective sites.
+              Committees that encourage Learning By Doing
             </p>
           </Col>
         </Row>
@@ -51,7 +53,7 @@ class FETSPage extends Component {
             name="FETS"
             description="Forum for Electronic and telecommunication students (FETS). Website is coming soon."
             link="#"
-            imageUrl="https://www.spit.ac.in/wp-content/uploads/2021/01/LogoSPIT.png"
+            imageUrl={FetsLogo}
           />
         </Row>
       </Container>

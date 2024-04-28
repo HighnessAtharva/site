@@ -1,7 +1,12 @@
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
 .spreadImg {
   height: 15%;
-  margin-left: -250px;
-  max-width: 180%;
+  margin-left: -150px;
+  max-width: 150%;
 }
 
 .recruiterList {

@@ -3,41 +3,10 @@ import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import "./Placements.css";
 import BannerImg from "./companies.png";
 import PlacementImg from "./placementbar.png";
+import HigherStudies from "./HigherStudies.png";
+
 class StudentPlacements extends Component {
   render() {
-    const recruiters = [
-      "KPMG",
-      "Deloitte",
-      "Dolat Capital",
-      "Reliance Industries",
-      "Quantiphi",
-      "PwC",
-      "Oracle Finance",
-      "MSCI",
-      "LTI L1",
-      "ICICI Lombard",
-      "Kiotel (Potential PPO)",
-      "JPMC(IB)",
-      "JPMC(CADP) PPO",
-      "EY",
-      "ZS Associates",
-      "Amdocs",
-      "ARP Invest",
-      "ISS",
-      "GEP",
-      "WorkIndia",
-      "Nomura PPO",
-      "IDfy",
-      "Reliance Jio",
-      "Infosys",
-      "Deutsche Bank",
-      "Capgemini",
-      "Oracle",
-      "Morgan Stanley",
-      "Siemens",
-      "Interactive Brokers",
-    ];
-
     const placementStatistics = [
       { academicYear: "2022-23", appeared: 54, placed: 54, percentage: "100%" },
       { academicYear: "2021-22", appeared: 54, placed: 54, percentage: "100%" },
@@ -136,37 +105,16 @@ class StudentPlacements extends Component {
 
     return (
       <Container>
-        <Row className="justify-content-center">
-          <Col xs={12} md={8}>
-            <h1 className="text-center">Student Placements</h1>
-            <Image src={BannerImg} className="spreadImg" width="200%" fluid />
-            <hr></hr>
-            <p className="mt-3 text-center">
-              The Electronics and Telecommunication Engineering Department
-              consistently achieves excellent placement results, providing
-              opportunities for students to embark on rewarding career paths or
-              pursue higher studies. Below are the placement statistics along
-              with profiles of students who have secured placements, pursued
-              higher studies, or ventured into entrepreneurship in recent
-              academic years.
-            </p>
 
-            <hr></hr>
-            <h2 className="mt-4">Placement Information</h2>
-
-            <h3>Our Recruiters</h3>
-            <div className="recruiterList row">
-              {recruiters.map((recruiter, index) => (
-                <div
-                  key={index}
-                  className="col-6 col-md-2 mb-3 text-center recruiterItem"
-                >
-                  {recruiter}
-                </div>
-              ))}
-            </div>
-
-            <h3>Placement Statistics</h3>
+        <h3 class="text-center mt-4">STUDENT PLACEMENT RECORDS</h3>
+        <Row className="justify-content-centeralign-items-center">
+        <Col xs={12} md={6}>
+          <Image src={BannerImg} className="img-fluid" fluid />
+        </Col>
+        <Col xs={12} md={6}>
+          <Image src={PlacementImg} className="img-fluid" fluid />
+        </Col>
+        </Row>
             <table className="table">
               <thead>
                 <tr>
@@ -188,10 +136,12 @@ class StudentPlacements extends Component {
               </tbody>
             </table>
 
+            <h3 class="text-center mt-4">HIGHER STUDIES</h3>
             <div>
+              <Image src={HigherStudies}  fluid />
               {placementData.map((yearData, index) => (
                 <div key={index}>
-                  <h3>Placement & Higher Studies ({yearData.year})</h3>
+                  <h3>({yearData.year})</h3>
                   <table className="table">
                     <thead>
                       <tr>
@@ -213,10 +163,7 @@ class StudentPlacements extends Component {
                 </div>
               ))}
             </div>
-          </Col>
 
-        <Image src={PlacementImg} className="img-fluid" width="200%" fluid />
-        </Row>
       </Container>
     );
   }

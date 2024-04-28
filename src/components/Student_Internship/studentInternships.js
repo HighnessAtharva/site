@@ -173,7 +173,7 @@ class StudentInternships extends Component {
       <Container className="internship-container">
         <Row className="justify-content-center">
           <Col md={10}>
-          <h3 className="text-center mb-4">6-MONTH INTERNSHIP</h3>
+            <h3 className="text-center mb-4">6-MONTH INTERNSHIP</h3>
             <div className="internship-stats-container d-flex justify-content-center align-items-center">
               <div className="mr-4">
                 <Table
@@ -182,28 +182,29 @@ class StudentInternships extends Component {
                   responsive
                   className="student-internship-table mb-4"
                 >
-                  <thead className="thead-dark">
+                  <thead className="thead">
                     <tr>
-                      <th></th>
+                      <th>Year</th>
                       <th>Number of Students</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>2019-20</td>
-                      <td>52</td>
+                      <td>2022-23</td>
+                      <td>71</td>
+                    </tr>
+
+                    <tr>
+                      <td>2021-22</td>
+                      <td>59</td>
                     </tr>
                     <tr>
                       <td>2020-21</td>
                       <td>76</td>
                     </tr>
                     <tr>
-                      <td>2021-22</td>
-                      <td>59</td>
-                    </tr>
-                    <tr>
-                      <td>2022-23</td>
-                      <td>71</td>
+                      <td>2019-20</td>
+                      <td>52</td>
                     </tr>
                   </tbody>
                 </Table>

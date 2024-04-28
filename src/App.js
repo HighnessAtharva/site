@@ -28,12 +28,12 @@ import AboutPage from "./container/about/AboutPage";
 
 import FacultyPage from "./components/Faculty/FacultyPage";
 import FacultyAchievements from "./components/Faculty_Achievements/facultyAchievements";
-import FacultyPublications from "./components/Faculty_Publications/facultyPublications";
 
 import StudentAchievements from "./components/Student_Achievement/studentAchievements";
 import StudentInternships from "./components/Student_Internship/studentInternships";
 import StudentPlacements from "./components/Student_Placement/studentPlacements";
-// import StudentPublications from "./components/Student_Publication/studentPublications";
+import StudentEnterpreneurships from "./components/Student_Enterpreneurship/studentEnterpreneurships";
+import StudentToppers from "./components/Student_Topper/studentToppers";
 
 import FdpConductedPage from "./components/FDP_Conducted/fdpConducted";
 import FdpParticipationPage from "./components/FDP_Participation/fdpParticipation";
@@ -91,6 +91,14 @@ class App extends React.Component {
               <StudentInternships />
             </Route>
 
+            <Route exact path="/enterpreneurship">
+              <StudentEnterpreneurships />
+            </Route>
+
+            <Route exact path="/toppers">
+              <StudentToppers />
+            </Route>
+
             {/* <Route exact path="/student-publications">
               <StudentPublications />
             </Route> */}
@@ -133,9 +141,6 @@ class App extends React.Component {
               <FacultyAchievements />
             </Route>
 
-            <Route exact path="/faculty-publications">
-              <FacultyPublications />
-            </Route>
 
             {/* R&D Tabs */}
             <Route exact path="/projects">

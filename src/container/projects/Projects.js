@@ -150,14 +150,14 @@ export class projects extends Component {
               </a>
             </li>
           </ul>
-          <Row>{displayCourse}</Row>
+          {/* <Row>{displayCourse}</Row>
           <Row>
             <Col className="mx-auto my-3" data-aos="zoom-in">
               <div className="text-center">
                 <Button variant="danger">View More</Button>
               </div>
             </Col>
-          </Row>
+          </Row> */}
         </Container>
       </section>
     );
