@@ -3,6 +3,21 @@
     margin-bottom: 2rem;
 }
 
+.internship-stats-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .internship-stats-container > div {
+    flex: 1;
+  }
+
+  .student-internship-table {
+    max-width: 400px; /* Adjust as needed */
+  }
+
+
 h1, h2, h3 {
     font-weight: bold;
 }

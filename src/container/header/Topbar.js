@@ -20,7 +20,7 @@ export class Topbar extends Component {
             <img src={logo} alt="logo" />
           </Navbar.Brand>
           <Navbar.Text className="ml-3">
-            <h1 className="text-capitalize mb-0">
+            <h1 className="text-capitalize mb-0 bigHeader" >
               Department of Electronics & Telecommunication Engineering
             </h1>
           </Navbar.Text>
