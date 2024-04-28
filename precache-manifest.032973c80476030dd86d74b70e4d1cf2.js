@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "18149b14f4cd917af639d53722134f0c",
+    "revision": "e2ff93cf43eab47e872de713a9019acb",
     "url": "/React-University-Website/index.html"
   },
   {
-    "revision": "fcb924bf803618a8c7dd",
+    "revision": "979fb5501f06367c16e0",
     "url": "/React-University-Website/static/css/2.a2d1f71e.chunk.css"
   },
   {
-    "revision": "20c329077c381fefdeec",
-    "url": "/React-University-Website/static/css/main.5658a58b.chunk.css"
+    "revision": "75a1c8e28677994ae4f5",
+    "url": "/React-University-Website/static/css/main.14e0db04.chunk.css"
   },
   {
-    "revision": "fcb924bf803618a8c7dd",
-    "url": "/React-University-Website/static/js/2.243aeafb.chunk.js"
+    "revision": "979fb5501f06367c16e0",
+    "url": "/React-University-Website/static/js/2.5a1c8eb9.chunk.js"
   },
   {
     "revision": "cfe63c1848a227eaaf4c756b8cf4bf44",
-    "url": "/React-University-Website/static/js/2.243aeafb.chunk.js.LICENSE.txt"
+    "url": "/React-University-Website/static/js/2.5a1c8eb9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "20c329077c381fefdeec",
-    "url": "/React-University-Website/static/js/main.8c321a21.chunk.js"
+    "revision": "75a1c8e28677994ae4f5",
+    "url": "/React-University-Website/static/js/main.61ea705c.chunk.js"
   },
   {
     "revision": "f5cc168e2cb2070e5d4f",
@@ -162,6 +162,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "24cdcd0f70a267c74020082b75af62cc",
     "url": "/React-University-Website/static/media/F9.24cdcd0f.jpg"
+  },
+  {
+    "revision": "cc744cdc93243973a64eac001a826d19",
+    "url": "/React-University-Website/static/media/FetsLogo.cc744cdc.png"
+  },
+  {
+    "revision": "2c7a0d0101c25146c78b4fb15c1b9575",
+    "url": "/React-University-Website/static/media/HigherStudies.2c7a0d01.png"
   },
   {
     "revision": "5df367ecd87457a604dd168a0327ceb5",
