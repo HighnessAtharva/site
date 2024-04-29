@@ -8,7 +8,8 @@ module.exports=[
       "expertise": "Embedded System, Digital Power Electronics, VLSI Design, Wireless Sensor Networks",
       "email": "ysrao@spit.ac.in",
       "phone": "(022) – 69846900 EXT: 980",
-      "url": ("https://www.linkedin.com/in/dr-y-s-rao-4b223130/")
+      "url": ("https://www.linkedin.com/in/dr-y-s-rao-4b223130/"),
+      "scholar": ("https://scholar.google.co.in/citations?user=Dd4Lv0cAAAAJ&hl=en"),
     },
     {
       "name": "Dr. Rajendra R Sawant",
@@ -19,7 +20,8 @@ module.exports=[
       "expertise": "Power Electronics & Automation",
       "email": "rajendra.sawant@spit.ac.in",
       "phone": "(022) – 69846900",
-      "url": ("https://in.linkedin.com/in/rrsawant")
+      "url": ("https://in.linkedin.com/in/rrsawant"),
+      "scholar": ("https://scholar.google.com/citations?user=itbxS6oAAAAJ&hl=en"),
     },
     {
         "name": "Dr. Kiran Talele",
@@ -30,7 +32,8 @@ module.exports=[
         "expertise": "Digital Signal & Image Processing, Computer Vision & Machine Learning",
         "email": "kiran.talele@spit.ac.in",
         "phone": "(022) – 69846900 EXT:",
-        "url": "https://www.linkedin.com/in/k-t-v-talele/"
+        "url": "https://www.linkedin.com/in/k-t-v-talele/",
+        "scholar": ("https://scholar.google.com/citations?user=fP7xEcwAAAAJ&hl=en"),
       },
       {
         "name": "Dr. Reena Sonkusare",
@@ -41,7 +44,8 @@ module.exports=[
         "expertise": "Mixed Signal VLSI Design, RF Antenna, Communication",
         "email": "reena_kumbhare@spit.ac.in",
         "phone": "(022) – 69846900 EXT: 382",
-        "url": "https://www.linkedin.com/in/dr-reena-sonkusare-kumbhare-67ab4581"
+        "url": "https://www.linkedin.com/in/dr-reena-sonkusare-kumbhare-67ab4581",
+        "scholar": ("https://scholar.google.co.in/citations?user=_h55xlsAAAAJ&hl=en"),
       },
       {
         "name": "Dr. Sukanya A. Kulkarni",
@@ -52,7 +56,8 @@ module.exports=[
         "expertise": "RF & Wireless Communication",
         "email": "sukanya_kulkarni@spit.ac.in",
         "phone": "(022) – 69846900 EXT: 983",
-        "url": "https://www.linkedin.com/in/dr-sukanya-kulkarni-84160258"
+        "url": "https://www.linkedin.com/in/dr-sukanya-kulkarni-84160258",
+        "scholar": ("https://scholar.google.co.in/citations?user=3g7cebcAAAAJ&hl=en"),
       },
       {
         "name": "Dr. Deepak C Karia",
@@ -63,7 +68,8 @@ module.exports=[
         "expertise": "Communication, Networking",
         "email": "deepak_karia@spit.ac.in",
         "phone": "(022) – 69846900 EXT: 915",
-        "url": "www.linkedin.com/in/dr-deepak-c-karia-2998132a"
+        "url": "www.linkedin.com/in/dr-deepak-c-karia-2998132a",
+        "scholar": ("https://scholar.google.com/citations?user=Sntv9U4AAAAJ&hl=en"),
       },
       {
         "name": "Dr. Rajendra Sutar",
@@ -74,7 +80,8 @@ module.exports=[
         "expertise": "Power Electronics, Biomedical Electronics, Electronic Circuits & Systems",
         "email": "rajendra_sutar@spit.ac.in",
         "phone": "(022) – 69846900 EXT: 950",
-        "url": "https://www.linkedin.com/in/dr-rajendra-sutar-4766b216/"
+        "url": "https://www.linkedin.com/in/dr-rajendra-sutar-4766b216/",
+        "scholar": ("https://scholar.google.com/citations?user=HDwtyu0AAAAJ&hl=en&oi=ao"),
       },
       {
         "name": "Dr. Narendra Anant Bhagat",
@@ -85,7 +92,8 @@ module.exports=[
         "expertise": "Analog & Digital VLSI Design, Digital Electronics & Microprocessors, Electrical Network, B.E.E.",
         "email": "narendra_bhagat@spit.ac.in",
         "phone": "(022) – 69846900 EXT: 953",
-        "url": "https://www.linkedin.com/in/"
+        "url": "https://www.linkedin.com/in/",
+        "scholar": ("https://scholar.google.co.in/citations?user=54Pbd6sAAAAJ&hl=en"),
       },
       {
         "name": "Prof. Manish M. Parmar",
@@ -96,7 +104,8 @@ module.exports=[
         "expertise": "Microprocessors, Computer Architecture, Embedded Systems, Computer Networks",
         "email": "manish_parmar@spit.ac.in",
         "phone": "(022) – 69846900 EXT: 952",
-        "url": "https://www.linkedin.com/in/manish-parmar-7812581a9/"
+        "url": "https://www.linkedin.com/in/manish-parmar-7812581a9/",
+        "scholar": ("https://scholar.google.com/citations?user=1rJ-y4MAAAAJ&hl=en"),
       },
       {
         "name": "Dr. P. V. Kasambe",
@@ -107,7 +116,8 @@ module.exports=[
         "expertise": "VLSI, Optimization Algorithms, MEMS Sensor Design",
         "email": "prashant_kasambe@spit.ac.in",
         "phone": "(022) – 69846900 EXT:",
-        "url": "https://www.linkedin.com/in/dr-prashant-kasambe-064551ab/"
+        "url": "https://www.linkedin.com/in/dr-prashant-kasambe-064551ab/",
+        "scholar": ("https://scholar.google.co.in/citations?hl=en&user=XcnPuZ4AAAAJ"),
       },
       {
         "name": "Dr. Anand D. Mane",
@@ -118,7 +128,8 @@ module.exports=[
         "expertise": "Mobile Communication, Wireless Networks, Embedded Systems",
         "email": "anand_mane@spit.ac.in",
         "phone": "(022) – 69846900 EXT: 984",
-        "url": ""
+        "url": "",
+        "scholar": ("https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F7fkGkS-neqQ1mXn01SVeQD_DtUDQmBUh0DnDQm7h1Iu1cG6GlOhIN84iF-wodZg-Fc_MOs2RGF0jfVna5fFAApbLOkvOLxGHwtQ3CbBPr5fI_HbyfT4WUAIrAPmTzTMw5I8UuQ&user=RjPLx_sAAAAJ"),
       },
       
       {
@@ -130,7 +141,8 @@ module.exports=[
         "expertise": "Electronic Devices and Circuits, Analog VLSI Design, Neuromorphic Engineering",
         "email": "payal_shah@spit.ac.in",
         "phone": "(022) – 69846900 EXT:",
-        "url": "https://www.linkedin.com/in/payal-shah-59563353"
+        "url": "https://www.linkedin.com/in/payal-shah-59563353",
+        "scholar": ("https://scholar.google.co.in/citations?hl=en&user=RvYzqJoAAAAJ"),
       },
       {
         "name": "Prof. G. T. Haldankar",
@@ -141,7 +153,8 @@ module.exports=[
         "expertise": "Power Electronics",
         "email": "g_haldankar@spit.ac.in",
         "phone": "(022) – 69846900 EXT:",
-        "url": "https://www.linkedin.com/in/govind-haldankar-3b67111ab/"
+        "url": "https://www.linkedin.com/in/govind-haldankar-3b67111ab/",
+        "scholar": ("https://scholar.google.co.in/citations?hl=en&user=Ve13BGsAAAAJ"),
       },
       {
         "name": "Prof. Manisha Bansode",
@@ -152,7 +165,8 @@ module.exports=[
         "expertise": "Communication Engineering, Electronics circuit design, Image Processing",
         "email": "manisha_bansode@spit.ac.in",
         "phone": "(022) – 69846900 EXT: 956",
-        "url": "https://www.linkedin.com/in/manisha-r-bansode-3aa901162/"
+        "url": "https://www.linkedin.com/in/manisha-r-bansode-3aa901162/",
+        "scholar": ("https://scholar.google.com/citations?hl=en&user=9dj8JjoAAAAJ&view_op=list_works&authuser=1&gmla=AH70aAXvRklAj9CGH8g1LhSd-khENCO7l4NvSCkT8LLwdYds5c-37CVE3jsJ1QExyENrMEq93o8mM-yphFuGRKLU_95JsMuRt-gWTg"),
       },
       {
         "name": "Prof. Milind Paraye",
@@ -163,7 +177,8 @@ module.exports=[
         "expertise": "Embedded Systems, PV solar, ML, AI",
         "email": "milind_paraye@spit.ac.in",
         "phone": "(022) – 69846900 EXT:",
-        "url": ""
+        "url": "",
+        "scholar": ("https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F7PDqlbLXpfuv6e53_47hzB9EDgkGo10XkqzC4LKIEH5zay6Gl_scT8XuWQJakV15TcY_eErbq_TtxhZ0tM-JI8HEwsuAhHva_LvASBSBUEaCOQF7yt4BG1ZGlWqHJM5TiIQ3OK&user=a9Oqav8AAAAJ"),
       },
       {
         "name": "Prof. Priya Deshpande",
@@ -174,7 +189,8 @@ module.exports=[
         "expertise": "Embedded System, Signal and Image Processing",
         "email": "priya.chimurkar@spit.ac.in",
         "phone": "(022) – 69846900 EXT: 355",
-        "url": "https://www.linkedin.com/in/priya-chimurkar-70013563"
+        "url": "https://www.linkedin.com/in/priya-chimurkar-70013563",
+        "scholar": ("https://scholar.google.co.in/citations?hl=en&user=j5VIEfEAAAAJ"),
       },
       {
         "name": "Prof. Najib Ghatte",
@@ -185,7 +201,8 @@ module.exports=[
         "expertise": "Control System, Signals and Systems, Electronic Devices, Networks, 8051",
         "email": "najib_ghatte@spit.ac.in",
         "phone": "9821867642",
-        "url": "https://www.linkedin.com/in/najibghatte"
+        "url": "https://www.linkedin.com/in/najibghatte",
+        "scholar": ("https://scholar.google.co.in/citations?hl=en&user=f62HrAEAAAAJ"),
       },
       {
         "name": "Prof. Pallavi Malame(Nair)",
@@ -196,7 +213,8 @@ module.exports=[
         "expertise": "Antennas & Microwave Engineering, Electromagnetics, Dielectric Spectroscopy",
         "email": "pallavi_malame@spit.ac.in",
         "phone": "(022) – 69846900 EXT: 361",
-        "url": "linkedin.com/in/pallavimalame"
+        "url": "linkedin.com/in/pallavimalame",
+        "scholar": ("https://scholar.google.co.in/citations?user=cX92W04AAAAJ&hl=en"),
       },
       {
         "name": "Dr. Amol S Deshpande",
@@ -207,7 +225,8 @@ module.exports=[
         "expertise": "High Voltage Engineering, Image Processing",
         "email": "amol_deshpande@spit.ac.in",
         "phone": "(022) – 69846900 EXT:",
-        "url": "https://www.linkedin.com/in/amol-deshpande-b495829"
+        "url": "https://www.linkedin.com/in/amol-deshpande-b495829",
+        "scholar": ("https://scholar.google.com/citations?hl=en&user=D7TQKXSAAAAJ"),
       },
       {
         "name": "Prof. Sneha A. Weakey",
@@ -218,7 +237,8 @@ module.exports=[
         "expertise": "Control Systems, Digital Circuits, Electronics Devices",
         "email": "sneha_15weakey@spit.ac.in",
         "phone": "(022) – 69846900 EXT:",
-        "url": "https://www.linkedin.com/in/sneha-weakey"
+        "url": "https://www.linkedin.com/in/sneha-weakey",
+        "scholar": ("https://scholar.google.com/citations?user=NA08SMQAAAAJ&hl=en&oi=ao"),
       },
       {
         "name": "Dr. Santoshkumar Sabat",
@@ -229,7 +249,8 @@ module.exports=[
         "expertise": "Wireless Communication, LTE, 5G",
         "email": "santoshkumar_sabat@spit.ac.in",
         "phone": "(022) – 69846900 EXT:",
-        "url": "https://www.linkedin.com/in/santoshkumar-sabat/"
+        "url": "https://www.linkedin.com/in/santoshkumar-sabat/",
+        "scholar": ("https://scholar.google.com/citations?user=N74EJiQAAAAJ&hl=en"),
       }
     
   ]

@@ -12,7 +12,7 @@ class LabGalleryEandD extends Component {
     super(props);
 
     this.state = {
-      imageData: IMAGES.slice(0, 7),
+      imageData: IMAGES.slice(0, 10),
     };
   }
 

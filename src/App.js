@@ -48,6 +48,7 @@ import BEELab from "./components/Infrastructure/BEELab";
 import AnalogCircuitLab from "./components/Infrastructure/AnalogCircuitLab";
 import VLSILab from "./components/Infrastructure/VLSILab";
 import ElectronicsDeviceLab from "./components/Infrastructure/ElectronicsDeviceLab";
+import FiberOpticLab from "./components/Infrastructure/FiberOpticLab";
 import AlumniPage from "./components/Alumni/AlumniPage";
 import FETSPage from "./components/FETS/FETSPage";
 
@@ -176,6 +177,9 @@ class App extends React.Component {
             </Route>
             <Route exact path="/analogCircuitLab">
               <AnalogCircuitLab />
+            </Route>
+            <Route exact path="/fiberOpticLab">
+              <FiberOpticLab />
             </Route>
 
             <Route exact path="/alumni">

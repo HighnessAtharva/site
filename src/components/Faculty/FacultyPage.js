@@ -3,6 +3,8 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import "./faculty.css";
 import facultyData from "./facultyData";
 import supportStaffData from "./supportStaffData";
+import logo from "../../images/icons8-google-scholar-48.svg";
+import GoogleScholarIcon from "../../images/GoogleScholarIcon";
 
 class FacultyPage extends Component {
   render() {
@@ -37,7 +39,9 @@ class FacultyPage extends Component {
         >
           <Row>
             <Col>
-              <h3 style={{ textAlign: "center", margin: "5px", padding: "10px" }}>
+              <h3
+                style={{ textAlign: "center", margin: "5px", padding: "10px" }}
+              >
                 FACULTY LIST
               </h3>
             </Col>
@@ -65,9 +69,15 @@ class FacultyPage extends Component {
       <div className="faculty-card">
         <div className="faculty-image">
           <Image src={faculty.image} fluid />
+          <div >
           <a href={faculty.url}>
             <i className="fab fa-linkedin-in"></i>
           </a>
+          <a href={faculty.scholar}>
+      <GoogleScholarIcon width="25" height="25" style={{ marginLeft: '5px' }} />
+    </a>
+         
+          </div>
         </div>
         <div className="faculty-details">
           <h5 className="name">{faculty.name}</h5>

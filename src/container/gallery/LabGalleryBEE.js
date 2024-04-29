@@ -12,7 +12,7 @@ class LabGalleryBEE extends Component {
     super(props);
 
     this.state = {
-      imageData: IMAGES.slice(0, 4),
+      imageData: IMAGES.slice(0, 8),
     };
   }
 

@@ -1,4 +1,6 @@
 export const IMAGES = [
+  { src: "https://i.ibb.co/ZfYDKtX/Whats-App-Image-2024-03-20-at-11-03-55-a6b35892.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/dLh4gbL/Whats-App-Image-2024-03-20-at-11-03-55-3b0e2866.jpg", thumbnail: "" },
   {
     src: "https://i.ibb.co/7QcKWHb/image-001.jpg",
     thumbnail: "https://i.ibb.co/7QcKWHb/image-001.jpg",

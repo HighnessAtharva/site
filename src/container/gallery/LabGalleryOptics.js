@@ -3,16 +3,16 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Gallery from "react-grid-gallery";
-import { IMAGES } from "./EmbeddedLabData";
+import { IMAGES } from "./OpticsLabData.js";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-class LabGallery extends Component {
+class LabGalleryOptics extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      imageData: IMAGES.slice(0, 17),
+      imageData: IMAGES.slice(0, 2),
     };
   }
 
@@ -34,7 +34,6 @@ class LabGallery extends Component {
 
     const imageStyle = {
       maxWidth: "100%",
-      minHeight: "400px",
       maxHeight: "400px",
       margin: "0 auto",
     };
@@ -53,4 +52,4 @@ class LabGallery extends Component {
   }
 }
 
-export default LabGallery;
+export default LabGalleryOptics;

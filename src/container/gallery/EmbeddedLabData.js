@@ -49,4 +49,7 @@ export const IMAGES = [
     src: "https://i.ibb.co/wM6Y4ZM/IMG-1021.jpg",
     thumbnail: "https://i.ibb.co/wM6Y4ZM/IMG-1021.jpg",
   },
+ 
+  { src: "https://i.ibb.co/QH4ydkz/IMG-20240406-143451.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/K76tK6q/IMG-20240406-143521.jpg", thumbnail: "" }
 ];

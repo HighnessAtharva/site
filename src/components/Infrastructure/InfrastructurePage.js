@@ -131,6 +131,28 @@ class InfrastructurePage extends Component {
               </Card.Body>
             </Card>
           </Col>
+
+          <Col>
+            <Card>
+              <Card.Img
+                variant="top"
+                src="https://nsfgradfellows.org/wp-content/uploads/2021/07/AdobeStock_67901546-2-750x400.jpg"
+                className="img-fluid labBannerImg"
+              />
+              <Card.Body>
+                <Card.Title>
+                504: Microwave and Fiber Optic Communication Lab
+                </Card.Title>
+                <Link
+                  to="/fiberOpticLab"
+                  className="btn btn-success"
+                  style={{ marginLeft: "40%" }}
+                >
+                  Go to Lab
+                </Link>
+              </Card.Body>
+            </Card>
+          </Col>
         
         </Row>
 
