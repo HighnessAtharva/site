@@ -8,8 +8,7 @@ class StudentAchievements extends Component {
   render() {
     return (
       <Container>
-        <h1 className="text-center mb-4">Student Achievements</h1>
-
+        <h3 className="text-capitalize text-center mb-4 mt-4">STUDENT ACHIEVEMENTS</h3>
         <Card className="mt-2">
           <Card.Body>
             <PhotoGallary />

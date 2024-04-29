@@ -7,9 +7,9 @@ export class PhD extends Component {
   render() {
     return (
       <Container>
-        <h1 className="text-center mb-4">
-          Ph.D. awarded/Thesis submitted/Synopsis Submitted
-        </h1>
+         <h3 className="text-capitalize text-center mb-4 mt-4">
+          PH.D AWARDED/THESIS SUBMITTED/SYNOPSIS SUBMITTED
+        </h3>
 
         <Card className="mt-2">
           <Card.Body>

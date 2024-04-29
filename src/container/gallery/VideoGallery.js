@@ -7,7 +7,7 @@ export class VideoGallery extends Component {
       <Container fluid>
         <Row>
           <Col className="mx-auto text-center mt-5 mb-5">
-            <h1 style={{ color: "brown" }}>Videography</h1>
+          <h3 className="text-capitalize text-center mb-4 mt-4">VIDEOGRAPHY</h3>
           </Col>
         </Row>
         <Row>

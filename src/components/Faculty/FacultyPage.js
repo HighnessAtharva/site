@@ -16,15 +16,17 @@ class FacultyPage extends Component {
       </Row>
     ));
 
-    const supportStaffRows = this.createRows(supportStaffData, 2).map((row, index) => (
-      <Row key={index}>
-        {row.map((staff) => (
-          <Col sm={12} md={8} lg={6} key={staff.name}>
-            {this.renderSupportStaffCard(staff)}
-          </Col>
-        ))}
-      </Row>
-    ));
+    const supportStaffRows = this.createRows(supportStaffData, 2).map(
+      (row, index) => (
+        <Row key={index}>
+          {row.map((staff) => (
+            <Col sm={12} md={8} lg={6} key={staff.name}>
+              {this.renderSupportStaffCard(staff)}
+            </Col>
+          ))}
+        </Row>
+      )
+    );
 
     return (
       <section>
@@ -35,15 +37,21 @@ class FacultyPage extends Component {
         >
           <Row>
             <Col>
-              <h1 style={{ textAlign: "center", margin: "5px", padding: "10px" }}>
-                Faculty List 
-              </h1>
+              <h3 style={{ textAlign: "center", margin: "5px", padding: "10px" }}>
+                FACULTY LIST
+              </h3>
             </Col>
           </Row>
         </Container>
         <Container className="mt-5 mb-5">{facultyRows}</Container>
         <Container>
-          <h1 style={{ textAlign: "center", marginTop: "5px", paddingTop: "10px" }}>
+          <h1
+            style={{
+              textAlign: "center",
+              marginTop: "5px",
+              paddingTop: "10px",
+            }}
+          >
             Support Staff
           </h1>
         </Container>
@@ -81,7 +89,7 @@ class FacultyPage extends Component {
         <div className="faculty-image">
           <Image src={staff.image} fluid />
         </div>
-        <div className= "faculty-details">
+        <div className="faculty-details">
           <h5 className="name">{staff.name}</h5>
           <h6 className="title">{staff.designation}</h6>
           <p className="faculty-info">

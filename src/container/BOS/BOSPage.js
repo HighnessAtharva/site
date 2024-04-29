@@ -20,9 +20,9 @@ class BOS extends Component {
         <Container>
           <Row>
             <Col xs={10} sm={6} className="mx-auto text-center course-title">
-              <h1 className="text-capitalize">
-                <strong style={{ color: "brown" }}>Board of Studies </strong>
-              </h1>
+            <h3 className="text-capitalize text-center mb-4 mt-4">
+                BOARD OF STUDIES
+              </h3>
               <p
                 style={{
                   borderTop: "3px solid white",

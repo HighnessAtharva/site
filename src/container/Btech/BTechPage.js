@@ -23,9 +23,9 @@ class BTech extends Component {
         <Container>
           <Row>
             <Col xs={10} sm={6} className="mx-auto text-center course-title">
-              <h1 className="text-capitalize">
+              <h3 className="text-capitalize text-center mb-4 mt-4">
                 <strong >B.Tech Program </strong>
-              </h1>
+              </h3>
               <p
                 style={{
                   borderTop: "3px solid white",
@@ -42,17 +42,17 @@ class BTech extends Component {
             <Col>
               <div className="btech-container">
                 <div className="btech-item">
-                  <h1>Timetable</h1>
+                <h3 className="text-capitalize text-center mb-4 mt-4">Timetable</h3>
                   <ul>
                     {/* <li><a href={labPDF} target="_blank"><h2>LAB Timetable</h2></a></li> */}
-                    
+
                     <li><a href={SEPDF} target="_blank"><h2>SE Term 2 2023-24</h2></a></li>
                     <li><a href={TEPDF} target="_blank"><h2>TE Term 2 2023-24</h2></a></li>
                     <li><a href={EXTCPDF} target="_blank"><h2>BE Term 2 2023-24</h2></a></li>
                   </ul>
                 </div>
                 <div className="btech-item">
-                  <h1>Syllabus</h1>
+                <h3 className="text-capitalize text-center mb-4 mt-4">Syllabus</h3>
                   <ul>
                   <li><a href={EXTC_Syllabus_SEM_III} target="_blank"><h2>FE Class (EXTC 2021-2025)</h2></a></li>
                     <li><a href={EXTC_SE_Syllabus} target="_blank"><h2>SE Class (EXTC 2021-2025)</h2></a></li>
