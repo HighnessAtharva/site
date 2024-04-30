@@ -2,6 +2,14 @@
   background-color: #b4d1ff;
 } */
 
+#docTitle{
+  display: none;
+}
+
+#switcherOuter {
+  display: none;
+ }
+
 .course-title {
   display: flex;
   justify-content: center;

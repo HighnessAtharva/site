@@ -8,17 +8,16 @@ export class publications extends Component {
     return (
       <>
         <h1>Faculty Publications</h1>
-        <div className="iframe-container">
-          <iframe
-            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS4LEZXeBvRyBHd219QXD_Z3Qu6mQfS8sY510PHuodBbgrOg8Q_v4QHx31Fg_p5Ww/pubhtml?gid=1484133079&amp;single=true&amp;widget=true&amp;headers=false"
-            width="70%"
-            height="800px"
+        <div className="iframe-container" style={{marginBottom: "500px"}}>
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS4LEZXeBvRyBHd219QXD_Z3Qu6mQfS8sY510PHuodBbgrOg8Q_v4QHx31Fg_p5Ww/pubhtml?widget=true&amp;headers=false"
+            width="90%"
+            height="1800px"
             style={{ border: "0" }}
-            title="Spreadsheet"
-          />
+            title="Spreadsheet">
+          </iframe>
         </div>
 
-        <br></br>
+        {/* <br></br>
         <br></br>
         <br></br>
         <br></br>
@@ -31,7 +30,7 @@ export class publications extends Component {
             style={{ border: "0" }}
             title="Spreadsheet"
           />
-        </div>
+        </div> */}
       </>
     );
   }

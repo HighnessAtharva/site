@@ -19,10 +19,10 @@
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "predeploy": "npm run --openssl-legacy-provider build",
+    "deploy": "gh-pages -d --openssl-legacy-provider build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
