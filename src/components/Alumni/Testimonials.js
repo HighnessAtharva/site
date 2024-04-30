@@ -1,5 +1,75 @@
 const testimonialsJson = [
   {
+    name: "MR. SAHIL KRISHNADAS",
+    yearOfGraduation: "2020",
+    higherEducation: "Carnegie Mellon University, US",
+    description: "My time at SPIT was a transformative experience, blending practical curriculum, passionate faculty, and diverse research opportunities. The vibrant student life added a unique perspective and strong community bond. This holistic approach prepared me for advanced studies at Carnegie Mellon University, equipping me with the skills to navigate the global landscape. Proud to be part of this community, SPIT continues to shape my journey.",
+    imageUrl: "https://i.ibb.co/rtdjTT0/1.jpg",
+  },
+  {
+    name: "MR. SAURABH JENA",
+    yearOfGraduation: "2017",
+    higherEducation: "Reliance Jio Infocomm Ltd, Mumbai",
+    description: "My 4-year experience at the EXTC department of S.P.I.T was phenomenal and fulfilling. I learned extensively, not just academically but also holistically. Credit goes to professors like you and my peers, who were humble, approachable, and motivated us to see the bigger picture. Being regarded highly as a S.P.I.T alumnus speaks volumes about the institute's brand and legacy. I am proud to be part of the alumni community.",
+    imageUrl: "https://i.ibb.co/VLqRQRZ/img6.jpg",
+  },
+  {
+    name: "MS. VETEKAR MICHELLE",
+    yearOfGraduation: "2018",
+    higherEducation: "JP Morgan, Mumbai | New York",
+    description: "My four years at SPIT were the most impactful in my journey. SPIT taught me technical knowledge and nurtured my entrepreneurial interests, instilling a lifelong attitude of perseverance. Joining the EXTC department, I worked with ISRO in my second year, gaining insights into the Indian Space Industry. Starting a company in my third year, supported by flexible professors, I grew it to serve over 20 global clients and was offered incubation with SP-TBI. Now, as an Investment Banking Analyst at JP Morgan in New York, I credit SPIT for preparing me to handle global clients confidently.",
+    imageUrl: "https://i.ibb.co/5Tp9SS2/img8.jpg",
+  },
+  {
+    name: "MR. AKHIL SARDESAI",
+    yearOfGraduation: "2018",
+    higherEducation: "IIM Indore | PepsiCo",
+    description: "My 4 years at SPIT's ExTC Department were full of learning, self-discovery, industry exposure, and fun. The environment catered to all students, with technically inclined students benefiting from labs, IEEE workshops, and robotics, while others like me could explore semi-technical subjects or join business clubs. With SPIT now autonomous, the syllabus has modernized, offering more practical learning and longer internships. I highly recommend joining SPIT's ExTC branch for a wonderful 4-year journey filled with learning and opportunity.",
+    imageUrl: "https://i.ibb.co/m0dMpkJ/img13.jpg",
+  },
+  {
+    name: "MR. KRISHNA BHATU",
+    yearOfGraduation: "2018",
+    higherEducation: "University of Maryland | PlusOne Robotics, Texas, USA ",
+    description: "Studying EXTC in my bachelor's degree exposed me to diverse career paths like robotics, computer vision, cybersecurity, satellite engineering, and radio engineering. This experience helped me discover my career interests and prepared me for the diverse industry landscape. My advice to new students is to not only focus on coursework but also to learn a programming language, as coding skills are essential for any application engineer",
+    imageUrl: "https://i.ibb.co/GvtsLxN/img18.jpg",
+  },
+  {
+    name: "MR. KRISHNADITYA KANCHARLA",
+    yearOfGraduation: "2019",
+    higherEducation: "Amazon Web Services, Bangalore",
+    description: "As a student of SPIT, I found the academic atmosphere conducive to learning which facilitated in identifying my area of interest. Apart from the robust curriculum, numerous hands-on workshops on cutting-edge technologies were conducted which I found to be incredibly valuable. I am grateful to the faculty for being extremely supportive and providing me with a plethora of opportunities to enhance and showcase my skills.",
+    imageUrl: "https://i.ibb.co/w6fzzFQ/img22.jpg",
+  },
+  {
+    name: "MS. SALONI SHAH",
+    yearOfGraduation: "2019",
+    higherEducation: " IIT Bombay",
+    description: "Being a student at SPIT was one of the best experiences of my life, offering both technical education and essential life skills for the corporate world. The EXTC Department provided practical knowledge through labs and competitions, enhancing my understanding of theoretical concepts. The placement cell deserves special appreciation for their efforts in preparing students for placements. To aspiring SPITians, it will be a rewarding experience where you will learn, grow, and build a successful career, while creating cherished memories.",
+    imageUrl: "https://i.ibb.co/SsJ9xNq/img25.jpg",
+  },
+  {
+    name: "MR. SHUBHAM SIDHWA",
+    yearOfGraduation: "",
+    higherEducation: "Georgia Institute of Technology (Computer Vision and Machine Learning) | View, Inc., Tennessee, United States",
+    description: "As a student in the Bachelors program in EXTC at SPIT, I gained the skills and confidence to use my knowledge in practical applications. Taking courses like Digital Image Processing, Signal Processing, Neural Networks were great assets and are some of the basic concepts I use in my work everyday. The EXTC department helped me gain knowledge of not only working on the software but also the hardware of any project which is an added advantage. I would highly recommend the EXTC department at SPIT to anyone wanting to expand his horizon and gain experience and knowledge both at the same time to get a perfect head start in his/hers career trajectory.",
+    imageUrl: "https://i.ibb.co/FDmdZBQ/img30.jpg",
+  },
+  {
+    name: " MS. MANSI SHARMA",
+    yearOfGraduation: "2018",
+    higherEducation: "Associate Consultant, Capgemini, Mumbai",
+    description: "My journey with Sardar Patel Institute of Technology is definitely one I will cherish for life. In a very short span of time, I was able to learn a lot, which helped me excel academically, as well as personally. S.P.I.T. aims at overall development of an individual and also provides multiple opportunities and exposure to develop new skills. Students are able to showcase their talent not just through technical but also through extra-curricular activities. My experience with the faculty in Electronics and Telecommunication branch has been good. The competitive environment always pushed me to perform my best. All this experience and learning helped me bag a job at Capgemini. I'm grateful that I could be a part of this institute.",
+    imageUrl: "https://i.ibb.co/CW72b9q/img38.jpg",
+  },
+  {
+    name: "MR. NIKET SHAH",
+    yearOfGraduation: "2018",
+    higherEducation: "M.S. (Robotics), University of Maryland, College Park | Robotics Software Engineer, Airgility, Maryland, USA",
+    description: "The four years at SPIT has been a brilliant experience, with exposure in both theory and practical domain. EXTC as a branch was a great choice for me as it opened a lot of doors for me after my graduation having the basic conceptual knowledge of a lot of domains. The department has been really helpful with many knowledgable professors and the course is also designed in a brilliant way with a blend of courses and lab experiments. A message to the future students would be to join EXTC if you want to explore different domains and figure out your forte.",
+    imageUrl: "https://i.ibb.co/9GCJDH7/img39.jpg",
+  },
+  {
     name: "Mr. EESHAAN ASODEKAR",
     yearOfGraduation: "2023",
     higherEducation: "M.S., New York University, U.S",
@@ -329,102 +399,102 @@ const testimonialsJson = [
       "During my time at SPIT, I have had an incredible journey filled with a diverse range of experiences encompassing academics and cultural events.",
     imageUrl: "https://i.ibb.co/MBc2Z0s/image082.jpg",
   },
-  {
-    name: "Ms. BHAVIKA VAISHNAVI",
-    yearOfGraduation: "2023",
-    higherEducation: "JP Morgan Chase & Co.",
-    description:
-      "As an alumnus of this esteemed institution, I cannot emphasize enough how my experience at Sardar Patel Institute of Technology has shaped my academic and personal growth.",
-    imageUrl: "https://i.ibb.co/hCSqMqd/image084.jpg",
-  },
-  {
-    name: "Ms. SHRADDHA BHAGYAWANT",
-    yearOfGraduation: "2023",
-    higherEducation: "BDO LLP",
-    description:
-      "As a student at Sardar Patel Institute of Technology (SPIT), my four-year journey in engineering would be filled with growth, challenges, and memorable experiences.",
-    imageUrl: "https://i.ibb.co/SJV0Rx1/image086.gif",
-  },
-  {
-    name: "Mr. SARVESH JARE",
-    yearOfGraduation: "2023",
-    higherEducation: "BNP PARIBAS ISPL",
-    description:
-      "My journey with SPIT has been great, I have so many experiences during these 4, and I have learned so many different things in curricular and extracurricular also.",
-    imageUrl: "https://i.ibb.co/4W4MtHB/image088.gif",
-  },
-  {
-    name: "Ms. ANUSHKA PILENA",
-    yearOfGraduation: "2023",
-    higherEducation: "Colgate Global Business Services Private Limited",
-    description:
-      "My journey at SPIT has been like a roller coaster with ups and downs, twists, and turns, exciting and thrilling.",
-    imageUrl: "https://i.ibb.co/0qkrXZQ/image090.jpg",
-  },
-  {
-    name: "Mr. PARAM MEHTA",
-    yearOfGraduation: "2023",
-    higherEducation: "OMP - INDIA",
-    description:
-      "I am deeply grateful for my transformative journey as an electronics engineer at S.P.I.T. The college's dynamic community, dedicated faculty, and emphasis on practical learning shaped my professional development.",
-    imageUrl: "https://i.ibb.co/pLd2Vdw/image092.jpg",
-  },
-  {
-    name: "Mr. SURAJ KAMTEKAR",
-    yearOfGraduation: "2023",
-    higherEducation: "Colgate Global Business Services",
-    description:
-      "My journey at SPIT has been great, as I joined in the second year, after completing my 3 years diploma.",
-    imageUrl: "https://i.ibb.co/yQMC5FH/image094.jpg",
-  },
-  {
-    name: "Mr. SUMIT KULKARNI",
-    yearOfGraduation: "2023",
-    higherEducation: "BNP Paribas",
-    description:
-      "During my time at Sardar Patel Institute of Technology, I had an enriching and rewarding journey. The institute played a crucial role in shaping my engineering education.",
-    imageUrl: "https://i.ibb.co/mtGnkWZ/image096.jpg",
-  },
-  {
-    name: "Mr. BILAL SANI",
-    yearOfGraduation: "2023",
-    higherEducation: "Ugam (Merkel)",
-    description:
-      "During my time at SPIT, I embarked on an incredible journey filled with a diverse range of experiences in academics and cultural events.",
-    imageUrl: "https://i.ibb.co/Ph94GCg/image098.jpg",
-  },
-  {
-    name: "Ms. POOJA KHISMATRAO",
-    yearOfGraduation: "2023",
-    higherEducation: "LTIMindtree",
-    description:
-      "My journey at SPIT has been grateful. One of the best things about college life is that I got a new experience every day.",
-    imageUrl: "https://i.ibb.co/bz58ytV/image100.jpg",
-  },
-  {
-    name: "Mr. SWARAJ SALUNKE",
-    yearOfGraduation: "2023",
-    higherEducation: "BDO India LLP",
-    description:
-      "It was an amazing journey at SPIT. The best part about college is a college campus, oculus, free space in college, and friends.",
-    imageUrl: "https://i.ibb.co/RNj9kBF/image102.jpg",
-  },
-  {
-    name: "Mr. LOKESH PATIL",
-    yearOfGraduation: "2023",
-    higherEducation: "MAQ Software",
-    description:
-      "I had a great experience at SPIT. The curriculum is great. I had met lots of students who came from a very competitive environment.",
-    imageUrl: "https://i.ibb.co/k62rw8Q/image103.jpg",
-  },
-  {
-    name: "Mr. RAHUL ALSHI",
-    yearOfGraduation: "2023",
-    higherEducation: "Colgate Global Business Services Private Limited",
-    description:
-      "My journey at SPIT has been very enthralling and enjoying. All the staff and teachers have been very supportive, and I would thank them for their guidance.",
-    imageUrl: "https://i.ibb.co/3NS7tZR/image106.jpg",
-  },
+  // {
+  //   name: "Ms. BHAVIKA VAISHNAVI",
+  //   yearOfGraduation: "2023",
+  //   higherEducation: "JP Morgan Chase & Co.",
+  //   description:
+  //     "As an alumnus of this esteemed institution, I cannot emphasize enough how my experience at Sardar Patel Institute of Technology has shaped my academic and personal growth.",
+  //   imageUrl: "https://i.ibb.co/hCSqMqd/image084.jpg",
+  // },
+  // {
+  //   name: "Ms. SHRADDHA BHAGYAWANT",
+  //   yearOfGraduation: "2023",
+  //   higherEducation: "BDO LLP",
+  //   description:
+  //     "As a student at Sardar Patel Institute of Technology (SPIT), my four-year journey in engineering would be filled with growth, challenges, and memorable experiences.",
+  //   imageUrl: "https://i.ibb.co/SJV0Rx1/image086.gif",
+  // },
+  // {
+  //   name: "Mr. SARVESH JARE",
+  //   yearOfGraduation: "2023",
+  //   higherEducation: "BNP PARIBAS ISPL",
+  //   description:
+  //     "My journey with SPIT has been great, I have so many experiences during these 4, and I have learned so many different things in curricular and extracurricular also.",
+  //   imageUrl: "https://i.ibb.co/4W4MtHB/image088.gif",
+  // },
+  // {
+  //   name: "Ms. ANUSHKA PILENA",
+  //   yearOfGraduation: "2023",
+  //   higherEducation: "Colgate Global Business Services Private Limited",
+  //   description:
+  //     "My journey at SPIT has been like a roller coaster with ups and downs, twists, and turns, exciting and thrilling.",
+  //   imageUrl: "https://i.ibb.co/0qkrXZQ/image090.jpg",
+  // },
+  // {
+  //   name: "Mr. PARAM MEHTA",
+  //   yearOfGraduation: "2023",
+  //   higherEducation: "OMP - INDIA",
+  //   description:
+  //     "I am deeply grateful for my transformative journey as an electronics engineer at S.P.I.T. The college's dynamic community, dedicated faculty, and emphasis on practical learning shaped my professional development.",
+  //   imageUrl: "https://i.ibb.co/pLd2Vdw/image092.jpg",
+  // },
+  // {
+  //   name: "Mr. SURAJ KAMTEKAR",
+  //   yearOfGraduation: "2023",
+  //   higherEducation: "Colgate Global Business Services",
+  //   description:
+  //     "My journey at SPIT has been great, as I joined in the second year, after completing my 3 years diploma.",
+  //   imageUrl: "https://i.ibb.co/yQMC5FH/image094.jpg",
+  // },
+  // {
+  //   name: "Mr. SUMIT KULKARNI",
+  //   yearOfGraduation: "2023",
+  //   higherEducation: "BNP Paribas",
+  //   description:
+  //     "During my time at Sardar Patel Institute of Technology, I had an enriching and rewarding journey. The institute played a crucial role in shaping my engineering education.",
+  //   imageUrl: "https://i.ibb.co/mtGnkWZ/image096.jpg",
+  // },
+  // {
+  //   name: "Mr. BILAL SANI",
+  //   yearOfGraduation: "2023",
+  //   higherEducation: "Ugam (Merkel)",
+  //   description:
+  //     "During my time at SPIT, I embarked on an incredible journey filled with a diverse range of experiences in academics and cultural events.",
+  //   imageUrl: "https://i.ibb.co/Ph94GCg/image098.jpg",
+  // },
+  // {
+  //   name: "Ms. POOJA KHISMATRAO",
+  //   yearOfGraduation: "2023",
+  //   higherEducation: "LTIMindtree",
+  //   description:
+  //     "My journey at SPIT has been grateful. One of the best things about college life is that I got a new experience every day.",
+  //   imageUrl: "https://i.ibb.co/bz58ytV/image100.jpg",
+  // },
+  // {
+  //   name: "Mr. SWARAJ SALUNKE",
+  //   yearOfGraduation: "2023",
+  //   higherEducation: "BDO India LLP",
+  //   description:
+  //     "It was an amazing journey at SPIT. The best part about college is a college campus, oculus, free space in college, and friends.",
+  //   imageUrl: "https://i.ibb.co/RNj9kBF/image102.jpg",
+  // },
+  // {
+  //   name: "Mr. LOKESH PATIL",
+  //   yearOfGraduation: "2023",
+  //   higherEducation: "MAQ Software",
+  //   description:
+  //     "I had a great experience at SPIT. The curriculum is great. I had met lots of students who came from a very competitive environment.",
+  //   imageUrl: "https://i.ibb.co/k62rw8Q/image103.jpg",
+  // },
+  // {
+  //   name: "Mr. RAHUL ALSHI",
+  //   yearOfGraduation: "2023",
+  //   higherEducation: "Colgate Global Business Services Private Limited",
+  //   description:
+  //     "My journey at SPIT has been very enthralling and enjoying. All the staff and teachers have been very supportive, and I would thank them for their guidance.",
+  //   imageUrl: "https://i.ibb.co/3NS7tZR/image106.jpg",
+  // },
 ];
 
 export default testimonialsJson;

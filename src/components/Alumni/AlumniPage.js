@@ -29,7 +29,7 @@ class AlumniPage extends Component {
                 <Card.Text>
                   <b><i><small className="text-muted">{`Graduation Year: ${testimonial.yearOfGraduation}`}</small></i></b>
                   <br></br>
-                  <small className="text-muted">{`Currently At: ${testimonial.higherEducation}`}</small>
+                  <small className="text-muted">{`${testimonial.higherEducation}`}</small>
                 </Card.Text>
               </Card.Body>
             </Card>

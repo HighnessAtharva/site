@@ -8,9 +8,9 @@ const yearWisePractices = [
         methods:
           "Reveiw of Paper; Mini Project; Moodle based evaluation; Unique experiment data set",
         outcomes:
-          "Lifelong learning and presentation skills; Lifelong learning, technical writing, and presentation skills; Engaged in learning and Team effort; Promote self-learning",
+          "Promote lifelong learning, technical writing, and presentation skills; actively engage in team-based learning and promote self-learning.",
         measures:
-          "Submit answers to given Questionnaire; Rubrics, implementation & demonstration of project, IEEE Paper & Patent; Rubrics, Class Assignment, Quiz; Viva, Authentic experimentation and Evaluation",
+          "Rubrics, implementation & demonstration of project, IEEE Paper & Patent; Class Assignment, Quiz; Viva, Authentic experimentation and Evaluation",
       },
       {
         index: 2,
@@ -23,7 +23,7 @@ const yearWisePractices = [
         index: 3,
         name: "Dr. Sukanya Kulkarni",
         methods:
-          "1. Technical paper review activity in ITC and ADC course\n2. Create your own Wiki assignment on applications of Error correction codes in ITC course",
+          "Technical paper review activity in ITC and ADC course. Create your own Wiki assignment on applications of Error correction codes in ITC course",
         outcomes: "",
         measures: "Assessment using rubric and oral evaluation",
       },
@@ -78,9 +78,9 @@ const yearWisePractices = [
         methods:
           "Reveiw of Paper, Mini Project, Moodle based evaluation, Unique experiment data set",
         outcomes:
-          "Lifelong learning and presentation skills, Lifelong learning, technical writing and presentation skills, Engaged in learning and Team effort, promote self-learning",
+          "Lifelong learning, technical writing and presentation skills, Engaged in Team effort, promote self-learning",
         measures:
-          "Submit answers to given Questionnaire, Rubrics, implementation & demonstration of project, IEEE Paper & Patent, Rubrics, Class Assignment, Quiz, Viva, Authentic experimentation and Evaluation",
+          "Rubrics, implementation & demonstration of project, IEEE Paper & Patent; Class Assignment, Quiz; Viva, Authentic experimentation and Evaluation",
       },
       {
         index: 3,
@@ -109,8 +109,8 @@ const yearWisePractices = [
         methods:
           "Mini Project : Microwave Communication, Optical Communication: Case Study",
         outcomes:
-          "Microwave passive devices were made by the students this helped them understand simulation and fabrication process, Implementation of concepts in Matlab/Python for better visualization of difficult concepts like losses in fiber and networks",
-        measures: "Report/Viva, Report/Viva",
+          "Students made microwave passive devices to understand simulation and fabrication, implementing concepts in Matlab/Python for better visualization, such as losses in fiber and networks.",
+        measures: "Report/Viva",
       },
       {
         index: 7,
@@ -118,8 +118,8 @@ const yearWisePractices = [
         methods:
           "Case Study Presentation cum Implementation, Virtual Lab developed by Amrita Vishwa Vidyalya (Vlab) for conducting labs on Semiconductor material characterization techniques.",
         outcomes:
-          "Engaged in learning and Team effort, Engaged in learning and Team effort",
-        measures: "Online, Online",
+          "Engaged in learning and Team effort",
+        measures: "Online",
       },
       {
         index: 8,
@@ -159,7 +159,7 @@ const yearWisePractices = [
         outcomes:
           "Engaged in learning and Team effort, Engaged in knowing the recent developments and research aspects, No copying",
         measures:
-          "Assignment Evaluation, Flipped Classroom, Viva, Authentic experimentation and Evaluation",
+          "Assignment Evaluation, Flipped Classroom, Viva, Authentic experimentation",
       },
       {
         index: 4,
@@ -174,9 +174,9 @@ const yearWisePractices = [
         methods:
           "Moodle based assessment & testmoz and programming based test for experiments, Miniproject, Research paper reading activity",
         outcomes:
-          "Conceptual knowledge and understanding, Lifelong learning, technical writing and presentation skills, promote self-learning, Life-long learning and writing skills",
+          "Conceptual knowledge and understanding, Lifelong learning, technical writing and presentation skills, promote self-learning",
         measures:
-          "MCQ Quizzes and programming, paper writing in IEEE format and demonstration of project, Viva, and demonstration of experiments, Submit answers to a given questionnaire",
+          "MCQ Quizzes and programming, paper writing in IEEE format and demonstration of project, Viva, Submit answers to a given questionnaire",
       },
       {
         index: 6,
@@ -229,7 +229,7 @@ const yearWisePractices = [
         outcomes:
           "Engaged Learning, Simplification of concepts, Engagement and happiness of students, Exposure to industrial application, Intellectual debate and discussion, Easy Experimentation on an online platform, Stress Buster",
         measures:
-          "Weekly Feedback, Rubric Evaluation, Quiz+ feedback, Rubric evaluation, Online, Online, Online, Online, Online",
+          "Weekly Feedback, Rubric Evaluation, Quiz, Online",
       },
       {
         index: 12,
@@ -239,7 +239,7 @@ const yearWisePractices = [
         outcomes:
           "Engaged Learning, Simplification of concepts, Engagement of students, Awareness of Lab Processes",
         measures:
-          "Weekly Feedback, Feedback, Authentic Experimentation, and evaluation, Viva, and demonstration of projects, Assignment Evaluation, Flipped Classroom",
+          "Weekly Feedback, Authentic Experimentation, and evaluation, Viva, and demonstration of projects, Flipped Classroom",
       },
       {
         index: 13,
@@ -278,7 +278,7 @@ const yearWisePractices = [
         name: "Prof. N. A. Bhagat",
         methods:
           "Use of pen tab for teaching, Network Theory/Digital Circuits/VLSI LECTURES with table TOP Mobile capturing the A4 page video online.",
-        outcomes: "Effecting teaching, Effecting teaching",
+        outcomes: "Effecting teaching",
         measures: "Online",
       },
       {
@@ -286,8 +286,8 @@ const yearWisePractices = [
         name: "Prof. Najib Ghatte",
         methods:
           "Signal System lecture on Pentab and Demonstration session on Smart TV, Upload of lectures on YouTube for future perusal",
-        outcomes: "Effecting teaching, Effecting teaching",
-        measures: "Online, Online",
+        outcomes: "Effecting teaching",
+        measures: "Online",
       },
       {
         index: 19,
@@ -338,7 +338,7 @@ const yearWisePractices = [
         outcomes:
           "Engaged in learning and Team effort, Engaged in knowing the recent developments and research aspects, No copying",
         measures:
-          "Assignment Evaluation, Flipped Classroom, Viva, Authentic experimentation and Evaluation",
+          "Assignment Evaluation, Flipped Classroom, Viva, Authentic experimentation",
         class: "TE",
         sem: "Sem V, VI",
       },
@@ -357,7 +357,7 @@ const yearWisePractices = [
         methods:
           "Moodle based assessment & testmoz and programming based test for experiments, Miniproject, Research paper reading activity",
         outcomes:
-          "Conceptual knowledge and understanding, Lifelong learning and technical writing and presentation skills, promote self learning, Life-long learning and writing skills",
+          "Conceptual knowledge and understanding, Lifelong learning and technical writing and presentation skills, promote self learning",
         measures:
           "MCQ Quizzes and programming, paper writing in IEEE format and demonstration of project, Viva, and demonstration of experiments, Submit answers to a given questionnaire",
         class: "TE, SE",
@@ -390,7 +390,7 @@ const yearWisePractices = [
         methods:
           "Batchwise different problems,Individual lab Submissions, Industry Person Guest Lecture Lab Based Courses, Individual Miniproject for M.Tech,For B.Tech group of 3 students in project",
         outcomes:
-          "Understanding of basics & practical demonstration, Representation skills, Industrial Technical skills improvements, Technical problem-solving, programming, writing, and presentation skills",
+          "Understanding of basics & practical demonstration, Representation skills, Industrial Technical skills improvements, Technical problem-solving, programming, writing skills",
         measures:
           "Viva, Individual lab evaluation, Feedback, IEEE paper preparation, demonstration of project through oral presentation",
         class: "TE, BE",
@@ -424,7 +424,7 @@ const yearWisePractices = [
         outcomes:
           "Engaged Learning, Simplification of concepts, Engagement and happiness of students, Exposure to industrial application, Intellectual debate and discussion, Easy Experimentation on an online platform, Stress Buster",
         measures:
-          "Weekly Feedback, Rubric Evaluation, Quiz+ feedback, Rubric evaluation, Online, Online, Online, Online, Online",
+          "Weekly Feedback, Rubric Evaluation, Quiz, Online",
         class: "TE, BE",
         sem: "VI, VII",
       },
@@ -436,7 +436,7 @@ const yearWisePractices = [
         outcomes:
           "Engaged Learning, Simplification of concepts, Engagement of students, Awareness of Lab Processes",
         measures:
-          "Weekly Feedback, Feedback, Authentic Experimentation, and evaluation, Viva, and demonstration of projects, Assignment Evaluation, Flipped Classroom",
+          "Weekly Feedback, Authentic Experimentation, and evaluation, Viva, and demonstration of projects, Flipped Classroom",
         class: "SE, FE",
         sem: "I, II, III VI",
       },
@@ -463,9 +463,9 @@ const yearWisePractices = [
         methods:
           "Review of Paper, Mini Project, Moodle based evaluation, Unique experiment data set",
         outcomes:
-          "Lifelong learning and presentation skills, Lifelong learning, technical writing and presentation skills, Engaged in learning and Team effort, promote self-learning",
+          "Lifelong learning, technical writing and presentation skills, Engaged in learning and Team effort, promote self-learning",
         measures:
-          "Submit answers to given Questionnaire, Rubrics, implementation & demonstration of project, IEEE Paper & Patent, Rubrics, Class Assignment, Quiz, Viva, Authentic experimentation and Evaluation",
+          "Submit answers to given Questionnaire, Rubrics, implementation & demonstration of project, IEEE Paper & Patent, Class Assignment, Quiz, Viva, Authentic experimentation and Evaluation",
         class: "TE",
         sem: "V, VI",
       },
@@ -494,7 +494,7 @@ const yearWisePractices = [
           "Mini Project : Microwave Communication, Optical Communication: Case Study",
         outcomes:
           "Microwave passive devices were made by the students this helped them understand simulation and fabrication process, Implementation of concepts in Matlab/Python for better visualization of difficult concepts like losses in fiber and networks",
-        measures: "Report/Viva, Report/Viva",
+        measures: "Report/Viva",
         class: "TE, BE",
         sem: "VI, IV",
       },

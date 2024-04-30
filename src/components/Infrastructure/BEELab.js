@@ -16,7 +16,7 @@ class BEELab extends Component {
               <h6>Lab location: 3rd Floor, Room No. 311</h6>
               <h6>Area of the lab in carpet: 121.1 sq. mtrs</h6>
               <h6>
-                Approximate Cost of the equipments in the lab: Rs. 13924.21/-
+                Approximate Cost of the equipments in the lab: Rs. 13,92,421/-
               </h6>
               <br></br>
               <h6>Name of the Lab Incharge:- Prof. Govind Tukaram Haldankar</h6>

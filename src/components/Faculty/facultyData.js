@@ -2,7 +2,7 @@ module.exports=[
     {
       "name": "Dr. Y.S. Rao",
       "designation": "Vice Principal, Professor",
-      "image": require("../../images/facultyImg/F1.png"),
+      "image": "https://i.ibb.co/kmMBnSM/F1.png",
       "qualification": "Ph.D. (IIT Bombay-ES)",
       "experience": "30+ Years",
       "expertise": "Embedded System, Digital Power Electronics, VLSI Design, Wireless Sensor Networks",
@@ -14,7 +14,7 @@ module.exports=[
     {
       "name": "Dr. Rajendra R Sawant",
       "designation": "Professor, Electronics & Telecom",
-      "image": require("../../images/facultyImg/F2.jpg"),
+      "image": "https://i.ibb.co/fCD6PMq/F2.jpg",
       "qualification": "PhD(IITB); MTech(IITB); BE(Elect.Engg)(GCoE, A’Bad, DBM)",
       "experience": "30+ Years",
       "expertise": "Power Electronics & Automation",
@@ -26,7 +26,7 @@ module.exports=[
     {
         "name": "Dr. Kiran Talele",
         "designation": "Associate Professor & Dean-Students, Alumni & External Relations",
-        "image": require("../../images/facultyImg/F3.png"),
+        "image": "https://i.ibb.co/HVbqVvf/F3.png",
         "qualification": "PhD",
         "experience": "35 Years",
         "expertise": "Digital Signal & Image Processing, Computer Vision & Machine Learning",
@@ -38,7 +38,7 @@ module.exports=[
       {
         "name": "Dr. Reena Sonkusare",
         "designation": "Associate Professor & HOD",
-        "image": require("../../images/facultyImg/F4.jpg"),
+        "image": "https://i.ibb.co/YQm8Xrf/F4.jpg",
         "qualification": "Ph.D(Mumbai University), MTech(IIT Bombay)",
         "experience": "25 Years",
         "expertise": "Mixed Signal VLSI Design, RF Antenna, Communication",
@@ -50,7 +50,7 @@ module.exports=[
       {
         "name": "Dr. Sukanya A. Kulkarni",
         "designation": "Associate Professor",
-        "image": require("../../images/facultyImg/F5.png"),
+        "image": "https://i.ibb.co/d5wJvCf/F5.png",
         "qualification": "Ph.D(Mumbai University)",
         "experience": "30 Years",
         "expertise": "RF & Wireless Communication",
@@ -62,7 +62,7 @@ module.exports=[
       {
         "name": "Dr. Deepak C Karia",
         "designation": "Associate Professor",
-        "image": require("../../images/facultyImg/F6.png"),
+        "image": "https://i.ibb.co/0tFxQbz/F6.png",
         "qualification": "Ph.D(Mumbai University)",
         "experience": "22+ Years",
         "expertise": "Communication, Networking",
@@ -74,7 +74,7 @@ module.exports=[
       {
         "name": "Dr. Rajendra Sutar",
         "designation": "Associate Professor",
-        "image": require("../../images/facultyImg/F7.jpg"),
+        "image": "https://i.ibb.co/YLSCMKJ/F7.jpg",
         "qualification": "M.E. PhD (VNIT)",
         "experience": "25 Years",
         "expertise": "Power Electronics, Biomedical Electronics, Electronic Circuits & Systems",
@@ -86,7 +86,7 @@ module.exports=[
       {
         "name": "Dr. Narendra Anant Bhagat",
         "designation": "Associate Professor",
-        "image": require("../../images/facultyImg/F8.jpg"),
+        "image":"https://i.ibb.co/TvFj8x8/F8.jpg",
         "qualification": "Ph.D (Mumbai University), MTech (Mumbai University)",
         "experience": "24 Years",
         "expertise": "Analog & Digital VLSI Design, Digital Electronics & Microprocessors, Electrical Network, B.E.E.",
@@ -98,7 +98,7 @@ module.exports=[
       {
         "name": "Prof. Manish M. Parmar",
         "designation": "Associate Professor",
-        "image": require("../../images/facultyImg/F9.jpg"),
+        "image": "https://i.ibb.co/j4tZ77P/F9.jpg",
         "qualification": "M.E. (IT), Pursuing PhD",
         "experience": "33 Years",
         "expertise": "Microprocessors, Computer Architecture, Embedded Systems, Computer Networks",
@@ -110,7 +110,7 @@ module.exports=[
       {
         "name": "Dr. P. V. Kasambe",
         "designation": "Assistant Professor",
-        "image": require("../../images/facultyImg/F10.png"),
+        "image": "https://i.ibb.co/mXcYTDD/F10.png",
         "qualification": "Ph.D Electronics (University of Mumbai), M.E. (Electronics, University of Mumbai)",
         "experience": "24 Years",
         "expertise": "VLSI, Optimization Algorithms, MEMS Sensor Design",
@@ -122,7 +122,7 @@ module.exports=[
       {
         "name": "Dr. Anand D. Mane",
         "designation": "Assistant Professor",
-        "image": require("../../images/facultyImg/F11.png"),
+        "image": "https://i.ibb.co/yX20fpp/F11.png",
         "qualification": "Ph.D (Mumbai University), M.E. (Communication Engineering, Electronics Engineering)",
         "experience": "25 Years Teaching, 2 Years Industry",
         "expertise": "Mobile Communication, Wireless Networks, Embedded Systems",
@@ -135,7 +135,7 @@ module.exports=[
       {
         "name": "Prof. Payal Shah",
         "designation": "Assistant Professor",
-        "image": require("../../images/facultyImg/F13.jpg"),
+        "image": "https://i.ibb.co/64QYpGm/F13.jpg",
         "qualification": "M.E (Electrical) (Automatic Control and Robotics), Pursuing Ph.D",
         "experience": "17 Years",
         "expertise": "Electronic Devices and Circuits, Analog VLSI Design, Neuromorphic Engineering",
@@ -147,7 +147,7 @@ module.exports=[
       {
         "name": "Prof. G. T. Haldankar",
         "designation": "Assistant Professor",
-        "image": require("../../images/facultyImg/F14.png"),
+        "image": "https://i.ibb.co/HG5GNSd/F14.png",
         "qualification": "M.E. Electronics",
         "experience": "13 Years",
         "expertise": "Power Electronics",
@@ -159,7 +159,7 @@ module.exports=[
       {
         "name": "Prof. Manisha Bansode",
         "designation": "Assistant Professor",
-        "image": require("../../images/facultyImg/F15.png"),
+        "image": "https://i.ibb.co/vJ4SCQm/F15.png",
         "qualification": "M.E (Electronics and Telecommunication Engineering) (pursuing Ph.D)",
         "experience": "17 Years",
         "expertise": "Communication Engineering, Electronics circuit design, Image Processing",
@@ -171,7 +171,7 @@ module.exports=[
       {
         "name": "Prof. Milind Paraye",
         "designation": "Assistant Professor",
-        "image": require("../../images/facultyImg/F16.png"),
+        "image": "https://i.ibb.co/Nm2MmcM/F16.png",
         "qualification": "M.E. (Pursuing Ph.D.)",
         "experience": "14 Years",
         "expertise": "Embedded Systems, PV solar, ML, AI",
@@ -183,7 +183,7 @@ module.exports=[
       {
         "name": "Prof. Priya Deshpande",
         "designation": "Assistant Professor",
-        "image": require("../../images/facultyImg/F17.jpg"),
+        "image": "https://i.ibb.co/HxZnbTW/F17.jpg",
         "qualification": "M.Tech. (Pursuing Ph.D.)",
         "experience": "10 Years",
         "expertise": "Embedded System, Signal and Image Processing",
@@ -195,7 +195,7 @@ module.exports=[
       {
         "name": "Prof. Najib Ghatte",
         "designation": "Assistant Professor",
-        "image": require("../../images/facultyImg/F18.jpg"),
+        "image": "https://i.ibb.co/c3sJXjb/F18.jpg",
         "qualification": "B.E; M.E",
         "experience": "10 Years",
         "expertise": "Control System, Signals and Systems, Electronic Devices, Networks, 8051",
@@ -207,7 +207,7 @@ module.exports=[
       {
         "name": "Prof. Pallavi Malame(Nair)",
         "designation": "Assistant Professor",
-        "image": require("../../images/facultyImg/F19.png"),
+        "image": "https://i.ibb.co/7v0gD3y/F19.png",
         "qualification": "B.E; M.E",
         "experience": "9 Years",
         "expertise": "Antennas & Microwave Engineering, Electromagnetics, Dielectric Spectroscopy",
@@ -219,7 +219,7 @@ module.exports=[
       {
         "name": "Dr. Amol S Deshpande",
         "designation": "Assistant Professor",
-        "image": require("../../images/facultyImg/F20.png"),
+        "image": "https://i.ibb.co/KN7VvFz/F20.png",
         "qualification": "PhD, Post-Doc",
         "experience": "9 Years",
         "expertise": "High Voltage Engineering, Image Processing",
@@ -231,7 +231,7 @@ module.exports=[
       {
         "name": "Prof. Sneha A. Weakey",
         "designation": "Assistant Professor",
-        "image": require("../../images/facultyImg/F21.jpg"),
+        "image": "https://i.ibb.co/BrNsHpk/F21.jpg",
         "qualification": "M.Tech (Control System)",
         "experience": "6 Years",
         "expertise": "Control Systems, Digital Circuits, Electronics Devices",
@@ -243,7 +243,7 @@ module.exports=[
       {
         "name": "Dr. Santoshkumar Sabat",
         "designation": "Assistant Professor",
-        "image": require("../../images/facultyImg/F22.jpg"),
+        "image": "https://i.ibb.co/GWNZS2d/F22.jpg",
         "qualification": "Ph. D (VNIT Nagpur)",
         "experience": "10 Years",
         "expertise": "Wireless Communication, LTE, 5G",

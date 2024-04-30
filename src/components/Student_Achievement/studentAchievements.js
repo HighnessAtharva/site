@@ -16,23 +16,25 @@ class StudentAchievements extends Component {
             <table className="table table-striped">
               <thead>
                 <tr>
-                  <th>Sr.No.</th>
+                  {/* <th>Sr.No.</th> */}
+                  <th>Date</th>
                   <th>Name of Student</th>
                   <th>Class</th>
                   <th>Achievement</th>
                   <th>Description of Award</th>
-                  <th>Date</th>
+                 
                 </tr>
               </thead>
               <tbody>
                 {studentsData.slice().reverse().map((student) => (
                   <tr key={student.id}>
-                    <td>{student.id}</td>
+                    {/* <td>{student.id}</td> */}
+                    <td>{student.date}</td>
                     <td>{student.name}</td>
                     <td>{student.class}</td>
                     <td>{student.achievement}</td>
                     <td>{student.awardDescription}</td>
-                    <td>{student.date}</td>
+                    
                   </tr>
                 ))}
               </tbody>
