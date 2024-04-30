@@ -21,7 +21,7 @@ export class Footer extends Component {
             >
               <Image src={college} fluid />
               <h4 className="mt-3 text-center">
-                Sardar Patel <br /> Institute of Technology
+                Sardar Patel Institute of Technology
               </h4>
             </Col>
             <Col
