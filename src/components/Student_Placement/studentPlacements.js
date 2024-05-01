@@ -3,7 +3,7 @@ import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import "./Placements.css";
 import BannerImg from "./companies.png";
 import PlacementImg from "./placementbar.png";
-import HigherStudies from "./HigherStudies.png";
+import HigherStudies from "./HigherStudies2.png";
 
 class StudentPlacements extends Component {
   render() {

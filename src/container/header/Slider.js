@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Button, Container, Row, Col, Carousel, Image } from "react-bootstrap";
-import slide01 from "../../images/slide-01.jpg";
+import slide01 from "../../images/banner.png";
 import slide02 from "../../images/slide-02.jpg";
 import slide03 from "../../images/slide-03.jpg";
 import "./header.css";
@@ -38,7 +38,7 @@ class Slider extends Component {
                     variant="danger"
                     style={{ fontSize: "1.2rem", marginBottom: 10 }}
                   >
-                    Now
+Read More
                   </Button>
                 </Carousel.Caption>
               </Carousel.Item>
