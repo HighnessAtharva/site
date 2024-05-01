@@ -49,6 +49,12 @@ import AnalogCircuitLab from "./components/Infrastructure/AnalogCircuitLab";
 import VLSILab from "./components/Infrastructure/VLSILab";
 import ElectronicsDeviceLab from "./components/Infrastructure/ElectronicsDeviceLab";
 import FiberOpticLab from "./components/Infrastructure/FiberOpticLab";
+import ResearchLab from "./components/Infrastructure/ResearchLab";
+import InstrumentationLab from "./components/Infrastructure/InstrumentationLab";
+import Lab507A from "./components/Infrastructure/Lab507A";
+import Lab508 from "./components/Infrastructure/Lab508";
+import Class203 from "./components/Infrastructure/Class203";
+import Class509 from "./components/Infrastructure/Class509";
 import AlumniPage from "./components/Alumni/AlumniPage";
 import FETSPage from "./components/FETS/FETSPage";
 
@@ -180,6 +186,24 @@ class App extends React.Component {
             </Route>
             <Route exact path="/fiberOpticLab">
               <FiberOpticLab />
+            </Route>
+            <Route exact path="/researchLab">
+              <ResearchLab />
+            </Route>
+            <Route exact path="/instrumentationLab">
+              <InstrumentationLab />
+            </Route>
+            <Route exact path="/Lab507">
+              <Lab507A />
+            </Route>
+            <Route exact path="/Lab508">
+              <Lab508 />
+            </Route>
+            <Route exact path="/Class203">
+              <Class203 />
+            </Route>
+            <Route exact path="/Class509">
+              <Class509 />
             </Route>
 
             <Route exact path="/alumni">
