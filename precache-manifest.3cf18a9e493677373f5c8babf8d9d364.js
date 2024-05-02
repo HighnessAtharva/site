@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e2ff93cf43eab47e872de713a9019acb",
+    "revision": "60bec75aa41ef4c310890e95458af39a",
     "url": "/React-University-Website/index.html"
   },
   {
-    "revision": "979fb5501f06367c16e0",
+    "revision": "5a7d683723a2de3548f8",
     "url": "/React-University-Website/static/css/2.a2d1f71e.chunk.css"
   },
   {
-    "revision": "75a1c8e28677994ae4f5",
-    "url": "/React-University-Website/static/css/main.14e0db04.chunk.css"
+    "revision": "89a4314ac3ae4f245bd1",
+    "url": "/React-University-Website/static/css/main.cdf58c2d.chunk.css"
   },
   {
-    "revision": "979fb5501f06367c16e0",
-    "url": "/React-University-Website/static/js/2.5a1c8eb9.chunk.js"
+    "revision": "5a7d683723a2de3548f8",
+    "url": "/React-University-Website/static/js/2.535b6282.chunk.js"
   },
   {
     "revision": "cfe63c1848a227eaaf4c756b8cf4bf44",
-    "url": "/React-University-Website/static/js/2.5a1c8eb9.chunk.js.LICENSE.txt"
+    "url": "/React-University-Website/static/js/2.535b6282.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "75a1c8e28677994ae4f5",
-    "url": "/React-University-Website/static/js/main.61ea705c.chunk.js"
+    "revision": "89a4314ac3ae4f245bd1",
+    "url": "/React-University-Website/static/js/main.58ebd961.chunk.js"
   },
   {
     "revision": "f5cc168e2cb2070e5d4f",
@@ -88,88 +88,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-University-Website/static/media/EXTC_Video.d6fc84a5.mp4"
   },
   {
-    "revision": "c3b4bda5c02949459f1e040657351fb5",
-    "url": "/React-University-Website/static/media/F1.c3b4bda5.png"
-  },
-  {
-    "revision": "5efbdc82a398201a115d163ce2594604",
-    "url": "/React-University-Website/static/media/F10.5efbdc82.png"
-  },
-  {
-    "revision": "d7760f0285256df4d2f7742a163f0a91",
-    "url": "/React-University-Website/static/media/F11.d7760f02.png"
-  },
-  {
-    "revision": "4ab6633b1bdecc24c0da7f935c87b111",
-    "url": "/React-University-Website/static/media/F13.4ab6633b.jpg"
-  },
-  {
-    "revision": "fa946356d7225b6d016db88d6a8075a5",
-    "url": "/React-University-Website/static/media/F14.fa946356.png"
-  },
-  {
-    "revision": "29e23488797133d1db26fce30144fb2d",
-    "url": "/React-University-Website/static/media/F15.29e23488.png"
-  },
-  {
-    "revision": "8fd99ff9f36596cdb784960177b3626c",
-    "url": "/React-University-Website/static/media/F16.8fd99ff9.png"
-  },
-  {
-    "revision": "552f56ca5084c2f9283b0992d4098c5c",
-    "url": "/React-University-Website/static/media/F17.552f56ca.jpg"
-  },
-  {
-    "revision": "3c1d76588a9387c9d98d039fb45849d3",
-    "url": "/React-University-Website/static/media/F18.3c1d7658.jpg"
-  },
-  {
-    "revision": "c0499933391a2d99be155cca99efd0d9",
-    "url": "/React-University-Website/static/media/F19.c0499933.png"
-  },
-  {
-    "revision": "a5229adcc348c0c0ab46753c38c40ea1",
-    "url": "/React-University-Website/static/media/F20.a5229adc.png"
-  },
-  {
-    "revision": "28b690aa89879df35d1685261f9efc61",
-    "url": "/React-University-Website/static/media/F21.28b690aa.jpg"
-  },
-  {
-    "revision": "4e67b52b25df3c10cdbcda8d5ed03e64",
-    "url": "/React-University-Website/static/media/F22.4e67b52b.jpg"
-  },
-  {
-    "revision": "59d294cd2b62c1667c211f85bc10e7f5",
-    "url": "/React-University-Website/static/media/F3.59d294cd.png"
-  },
-  {
-    "revision": "b3ed73af992df0192cd213999e7912b2",
-    "url": "/React-University-Website/static/media/F4.b3ed73af.jpg"
-  },
-  {
-    "revision": "dd6c950acf68a7fe0c92451640fdf273",
-    "url": "/React-University-Website/static/media/F5.dd6c950a.png"
-  },
-  {
-    "revision": "3dadbf0503fd50c11445e374274ce917",
-    "url": "/React-University-Website/static/media/F6.3dadbf05.png"
-  },
-  {
-    "revision": "11d4ed49445f1574bc02fbaeb9726c10",
-    "url": "/React-University-Website/static/media/F7.11d4ed49.jpg"
-  },
-  {
-    "revision": "24cdcd0f70a267c74020082b75af62cc",
-    "url": "/React-University-Website/static/media/F9.24cdcd0f.jpg"
-  },
-  {
     "revision": "cc744cdc93243973a64eac001a826d19",
     "url": "/React-University-Website/static/media/FetsLogo.cc744cdc.png"
   },
   {
-    "revision": "2c7a0d0101c25146c78b4fb15c1b9575",
-    "url": "/React-University-Website/static/media/HigherStudies.2c7a0d01.png"
+    "revision": "91fce0f070c820d42b0c34bc7ce2b187",
+    "url": "/React-University-Website/static/media/HigherStudies2.91fce0f0.png"
   },
   {
     "revision": "5df367ecd87457a604dd168a0327ceb5",
@@ -212,42 +136,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-University-Website/static/media/SE_EXTC_Syllabus.00733253.pdf"
   },
   {
-    "revision": "be861a2d12249e63a07b796f22ffb4f2",
-    "url": "/React-University-Website/static/media/SF10.be861a2d.jpg"
-  },
-  {
-    "revision": "7bb2cbed7f77a43755621501bd3d8f48",
-    "url": "/React-University-Website/static/media/SF2.7bb2cbed.jpg"
-  },
-  {
-    "revision": "abfc1402bcb1abc6382dd4f6cd947654",
-    "url": "/React-University-Website/static/media/SF3.abfc1402.jpg"
-  },
-  {
-    "revision": "877d0d29f362382c7f0ed380152aa292",
-    "url": "/React-University-Website/static/media/SF4.877d0d29.jpg"
-  },
-  {
-    "revision": "95026dcb95181ec9c90ea7579a178c8b",
-    "url": "/React-University-Website/static/media/SF5.95026dcb.jpg"
-  },
-  {
-    "revision": "e6e7db762bac89236cdd99240fd70374",
-    "url": "/React-University-Website/static/media/SF6.e6e7db76.jpg"
-  },
-  {
-    "revision": "e0fefae89a25c48a2cd125715f1aebcd",
-    "url": "/React-University-Website/static/media/SF7.e0fefae8.jpg"
-  },
-  {
-    "revision": "596d41eea8edb2b0371fe7674865d12b",
-    "url": "/React-University-Website/static/media/SF8.596d41ee.jpg"
-  },
-  {
-    "revision": "40110c1d52ad1119a07fd38fda53a2a2",
-    "url": "/React-University-Website/static/media/SF9.40110c1d.jpg"
-  },
-  {
     "revision": "4949ecc0ac2c12bc4b69c626486d0fe0",
     "url": "/React-University-Website/static/media/TE_EXTC_ DIV A_B_ODD_2023-2024.4949ecc0.pdf"
   },
@@ -264,6 +152,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-University-Website/static/media/UG_Syllabus_2021-22_EXTC_Sem_VII-VIII.87bd3e0d.pdf"
   },
   {
+    "revision": "2ea897f8e66f456295fdee72b7863d76",
+    "url": "/React-University-Website/static/media/banner.2ea897f8.png"
+  },
+  {
     "revision": "8e250a5e30169f49f71d3de9b3e66d48",
     "url": "/React-University-Website/static/media/companies.8e250a5e.png"
   },
@@ -272,8 +164,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-University-Website/static/media/course01.acdcb857.jpeg"
   },
   {
+    "revision": "364caf287f2f22922acfc6fbf510f567",
+    "url": "/React-University-Website/static/media/eimg.364caf28.png"
+  },
+  {
     "revision": "7443258228745a5020dccc977be83916",
     "url": "/React-University-Website/static/media/hod-desk-img.74432582.jpg"
+  },
+  {
+    "revision": "186b1618b4f06fc95d6b29a95cf737b7",
+    "url": "/React-University-Website/static/media/icons8-google-scholar-48.186b1618.svg"
   },
   {
     "revision": "84a9ccbbec24c12bd527b3e2378a5a97",
@@ -302,10 +202,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/React-University-Website/static/media/slick.f97e3bbf.svg"
-  },
-  {
-    "revision": "19c27dc8b35e90d8b99089f8a393bb70",
-    "url": "/React-University-Website/static/media/slide-01.19c27dc8.jpg"
   },
   {
     "revision": "f50f8336b5a706dab8ca250ee5de37f1",
