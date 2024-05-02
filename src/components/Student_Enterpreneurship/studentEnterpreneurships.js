@@ -14,8 +14,9 @@ class StudentEntrepreneurships extends Component {
                 <Image src={eimg} fluid />
               </Col>
               <Col md={12}>
+                <br></br>
                 <p>
-                  The Department of Electronics and Communication Engineering
+                  The Department of Electronics and Telecommunication Engineering
                   has a dedicated Entrepreneurship Development Cell (EDC) to
                   promote entrepreneurship among students. The EDC conducts
                   various activities to promote entrepreneurship among students.

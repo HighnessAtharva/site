@@ -8,14 +8,15 @@ class VisionAndMissionPage extends Component {
       <>
         <Container className="container-style">
           <h3 className="text-center mb-4">VISION</h3>
-          <p>
-            “To be the leading Electronics and Telecommunication department,
+          <p style={{fontSize:"18px", justifyContent:"center", textAlign:"center"}}>
+           <strong>“To be the leading Electronics and Telecommunication department,
             graduating professionally competent engineers with research aptitude
-            and social sensitivity.”
+            and social sensitivity.”</strong> 
           </p>
         </Container>
         <Container className="container-style">
           <h3 className="text-center mb-4">MISSION</h3>
+          <strong>
           <ul>
             <li>
               Constantly innovate and adopt teaching, learning, evaluation
@@ -40,6 +41,7 @@ class VisionAndMissionPage extends Component {
               holistic, all-rounded development of the learners.
             </li>
           </ul>
+          </strong>
         </Container>
         <Container className="container-style">
           <h3 className="text-center mb-4">PEO</h3>

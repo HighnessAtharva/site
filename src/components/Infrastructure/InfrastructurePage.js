@@ -9,6 +9,25 @@ class InfrastructurePage extends Component {
       <Container>
         <h1>Infrastructure (Labs)</h1>
         <Row xs={1} md={2} className="g-4">
+        <Col>
+            <Card>
+              <Card.Img
+                variant="top"
+                src="https://www.psyec.edu.in/assets/img/cover/eee.webp"
+                className="img-fluid labBannerImg"
+              />
+              <Card.Body>
+                <Card.Title>205: Digital Signal Processing Lab</Card.Title>
+                <Link
+                  to="/Lab"
+                  className="btn btn-success"
+                  style={{ marginLeft: "40%" }}
+                >
+                  Go to Lab
+                </Link>
+              </Card.Body>
+            </Card>
+          </Col>
           <Col>
             <Card>
               <Card.Img
@@ -215,7 +234,7 @@ class InfrastructurePage extends Component {
                 className="img-fluid labBannerImg"
               />
               <Card.Body>
-                <Card.Title>508: Practical Lab</Card.Title>
+                <Card.Title>508: Project Lab</Card.Title>
                 <Link
                   to="/Lab508"
                   className="btn btn-success"
