@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60bec75aa41ef4c310890e95458af39a",
+    "revision": "39ab99bcecf3cd084bc0cf47e44ad5ee",
     "url": "/React-University-Website/index.html"
   },
   {
-    "revision": "5a7d683723a2de3548f8",
+    "revision": "fb90e8f185c34884ca56",
     "url": "/React-University-Website/static/css/2.a2d1f71e.chunk.css"
   },
   {
-    "revision": "89a4314ac3ae4f245bd1",
+    "revision": "d9f8bb712566a122fe9b",
     "url": "/React-University-Website/static/css/main.cdf58c2d.chunk.css"
   },
   {
-    "revision": "5a7d683723a2de3548f8",
-    "url": "/React-University-Website/static/js/2.535b6282.chunk.js"
+    "revision": "fb90e8f185c34884ca56",
+    "url": "/React-University-Website/static/js/2.100720b9.chunk.js"
   },
   {
     "revision": "cfe63c1848a227eaaf4c756b8cf4bf44",
-    "url": "/React-University-Website/static/js/2.535b6282.chunk.js.LICENSE.txt"
+    "url": "/React-University-Website/static/js/2.100720b9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "89a4314ac3ae4f245bd1",
-    "url": "/React-University-Website/static/js/main.58ebd961.chunk.js"
+    "revision": "d9f8bb712566a122fe9b",
+    "url": "/React-University-Website/static/js/main.7b017fcd.chunk.js"
   },
   {
     "revision": "f5cc168e2cb2070e5d4f",
