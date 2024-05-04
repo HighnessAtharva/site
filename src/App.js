@@ -51,6 +51,7 @@ import ElectronicsDeviceLab from "./components/Infrastructure/ElectronicsDeviceL
 import FiberOpticLab from "./components/Infrastructure/FiberOpticLab";
 import ResearchLab from "./components/Infrastructure/ResearchLab";
 import InstrumentationLab from "./components/Infrastructure/InstrumentationLab";
+import Lab502 from "./components/Infrastructure/Lab502";
 import Lab507A from "./components/Infrastructure/Lab507A";
 import Lab508 from "./components/Infrastructure/Lab508";
 import Class203 from "./components/Infrastructure/Class203";
@@ -195,6 +196,9 @@ class App extends React.Component {
             </Route>
             <Route exact path="/Lab507">
               <Lab507A />
+            </Route>
+            <Route exact path="/Lab502">
+              <Lab502 />
             </Route>
             <Route exact path="/Lab508">
               <Lab508 />

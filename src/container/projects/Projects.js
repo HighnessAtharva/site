@@ -16,6 +16,8 @@ import BE_ETRX_20_21_pdf from "../../pdfs/major_projects/Major Project_Mentor Al
 import ProjectList_18_19_pdf from "../../pdfs/major_projects/Project List 2018-19.pdf";
 import BE_Groups_21_22_xls from "../../pdfs/major_projects/BE Project Groups-AY 2021-22(CAT 1).xlsx";
 
+import PhotoGallery from "../gallery/MiniProjectGallery";
+
 export class projects extends Component {
   render() {
     const displayCourse = ["course01", "course02", "course03"].map(
@@ -51,29 +53,19 @@ export class projects extends Component {
     );
 
     return (
-      <section id="projects" className="projects py-5">
+      <section id="projects" className="projects">
         <Container>
           {/* MINI PROJECTS SECTION */}
-
           <Row>
             <Col xs={10} sm={6} className="mx-auto text-center course-title">
-              <h1 className="text-capitalize">
-                <strong style={{ color: "brown" }}>Mini Projects</strong>
-              </h1>
-              <p
-                style={{
-                  borderTop: "3px solid white",
-                  width: 70,
-                  marginTop: 20,
-                }}
-              ></p>
-              <p className="text-muted" data-aos="fade-up">
-                Our Featured projects are selected through a rigorous process
-                and uniquely created for each semester.
+              <h3 className="text-capitalize text-center mb-4 mt-4">MINI PROJECTS</h3>
+              <p className="text-muted" style={{ minWidth: "100%" }} data-aos="fade-up">
+                Our Featured projects are selected through a rigorous process and uniquely created for each semester.
               </p>
             </Col>
           </Row>
 
+          <PhotoGallery />
           <ul>
             <li>
               <a href={SY_EXTC_22_23_pdf} target="_blank">
@@ -97,9 +89,7 @@ export class projects extends Component {
 
           <Row>
             <Col xs={10} sm={6} className="mx-auto text-center course-title">
-              <h1 className="text-capitalize">
-                <strong style={{ color: "brown" }}>Major Projects</strong>
-              </h1>
+            <h3 className="text-capitalize text-center mb-4 mt-4">MAJOR PROJECTS</h3>
               <p
                 style={{
                   borderTop: "3px solid white",

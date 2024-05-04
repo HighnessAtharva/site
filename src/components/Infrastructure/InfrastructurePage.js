@@ -9,7 +9,7 @@ class InfrastructurePage extends Component {
       <Container>
         <h1>Infrastructure (Labs)</h1>
         <Row xs={1} md={2} className="g-4">
-        <Col>
+          <Col>
             <Card>
               <Card.Img
                 variant="top"
@@ -156,6 +156,26 @@ class InfrastructurePage extends Component {
                 <Card.Title>311: Basic Electrical & Electronics Lab</Card.Title>
                 <Link
                   to="/beeLab"
+                  className="btn btn-success"
+                  style={{ marginLeft: "40%" }}
+                >
+                  Go to Lab
+                </Link>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card>
+              <Card.Img
+                variant="top"
+                src="https://nsfgradfellows.org/wp-content/uploads/2021/07/AdobeStock_67901546-2-750x400.jpg"
+                className="img-fluid labBannerImg"
+              />
+              <Card.Body>
+                <Card.Title>502: Digital System Laboratory</Card.Title>
+                <Link
+                  to="/Lab502"
                   className="btn btn-success"
                   style={{ marginLeft: "40%" }}
                 >
