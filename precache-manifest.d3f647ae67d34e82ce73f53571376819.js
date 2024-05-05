@@ -1,47 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "39ab99bcecf3cd084bc0cf47e44ad5ee",
+    "revision": "975f77532903e431453293a19de1df59",
     "url": "/React-University-Website/index.html"
   },
   {
-    "revision": "fb90e8f185c34884ca56",
+    "revision": "5f1b289ee1f5e44ca0d8",
     "url": "/React-University-Website/static/css/2.a2d1f71e.chunk.css"
   },
   {
-    "revision": "d9f8bb712566a122fe9b",
-    "url": "/React-University-Website/static/css/main.cdf58c2d.chunk.css"
+    "revision": "a29441c70c575b77e61f",
+    "url": "/React-University-Website/static/css/main.583c6bae.chunk.css"
   },
   {
-    "revision": "fb90e8f185c34884ca56",
-    "url": "/React-University-Website/static/js/2.100720b9.chunk.js"
+    "revision": "5f1b289ee1f5e44ca0d8",
+    "url": "/React-University-Website/static/js/2.80a8f365.chunk.js"
   },
   {
     "revision": "cfe63c1848a227eaaf4c756b8cf4bf44",
-    "url": "/React-University-Website/static/js/2.100720b9.chunk.js.LICENSE.txt"
+    "url": "/React-University-Website/static/js/2.80a8f365.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d9f8bb712566a122fe9b",
-    "url": "/React-University-Website/static/js/main.7b017fcd.chunk.js"
+    "revision": "a29441c70c575b77e61f",
+    "url": "/React-University-Website/static/js/main.5bcfe319.chunk.js"
   },
   {
     "revision": "f5cc168e2cb2070e5d4f",
     "url": "/React-University-Website/static/js/runtime-main.5ce4461a.js"
-  },
-  {
-    "revision": "68b1e619881e7f6786b39ccaa631e2c8",
-    "url": "/React-University-Website/static/media/B.Tech Project Details 2022_23 ETRX.68b1e619.pdf"
-  },
-  {
-    "revision": "d8768766a9c64b904d924c2c61430bf2",
-    "url": "/React-University-Website/static/media/BE PROJECT CAT 1 and CAT 2 2019-20.d8768766.pdf"
-  },
-  {
-    "revision": "35eaeb6a7843c6b92ffc5aebe63f6cc9",
-    "url": "/React-University-Website/static/media/BE PROJECT CAT 1 and CAT 2 2020-21.35eaeb6a.pdf"
-  },
-  {
-    "revision": "ac17385051169daa286346e3f308f5cd",
-    "url": "/React-University-Website/static/media/BE Project Groups-AY 2021-22(CAT 1).ac173850.xlsx"
   },
   {
     "revision": "9feb22375d341044208b6647adc2f0ac",
@@ -108,8 +92,68 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-University-Website/static/media/LAB.89a1cf7a.pdf"
   },
   {
-    "revision": "d29c94bd2fe79ca739e6a5bb97549664",
-    "url": "/React-University-Website/static/media/Major Project_Mentor Allocation-BE ETRX-23-24.d29c94bd.pdf"
+    "revision": "8628e922f27b03d1590304ab6c07a255",
+    "url": "/React-University-Website/static/media/Major Project ETRX 2018-19.8628e922.pdf"
+  },
+  {
+    "revision": "d8768766a9c64b904d924c2c61430bf2",
+    "url": "/React-University-Website/static/media/Major Project ETRX 2019-20.d8768766.pdf"
+  },
+  {
+    "revision": "35eaeb6a7843c6b92ffc5aebe63f6cc9",
+    "url": "/React-University-Website/static/media/Major Project ETRX 2020-21.35eaeb6a.pdf"
+  },
+  {
+    "revision": "ac17385051169daa286346e3f308f5cd",
+    "url": "/React-University-Website/static/media/Major Project ETRX 2021-22.ac173850.xlsx"
+  },
+  {
+    "revision": "68b1e619881e7f6786b39ccaa631e2c8",
+    "url": "/React-University-Website/static/media/Major Project ETRX 2022-23.68b1e619.pdf"
+  },
+  {
+    "revision": "db2371c9379ff396f78492429cded4ac",
+    "url": "/React-University-Website/static/media/Major Project ETRX 2023-24.db2371c9.pdf"
+  },
+  {
+    "revision": "6d2531c81255c9b617b1f3d373236f2e",
+    "url": "/React-University-Website/static/media/Major Project EXTC 2016-17.6d2531c8.pdf"
+  },
+  {
+    "revision": "9b77343cb65d80913e805c230a2cd328",
+    "url": "/React-University-Website/static/media/Major Project EXTC 2017-18.9b77343c.pdf"
+  },
+  {
+    "revision": "32d8a8c4647aef4aa5206b0e5a688683",
+    "url": "/React-University-Website/static/media/Major Project EXTC 2018-19.32d8a8c4.pdf"
+  },
+  {
+    "revision": "c3924fd32807d8ccbaf99f400bc5b766",
+    "url": "/React-University-Website/static/media/Major Project EXTC 2019-20.c3924fd3.pdf"
+  },
+  {
+    "revision": "d8da2d162430e33758ace6f12f146cb9",
+    "url": "/React-University-Website/static/media/Major Project EXTC 2020-21.d8da2d16.pdf"
+  },
+  {
+    "revision": "719fa3d8e27095839ef949b622182389",
+    "url": "/React-University-Website/static/media/Major Project EXTC 2021-22.719fa3d8.pdf"
+  },
+  {
+    "revision": "85284371c9545f3bfca7737b8eb3faa0",
+    "url": "/React-University-Website/static/media/Major Project EXTC 2023-24.85284371.pdf"
+  },
+  {
+    "revision": "03569cdf26137fea3c15bebcc4ddb765",
+    "url": "/React-University-Website/static/media/Mini Project 23-24.03569cdf.pdf"
+  },
+  {
+    "revision": "67a459994e890445fefd6fe3e9bbf632",
+    "url": "/React-University-Website/static/media/Mini Project EXTC 20-21.67a45999.pdf"
+  },
+  {
+    "revision": "d8907c4448bb8cb76d0641bc5db5a087",
+    "url": "/React-University-Website/static/media/Mini Project EXTC 21-22.d8907c44.pdf"
   },
   {
     "revision": "09f5502634d586164d0ab5000394ce97",
@@ -122,10 +166,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "68c4e991cabae309ccda3e33c21ebc56",
     "url": "/React-University-Website/static/media/Mini Project-SY EXTC 22-23.68c4e991.pdf"
-  },
-  {
-    "revision": "8628e922f27b03d1590304ab6c07a255",
-    "url": "/React-University-Website/static/media/Project List 2018-19.8628e922.pdf"
   },
   {
     "revision": "d9eaeb84b16603bd80eb9093beb5cb8a",
