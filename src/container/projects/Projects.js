@@ -6,15 +6,28 @@ import "./projects.css";
 // MINI PROJECTS PDF IMPORTS
 import SY_ETRX_20_21_pdf from "../../pdfs/mini_projects/Mini Project-SY ETRX 20-21.pdf";
 import SY_ETRX_21_22_pdf from "../../pdfs/mini_projects/Mini Project-SY ETRX 21-22.pdf";
+import EXTC_20_21_pdf from "../../pdfs/mini_projects/Mini Project EXTC 20-21.pdf";
+import EXTC_21_22_pdf from "../../pdfs/mini_projects/Mini Project EXTC 21-22.pdf";
 import SY_EXTC_22_23_pdf from "../../pdfs/mini_projects/Mini Project-SY EXTC 22-23.pdf";
+import MiniProject_23_24_pdf from "../../pdfs/mini_projects/Mini Project 23-24.pdf";
 
 // MAJOR PROJECTS PDF IMPORTS
-import BTech22_23_ETRX_pdf from "../../pdfs/major_projects/B.Tech Project Details 2022_23 ETRX.pdf";
-import BE_19_20_pdf from "../../pdfs/major_projects/BE PROJECT CAT 1 and CAT 2 2019-20.pdf";
-import BE_20_21_pdf from "../../pdfs/major_projects/BE PROJECT CAT 1 and CAT 2 2020-21.pdf";
-import BE_ETRX_20_21_pdf from "../../pdfs/major_projects/Major Project_Mentor Allocation-BE ETRX-23-24.pdf";
-import ProjectList_18_19_pdf from "../../pdfs/major_projects/Project List 2018-19.pdf";
-import BE_Groups_21_22_xls from "../../pdfs/major_projects/BE Project Groups-AY 2021-22(CAT 1).xlsx";
+import ETRX_Major_18_19_pdf from "../../pdfs/major_projects/Major Project ETRX 2018-19.pdf";
+import ETRX_Major_19_20_pdf from "../../pdfs/major_projects/Major Project ETRX 2019-20.pdf";
+import ETRX_Major_20_21_pdf from "../../pdfs/major_projects/Major Project ETRX 2020-21.pdf";
+import ETRX_Major_21_22_xls from "../../pdfs/major_projects/Major Project ETRX 2021-22.xlsx";
+import ETRX_Major_22_23_pdf from "../../pdfs/major_projects/Major Project ETRX 2022-23.pdf";
+import ETRX_Major_23_24_pdf from "../../pdfs/major_projects/Major Project ETRX 2023-24.pdf";
+
+import EXTC_Major_16_17_pdf from "../../pdfs/major_projects/Major Project EXTC 2016-17.pdf";
+import EXTC_Major_17_18_pdf from "../../pdfs/major_projects/Major Project EXTC 2017-18.pdf";
+import EXTC_Major_18_19_pdf from "../../pdfs/major_projects/Major Project EXTC 2018-19.pdf";
+import EXTC_Major_19_20_pdf from "../../pdfs/major_projects/Major Project EXTC 2019-20.pdf";
+import EXTC_Major_20_21_pdf from "../../pdfs/major_projects/Major Project EXTC 2020-21.pdf";
+import EXTC_Major_21_22_pdf from "../../pdfs/major_projects/Major Project EXTC 2021-22.pdf";
+import EXTC_Major_23_24_pdf from "../../pdfs/major_projects/Major Project EXTC 2023-24.pdf";
+
+
 
 import PhotoGallery from "../gallery/MiniProjectGallery";
 
@@ -66,21 +79,36 @@ export class projects extends Component {
           </Row>
 
           <PhotoGallery />
+          <br /><br />
           <ul>
             <li>
-              <a href={SY_EXTC_22_23_pdf} target="_blank">
-                <h2>MINI PROJECT 2022-23 </h2>
+              <a href={MiniProject_23_24_pdf} target="_blank">
+                <h2>MINI PROJECT 2023-24</h2>
               </a>
             </li>
-
+            <li>
+              <a href={SY_EXTC_22_23_pdf} target="_blank">
+                <h2>MINI PROJECT 2022-23 (EXTC)</h2>
+              </a>
+            </li>
+            <li>
+              <a href={EXTC_21_22_pdf} target="_blank">
+                <h2>MINI PROJECT 2021-22 (EXTC)</h2>
+              </a>
+            </li>
             <li>
               <a href={SY_ETRX_21_22_pdf} target="_blank">
-                <h2>MINI PROJECT 2021-22</h2>
+                <h2>MINI PROJECT 2021-22 (ETRX)</h2>
+              </a>
+            </li>
+            <li>
+              <a href={EXTC_20_21_pdf} target="_blank">
+                <h2>MINI PROJECT 2020-21 (EXTC)</h2>
               </a>
             </li>
             <li>
               <a href={SY_ETRX_20_21_pdf} target="_blank">
-                <h2>MINI PROJECT 2020-21</h2>
+                <h2>MINI PROJECT 2020-21 (ETRX)</h2>
               </a>
             </li>
           </ul>
@@ -89,7 +117,7 @@ export class projects extends Component {
 
           <Row>
             <Col xs={10} sm={6} className="mx-auto text-center course-title">
-            <h3 className="text-capitalize text-center mb-4 mt-4">MAJOR PROJECTS</h3>
+              <h3 className="text-capitalize text-center mb-4 mt-4">MAJOR PROJECTS</h3>
               <p
                 style={{
                   borderTop: "3px solid white",
@@ -106,48 +134,72 @@ export class projects extends Component {
 
           <ul>
             <li>
-              <a href={BE_ETRX_20_21_pdf} target="_blank">
-                <h2>MAJOR PROJECTS LIST 2023-24</h2>
-              </a>
-            </li>
-
-            <li>
-              <a href={BTech22_23_ETRX_pdf} target="_blank">
-                <h2>MAJOR PROJECTS LIST 2022-23 </h2>
+              <a href={EXTC_Major_23_24_pdf} target="_blank">
+                <h2>MAJOR PROJECTS LIST 2023-24 (EXTC)</h2>
               </a>
             </li>
             <li>
-              <a href={BE_Groups_21_22_xls} target="_blank">
-                <h2>MAJOR PROJECTS LIST 2021-22</h2>
+              <a href={ETRX_Major_23_24_pdf} target="_blank">
+                <h2>MAJOR PROJECTS LIST 2023-24 (ETRX)</h2>
               </a>
             </li>
-
             <li>
-              <a href={BE_20_21_pdf} target="_blank">
-                <h2>MAJOR PROJECTS LIST 2020-21</h2>
+              <a href={ETRX_Major_22_23_pdf} target="_blank">
+                <h2>MAJOR PROJECTS LIST 2022-23 (ETRX) </h2>
               </a>
             </li>
-
             <li>
-              <a href={BE_19_20_pdf} target="_blank">
-                <h2>MAJOR PROJECTS LIST 2019-20</h2>
+              <a href={EXTC_Major_21_22_pdf} target="_blank">
+                <h2>MAJOR PROJECTS LIST 2021-22 (EXTC)</h2>
               </a>
             </li>
-
             <li>
-              <a href={ProjectList_18_19_pdf} target="_blank">
-                <h2>MAJOR PROJECTS LIST 2018-19</h2>
+              <a href={ETRX_Major_21_22_xls} target="_blank">
+                <h2>MAJOR PROJECTS LIST 2021-22 (ETRX)</h2>
+              </a>
+            </li>
+            <li>
+              <a href={EXTC_Major_20_21_pdf} target="_blank">
+                <h2>MAJOR PROJECTS LIST 2020-21 (EXTC)</h2>
+              </a>
+            </li>
+            <li>
+              <a href={ETRX_Major_20_21_pdf} target="_blank">
+                <h2>MAJOR PROJECTS LIST 2020-21 (ETRX)</h2>
+              </a>
+            </li>
+            <li>
+              <a href={EXTC_Major_19_20_pdf} target="_blank">
+                <h2>MAJOR PROJECTS LIST 2019-20 (EXTC)</h2>
+              </a>
+            </li>
+            <li>
+              <a href={ETRX_Major_19_20_pdf} target="_blank">
+                <h2>MAJOR PROJECTS LIST 2019-20 (ETRX)</h2>
+              </a>
+            </li>
+            <li>
+              <a href={EXTC_Major_18_19_pdf} target="_blank">
+                <h2>MAJOR PROJECTS LIST 2018-19 (EXTC)</h2>
+              </a>
+            </li>
+            <li>
+              <a href={ETRX_Major_18_19_pdf} target="_blank">
+                <h2>MAJOR PROJECTS LIST 2018-19 (ETRX)</h2>
+              </a>
+            </li>
+            <li>
+              <a href={EXTC_Major_17_18_pdf} target="_blank">
+                <h2>MAJOR PROJECTS LIST 2017-16 (EXTC)</h2>
+              </a>
+            </li>
+            <li>
+              <a href={EXTC_Major_16_17_pdf} target="_blank">
+                <h2>MAJOR PROJECTS LIST 2016-17 (EXTC)</h2>
               </a>
             </li>
           </ul>
-          {/* <Row>{displayCourse}</Row>
-          <Row>
-            <Col className="mx-auto my-3" data-aos="zoom-in">
-              <div className="text-center">
-                <Button variant="danger">View More</Button>
-              </div>
-            </Col>
-          </Row> */}
+
         </Container>
       </section>
     );

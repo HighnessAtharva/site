@@ -12,10 +12,7 @@ export const IMAGES = [
     src: "https://i.ibb.co/ypPbwGz/Picture4.png",
     thumbnail: "https://i.ibb.co/2sTBPdX/102_thumb.jpg",
   },
-  {
-    src: "https://i.ibb.co/12ydnkW/Picture5.png",
-    thumbnail: "https://i.ibb.co/GJsyzb4/101_thumb.jpg",
-  },
+ 
   {
     src: "https://i.ibb.co/stMVyYD/Picture6.png",
     thumbnail: "https://i.ibb.co/DzywQXn/103_thumb.jpg",
