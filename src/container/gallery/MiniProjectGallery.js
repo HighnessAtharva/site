@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 
-class PhotoGallery extends Component {
+class MiniProjectGallery extends Component {
   constructor(props) {
     super(props);
 
@@ -54,4 +54,4 @@ class PhotoGallery extends Component {
   }
 }
 
-export default PhotoGallery;
+export default MiniProjectGallery;

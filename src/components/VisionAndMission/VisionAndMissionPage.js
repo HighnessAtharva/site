@@ -7,13 +7,23 @@ class VisionAndMissionPage extends Component {
     return (
       <>
         <div>
-          <h3 className="text-capitalize text-center mb-4 mt-4">UNDERGRADUATE PROGRAM</h3>
+          <h3 className="text-capitalize text-center mb-4 mt-4">
+            UNDERGRADUATE PROGRAM
+          </h3>
           <Container className="container-style">
             <h3 className="text-center mb-4">Vision</h3>
-            <p style={{ fontSize: "18px", justifyContent: "center", textAlign: "center" }}>
-              <strong>“To be the leading Electronics and Telecommunication department,
-                graduating professionally competent engineers with research aptitude
-                and social sensitivity.”</strong>
+            <p
+              style={{
+                fontSize: "18px",
+                justifyContent: "center",
+                textAlign: "center",
+              }}
+            >
+              <strong>
+                “To be the leading Electronics and Telecommunication department,
+                graduating professionally competent engineers with research
+                aptitude and social sensitivity.”
+              </strong>
             </p>
           </Container>
           <Container className="container-style">
@@ -21,39 +31,41 @@ class VisionAndMissionPage extends Component {
             <strong>
               <ul>
                 <li>
-                  Constantly innovate and adopt teaching, learning, evaluation
-                  strategies to suit the learners, and ensure academic and research
-                  conducive infrastructure.
+                  To innovate constantly and adopt teaching, learning,
+                  evaluation strategies to suit the learners, and ensure
+                  academic and research conducive infrastructure.
                 </li>
                 <li>
-                  To ensure fruitful collaborations with academia and industry for
-                  excellence in academic and research.
+                  To ensure fruitful collaborations with academia and industry
+                  for excellence in academic and research.
                 </li>
                 <li>
-                  To undertake the continuous value addition of faculty and staff
-                  with suitable empowerment policies.
+                  To undertake the continuous value addition of faculty and
+                  staff with suitable empowerment policies.
                 </li>
                 <li>
-                  To inculcate sensitivity to societal issues, communication skills
-                  and teamwork, lifelong learning attitude, and relevant skills
-                  amongst the learners.
+                  To inculcate sensitivity to societal issues, communication
+                  skills and teamwork, lifelong learning attitude, and relevant
+                  skills amongst the learners.
                 </li>
                 <li>
-                  To implement the NEP recommendations to the spirit and ensure the
-                  holistic, all-rounded development of the learners.
+                  To implement the NEP recommendations to the spirit and ensure
+                  the holistic, all-rounded development of the learners.
                 </li>
               </ul>
             </strong>
           </Container>
           <Container className="container-style">
-            <h3 className="text-center mb-4">Program Education Objectives (PEO)</h3>
+            <h3 className="text-center mb-4">
+              Program Education Objectives (PEO)
+            </h3>
             <p>Within three to four years of graduation:</p>
             <ul>
               <li>
-                Establish themselves in their chosen career paths by demonstrating
-                technical competence in design, analysis, and maintenance of
-                electronics systems, signal processing, communication systems,
-                computer network, etc.
+                Establish themselves in their chosen career paths by
+                demonstrating technical competence in design, analysis, and
+                maintenance of electronics systems, signal processing,
+                communication systems, computer network, etc.
               </li>
               <li>
                 Demonstrate leadership, communication, and interpersonal skills,
@@ -61,8 +73,8 @@ class VisionAndMissionPage extends Component {
                 finance management skills.
               </li>
               <li>
-                Contribute towards the next generation of electronics technologies
-                with creative and innovative practices.
+                Contribute towards the next generation of electronics
+                technologies with creative and innovative practices.
               </li>
               <li>
                 Demonstrate zeal towards lifelong learning, values, ethics,
@@ -78,14 +90,16 @@ class VisionAndMissionPage extends Component {
             <ul>
               <li>
                 <strong>PO1:</strong> Engineering Knowledge: apply knowledge of
-                mathematics, science, engineering fundamentals and an engineering
-                specialization to the solution of complex engineering problems.
+                mathematics, science, engineering fundamentals and an
+                engineering specialization to the solution of complex
+                engineering problems.
               </li>
               <li>
                 <strong>PO2:</strong> Problem Analysis: identify, formulate,
                 review research literature, and analyze complex engineering
-                problems reaching substantiated conclusions using first principles
-                of mathematics, natural sciences, and engineering sciences.
+                problems reaching substantiated conclusions using first
+                principles of mathematics, natural sciences, and engineering
+                sciences.
               </li>
               <li>
                 <strong>PO3:</strong> Design & Development of Solutions: design
@@ -96,15 +110,15 @@ class VisionAndMissionPage extends Component {
               </li>
               <li>
                 <strong>PO4:</strong> Conduct Investigation of Complex Problems:
-                Use research-based knowledge and research methods including design
-                of experiments, analysis and interpretation of data, and synthesis
-                of information to provide valid conclusions.
+                Use research-based knowledge and research methods including
+                design of experiments, analysis and interpretation of data, and
+                synthesis of information to provide valid conclusions.
               </li>
               <li>
-                <strong>PO5:</strong> Modern Tools Usage: create, select and apply
-                appropriate techniques, resources, and modern engineering and IT
-                tools including prediction and modeling to complex engineering
-                activities with an understanding of the limitations.
+                <strong>PO5:</strong> Modern Tools Usage: create, select and
+                apply appropriate techniques, resources, and modern engineering
+                and IT tools including prediction and modeling to complex
+                engineering activities with an understanding of the limitations.
               </li>
               <li>
                 <strong>PO6:</strong> The Engineer and Society: apply reasoning
@@ -114,26 +128,26 @@ class VisionAndMissionPage extends Component {
                 practice.
               </li>
               <li>
-                <strong>PO7:</strong> Environment & Sustainability: understand the
-                impact of the professional engineering solutions in societal and
-                environmental contexts, and demonstrate the knowledge of, and need
-                for sustainable development.
+                <strong>PO7:</strong> Environment & Sustainability: understand
+                the impact of the professional engineering solutions in societal
+                and environmental contexts, and demonstrate the knowledge of,
+                and need for sustainable development.
               </li>
               <li>
-                <strong>PO8:</strong> Ethics: apply ethical principles and commit
-                to professional ethics and responsibilities and norms of
+                <strong>PO8:</strong> Ethics: apply ethical principles and
+                commit to professional ethics and responsibilities and norms of
                 engineering practice.
               </li>
               <li>
-                <strong>PO9:</strong> Individual & Team work: function effectively
-                as an individual and as a member or leader in diverse teams, and
-                in multidisciplinary settings.
+                <strong>PO9:</strong> Individual & Team work: function
+                effectively as an individual and as a member or leader in
+                diverse teams, and in multidisciplinary settings.
               </li>
               <li>
                 <strong>PO10:</strong> Communication: communicate effectively on
-                complex engineering activities with the engineering community and
-                with society at large, such as, being able to comprehend and write
-                effective reports and design documentation, make effective
+                complex engineering activities with the engineering community
+                and with society at large, such as, being able to comprehend and
+                write effective reports and design documentation, make effective
                 presentations, and give and receive clear instructions.
               </li>
               <li>
@@ -144,10 +158,10 @@ class VisionAndMissionPage extends Component {
                 environments.
               </li>
               <li>
-                <strong>PO12:</strong> Life-long Learning: recognize the need for,
-                and have the preparation and ability to engage in independent and
-                life-long learning in the broadest context of technological
-                change.
+                <strong>PO12:</strong> Life-long Learning: recognize the need
+                for, and have the preparation and ability to engage in
+                independent and life-long learning in the broadest context of
+                technological change.
               </li>
             </ul>
           </Container>
@@ -160,7 +174,8 @@ class VisionAndMissionPage extends Component {
               <li>
                 The ability to understand, analyze, design, prototype, maintain
                 and troubleshoot circuits and systems in the domain of
-                communication, signal processing, embedded and power electronics.
+                communication, signal processing, embedded and power
+                electronics.
               </li>
               <li>
                 The ability to demonstrate good communication skills, teamwork,
@@ -174,8 +189,10 @@ class VisionAndMissionPage extends Component {
             <h3 className="text-center mb-4">
               Establish consistency of PEOs with Mission of the Department
             </h3>
-            <p>Generate a “Mission of the Department – PEOs matrix “with justification and
-              Rationale of the mapping</p>
+            <p>
+              Generate a “Mission of the Department – PEOs matrix “with
+              justification and Rationale of the mapping
+            </p>
             <table>
               <tr>
                 <th>PEO/M</th>
@@ -186,7 +203,9 @@ class VisionAndMissionPage extends Component {
                 <th>M5</th>
               </tr>
               <tr>
-                <td><b>PEO1</b></td>
+                <td>
+                  <b>PEO1</b>
+                </td>
                 <td>High</td>
                 <td>High</td>
                 <td>Medium</td>
@@ -194,7 +213,9 @@ class VisionAndMissionPage extends Component {
                 <td>Medium</td>
               </tr>
               <tr>
-                <td><b>PEO2</b></td>
+                <td>
+                  <b>PEO2</b>
+                </td>
                 <td>Medium</td>
                 <td>Medium</td>
                 <td>Medium</td>
@@ -202,7 +223,9 @@ class VisionAndMissionPage extends Component {
                 <td>High</td>
               </tr>
               <tr>
-                <td><b>PEO3</b></td>
+                <td>
+                  <b>PEO3</b>
+                </td>
                 <td>Medium</td>
                 <td>High</td>
                 <td>High</td>
@@ -210,7 +233,9 @@ class VisionAndMissionPage extends Component {
                 <td>Medium</td>
               </tr>
               <tr>
-                <td><b>PEO4</b></td>
+                <td>
+                  <b>PEO4</b>
+                </td>
                 <td>Medium</td>
                 <td>Medium</td>
                 <td>Medium</td>
@@ -219,10 +244,14 @@ class VisionAndMissionPage extends Component {
               </tr>
             </table>
             <br />
-            <p>Where: M1, M2, M3, M4 and M5 are five elements of Mission Statement and PEO1,
-              PEO2, PEO3, PEO4 are Program Education Objectives statement.<br />
-              Enter correlation levels 1, 2 or 3, where the correlation levels 1, 2 or 3 as defined
-              below:<br />
+            <p>
+              Where: M1, M2, M3, M4 and M5 are five elements of Mission
+              Statement and PEO1, PEO2, PEO3, PEO4 are Program Education
+              Objectives statement.
+              <br />
+              Enter correlation levels 1, 2 or 3, where the correlation levels
+              1, 2 or 3 as defined below:
+              <br />
               <ol type="1" style={{ marginLeft: "50px" }}>
                 <li>Slightly (Low)</li>
                 <li>Moderately (Medium)</li>
@@ -231,16 +260,25 @@ class VisionAndMissionPage extends Component {
               </ol>
             </p>
           </Container>
-
         </div>
         <div>
-          <h3 className="text-capitalize text-center mb-4 mt-4">POSTGRADUATE PROGRAM</h3>
+          <h3 className="text-capitalize text-center mb-4 mt-4">
+            POSTGRADUATE PROGRAM
+          </h3>
           <Container className="container-style">
             <h3 className="text-center mb-4">Vision</h3>
-            <p style={{ fontSize: "18px", justifyContent: "center", textAlign: "center" }}>
-              <strong>“To be the leading Electronics and Telecommunication department,
-                graduating professionally competent engineers with research aptitude
-                and social sensitivity.”</strong>
+            <p
+              style={{
+                fontSize: "18px",
+                justifyContent: "center",
+                textAlign: "center",
+              }}
+            >
+              <strong>
+                “To be the leading Electronics and Telecommunication department,
+                graduating professionally competent engineers with research
+                aptitude and social sensitivity.”
+              </strong>
             </p>
           </Container>
           <Container className="container-style">
@@ -248,48 +286,50 @@ class VisionAndMissionPage extends Component {
             <strong>
               <ul>
                 <li>
-                  Constantly innovate and adopt teaching, learning, evaluation
-                  strategies to suit the learners, and ensure academic and research
-                  conducive infrastructure.
+                  To innovate constantly and adopt teaching, learning,
+                  evaluation strategies to suit the learners, and ensure
+                  academic and research conducive infrastructure.
                 </li>
                 <li>
-                  To ensure fruitful collaborations with academia and industry for
-                  excellence in academic and research.
+                  To ensure fruitful collaborations with academia and industry
+                  for excellence in academic and research.
                 </li>
                 <li>
-                  To undertake the continuous value addition of faculty and staff
-                  with suitable empowerment policies.
+                  To undertake the continuous value addition of faculty and
+                  staff with suitable empowerment policies.
                 </li>
                 <li>
-                  To inculcate sensitivity to societal issues, communication skills
-                  and teamwork, lifelong learning attitude, and relevant skills
-                  amongst the learners.
+                  To inculcate sensitivity to societal issues, communication
+                  skills and teamwork, lifelong learning attitude, and relevant
+                  skills amongst the learners.
                 </li>
                 <li>
-                  To implement the NEP recommendations to the spirit and ensure the
-                  holistic, all-rounded development of the learners.
+                  To implement the NEP recommendations to the spirit and ensure
+                  the holistic, all-rounded development of the learners.
                 </li>
               </ul>
             </strong>
           </Container>
           <Container className="container-style">
-            <h3 className="text-center mb-4">Program Education Objectives (PEO)</h3>
+            <h3 className="text-center mb-4">
+              Program Education Objectives (PEO)
+            </h3>
             <p>Within two years of post graduation:</p>
             <ul>
               <li>
-                Employable in the diversified sectors of the core industry, public sector
-                or Multinational Corporation in the domain of design, analysis and
-                maintenance of electronics systems, signal processing, communication
-                systems, computer network etc.
+                Employable in the diversified sectors of the core industry,
+                public sector or Multinational Corporation in the domain of
+                design, analysis and maintenance of electronics systems, signal
+                processing, communication systems, computer network etc.
               </li>
               <li>
-                Contribute towards the next generation of electronics technologies with
-                creative and innovative practices.
+                Contribute towards the next generation of electronics
+                technologies with creative and innovative practices.
               </li>
               <li>
-                Competent with attitude towards lifelong learning, values, ethics,
-                sensitivity to global problems and prove to be dutiful citizens for
-                society.
+                Competent with attitude towards lifelong learning, values,
+                ethics, sensitivity to global problems and prove to be dutiful
+                citizens for society.
               </li>
             </ul>
           </Container>
@@ -299,15 +339,18 @@ class VisionAndMissionPage extends Component {
 
             <ul>
               <li>
-                <strong>PO1:</strong> Independently carry out research /investigation and development work to solve practical
-                problems.
+                <strong>PO1:</strong> Independently carry out research
+                /investigation and development work to solve practical problems.
               </li>
               <li>
-                <strong>PO2:</strong> Write and present a substantial technical report/document.
+                <strong>PO2:</strong> Write and present a substantial technical
+                report/document.
               </li>
               <li>
-                <strong>PO3:</strong> Demonstrate a degree of mastery over the area as per the specialization of the program. The
-                mastery should be at a level higher than the requirements in the appropriate bachelor program.
+                <strong>PO3:</strong> Demonstrate a degree of mastery over the
+                area as per the specialization of the program. The mastery
+                should be at a level higher than the requirements in the
+                appropriate bachelor program.
               </li>
             </ul>
           </Container>
@@ -316,8 +359,10 @@ class VisionAndMissionPage extends Component {
             <h3 className="text-center mb-4">
               Establish consistency of PEOs with Mission of the Department
             </h3>
-            <p>Generate a “Mission of the Department – PEOs matrix “with justification and
-              Rationale of the mapping</p>
+            <p>
+              Generate a “Mission of the Department – PEOs matrix “with
+              justification and Rationale of the mapping
+            </p>
             <table>
               <tr>
                 <th>PEO/M</th>
@@ -328,7 +373,9 @@ class VisionAndMissionPage extends Component {
                 <th>M5</th>
               </tr>
               <tr>
-                <td><b>PEO1</b></td>
+                <td>
+                  <b>PEO1</b>
+                </td>
                 <td>High</td>
                 <td>Medium</td>
                 <td>Medium</td>
@@ -336,29 +383,35 @@ class VisionAndMissionPage extends Component {
                 <td>Medium</td>
               </tr>
               <tr>
-                <td><b>PEO2</b></td>
+                <td>
+                  <b>PEO2</b>
+                </td>
                 <td>Medium</td>
                 <td>High</td>
                 <td>High</td>
                 <td>Medium</td>
                 <td>Medium</td>
-
               </tr>
               <tr>
-                <td><b>PEO3</b></td>
+                <td>
+                  <b>PEO3</b>
+                </td>
                 <td>Medium</td>
                 <td>Medium</td>
                 <td>Medium</td>
                 <td>High</td>
                 <td>High</td>
               </tr>
-
             </table>
             <br />
-            <p>Where: M1, M2, M3, M4 and M5 are five elements of Mission Statement and PEO1,
-              PEO2, PEO3 are Program Education Objectives statement.<br />
-              Enter correlation levels 1, 2 or 3, where the correlation levels 1, 2 or 3 as defined
-              below:<br />
+            <p>
+              Where: M1, M2, M3, M4 and M5 are five elements of Mission
+              Statement and PEO1, PEO2, PEO3 are Program Education Objectives
+              statement.
+              <br />
+              Enter correlation levels 1, 2 or 3, where the correlation levels
+              1, 2 or 3 as defined below:
+              <br />
               <ol type="1" style={{ marginLeft: "50px" }}>
                 <li>Slightly (Low)</li>
                 <li>Moderately (Medium)</li>

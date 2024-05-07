@@ -25,183 +25,233 @@ import EXTC_Major_18_19_pdf from "../../pdfs/major_projects/Major Project EXTC 2
 import EXTC_Major_19_20_pdf from "../../pdfs/major_projects/Major Project EXTC 2019-20.pdf";
 import EXTC_Major_20_21_pdf from "../../pdfs/major_projects/Major Project EXTC 2020-21.pdf";
 import EXTC_Major_21_22_pdf from "../../pdfs/major_projects/Major Project EXTC 2021-22.pdf";
+import EXTC_Major_22_23_pdf from "../../pdfs/major_projects/Major Project EXTC 2022-23.pdf";
 import EXTC_Major_23_24_pdf from "../../pdfs/major_projects/Major Project EXTC 2023-24.pdf";
 
+import ProjectReportTemplate from "../../pdfs/project_guidelines/ProjectTemplate.zip";
+import PhD_Synopsis_Template from "../../pdfs/project_guidelines/phd_synopsis_template.zip";
+import ME_Thesis_Template from "../../pdfs/project_guidelines/ME-Thesis-template_Miktex.zip";
+import FYP_Handbook from "../../pdfs/project_guidelines/BE-EXTC_FYP.pdf";
+import ME_Project_Presentation_Template from "../../pdfs/project_guidelines/ME_Project-Special-topic-presentation_template.ppt";
 
-
-import PhotoGallery from "../gallery/MiniProjectGallery";
+import MiniProjectGallery from "../gallery/MiniProjectGallery";
+import MajorProjectGallery from "../gallery/MajorProjectGallery";
 
 export class projects extends Component {
   render() {
-    const displayCourse = ["course01", "course02", "course03"].map(
-      (course, index) => (
-        <Col
-          xs={10}
-          sm={6}
-          lg={4}
-          className="course-item mx-auto my-3"
-          key={course + index}
-          data-aos="fade-up"
-        >
-          <Card className="course-card">
-            <div className="img-container">
-              <Card.Img variant="top" src={course01} className="course-img" />
-              <span className="course-item-icon">
-                <i className="fas fa-star"></i>
-              </span>
-            </div>
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-              <div className="text-center">
-                <Button variant="primary text-center">Register</Button>
-              </div>
-            </Card.Body>
-          </Card>
-        </Col>
-      )
-    );
-
     return (
-      <section id="projects" className="projects">
-        <Container>
-          {/* MINI PROJECTS SECTION */}
-          <Row>
-            <Col xs={10} sm={6} className="mx-auto text-center course-title">
-              <h3 className="text-capitalize text-center mb-4 mt-4">MINI PROJECTS</h3>
-              <p className="text-muted" style={{ minWidth: "100%" }} data-aos="fade-up">
-                Our Featured projects are selected through a rigorous process and uniquely created for each semester.
-              </p>
-            </Col>
-          </Row>
+      <Container>
+        {/* MINI PROJECTS SECTION */}
+        <h3 className="text-capitalize text-center mb-4 mt-4">MINI PROJECTS</h3>
+        <Card className="mt-2">
+          <Card.Body>
+            {" "}
+            <MiniProjectGallery />
+            <br />
+            <br />
+            <ul style={{ marginLeft: "50px" }}>
+              <li>
+                <a href={MiniProject_23_24_pdf} target="_blank">
+                  <h2>MINI PROJECT 2023-24</h2>
+                </a>
+              </li>
+              <li>
+                <a href={SY_EXTC_22_23_pdf} target="_blank">
+                  <h2>MINI PROJECT 2022-23 (EXTC)</h2>
+                </a>
+              </li>
+              <li>
+                <a href={EXTC_21_22_pdf} target="_blank">
+                  <h2>MINI PROJECT 2021-22 (EXTC)</h2>
+                </a>
+              </li>
+              <li>
+                <a href={SY_ETRX_21_22_pdf} target="_blank">
+                  <h2>MINI PROJECT 2021-22 (ETRX)</h2>
+                </a>
+              </li>
+              <li>
+                <a href={EXTC_20_21_pdf} target="_blank">
+                  <h2>MINI PROJECT 2020-21 (EXTC)</h2>
+                </a>
+              </li>
+              <li>
+                <a href={SY_ETRX_20_21_pdf} target="_blank">
+                  <h2>MINI PROJECT 2020-21 (ETRX)</h2>
+                </a>
+              </li>
+            </ul>
+          </Card.Body>
+        </Card>
 
-          <PhotoGallery />
-          <br /><br />
-          <ul>
-            <li>
-              <a href={MiniProject_23_24_pdf} target="_blank">
-                <h2>MINI PROJECT 2023-24</h2>
-              </a>
-            </li>
-            <li>
-              <a href={SY_EXTC_22_23_pdf} target="_blank">
-                <h2>MINI PROJECT 2022-23 (EXTC)</h2>
-              </a>
-            </li>
-            <li>
-              <a href={EXTC_21_22_pdf} target="_blank">
-                <h2>MINI PROJECT 2021-22 (EXTC)</h2>
-              </a>
-            </li>
-            <li>
-              <a href={SY_ETRX_21_22_pdf} target="_blank">
-                <h2>MINI PROJECT 2021-22 (ETRX)</h2>
-              </a>
-            </li>
-            <li>
-              <a href={EXTC_20_21_pdf} target="_blank">
-                <h2>MINI PROJECT 2020-21 (EXTC)</h2>
-              </a>
-            </li>
-            <li>
-              <a href={SY_ETRX_20_21_pdf} target="_blank">
-                <h2>MINI PROJECT 2020-21 (ETRX)</h2>
-              </a>
-            </li>
-          </ul>
+        {/* MAJOR PROJECTS SECTION */}
+        <h3 className="text-capitalize text-center mb-4 mt-4">
+          MAJOR PROJECTS
+        </h3>
+        <Card>
+          <Card.Body>
+            <MajorProjectGallery />
+            <br />
+            <br />
+            <ul style={{ marginLeft: "50px" }}>
+              <li>
+                <a href={EXTC_Major_23_24_pdf} target="_blank">
+                  <h2>MAJOR PROJECTS LIST 2023-24 (EXTC)</h2>
+                </a>
+              </li>
+              <li>
+                <a href={ETRX_Major_23_24_pdf} target="_blank">
+                  <h2>MAJOR PROJECTS LIST 2023-24 (ETRX)</h2>
+                </a>
+              </li>
+              <li>
+                <a href={EXTC_Major_22_23_pdf} target="_blank">
+                  <h2>MAJOR PROJECTS LIST 2022-23 (EXTC)</h2>
+                </a>
+              </li>
+              <li>
+                <a href={ETRX_Major_22_23_pdf} target="_blank">
+                  <h2>MAJOR PROJECTS LIST 2022-23 (ETRX) </h2>
+                </a>
+              </li>
+              <li>
+                <a href={EXTC_Major_21_22_pdf} target="_blank">
+                  <h2>MAJOR PROJECTS LIST 2021-22 (EXTC)</h2>
+                </a>
+              </li>
+              <li>
+                <a href={ETRX_Major_21_22_xls} target="_blank">
+                  <h2>MAJOR PROJECTS LIST 2021-22 (ETRX)</h2>
+                </a>
+              </li>
+              <li>
+                <a href={EXTC_Major_20_21_pdf} target="_blank">
+                  <h2>MAJOR PROJECTS LIST 2020-21 (EXTC)</h2>
+                </a>
+              </li>
+              <li>
+                <a href={ETRX_Major_20_21_pdf} target="_blank">
+                  <h2>MAJOR PROJECTS LIST 2020-21 (ETRX)</h2>
+                </a>
+              </li>
+              <li>
+                <a href={EXTC_Major_19_20_pdf} target="_blank">
+                  <h2>MAJOR PROJECTS LIST 2019-20 (EXTC)</h2>
+                </a>
+              </li>
+              <li>
+                <a href={ETRX_Major_19_20_pdf} target="_blank">
+                  <h2>MAJOR PROJECTS LIST 2019-20 (ETRX)</h2>
+                </a>
+              </li>
+              <li>
+                <a href={EXTC_Major_18_19_pdf} target="_blank">
+                  <h2>MAJOR PROJECTS LIST 2018-19 (EXTC)</h2>
+                </a>
+              </li>
+              <li>
+                <a href={ETRX_Major_18_19_pdf} target="_blank">
+                  <h2>MAJOR PROJECTS LIST 2018-19 (ETRX)</h2>
+                </a>
+              </li>
+              <li>
+                <a href={EXTC_Major_17_18_pdf} target="_blank">
+                  <h2>MAJOR PROJECTS LIST 2017-16 (EXTC)</h2>
+                </a>
+              </li>
+              <li>
+                <a href={EXTC_Major_16_17_pdf} target="_blank">
+                  <h2>MAJOR PROJECTS LIST 2016-17 (EXTC)</h2>
+                </a>
+              </li>
+            </ul>
+          </Card.Body>
+        </Card>
 
-          {/* MAJOR PROJECTS SECTION */}
-
-          <Row>
-            <Col xs={10} sm={6} className="mx-auto text-center course-title">
-              <h3 className="text-capitalize text-center mb-4 mt-4">MAJOR PROJECTS</h3>
-              <p
-                style={{
-                  borderTop: "3px solid white",
-                  width: 70,
-                  marginTop: 20,
-                }}
-              ></p>
-              <p className="text-muted" data-aos="fade-up">
-                Our Featured projects are selected through a rigorous process
-                and uniquely created for each semester.
-              </p>
-            </Col>
-          </Row>
-
-          <ul>
-            <li>
-              <a href={EXTC_Major_23_24_pdf} target="_blank">
-                <h2>MAJOR PROJECTS LIST 2023-24 (EXTC)</h2>
-              </a>
-            </li>
-            <li>
-              <a href={ETRX_Major_23_24_pdf} target="_blank">
-                <h2>MAJOR PROJECTS LIST 2023-24 (ETRX)</h2>
-              </a>
-            </li>
-            <li>
-              <a href={ETRX_Major_22_23_pdf} target="_blank">
-                <h2>MAJOR PROJECTS LIST 2022-23 (ETRX) </h2>
-              </a>
-            </li>
-            <li>
-              <a href={EXTC_Major_21_22_pdf} target="_blank">
-                <h2>MAJOR PROJECTS LIST 2021-22 (EXTC)</h2>
-              </a>
-            </li>
-            <li>
-              <a href={ETRX_Major_21_22_xls} target="_blank">
-                <h2>MAJOR PROJECTS LIST 2021-22 (ETRX)</h2>
-              </a>
-            </li>
-            <li>
-              <a href={EXTC_Major_20_21_pdf} target="_blank">
-                <h2>MAJOR PROJECTS LIST 2020-21 (EXTC)</h2>
-              </a>
-            </li>
-            <li>
-              <a href={ETRX_Major_20_21_pdf} target="_blank">
-                <h2>MAJOR PROJECTS LIST 2020-21 (ETRX)</h2>
-              </a>
-            </li>
-            <li>
-              <a href={EXTC_Major_19_20_pdf} target="_blank">
-                <h2>MAJOR PROJECTS LIST 2019-20 (EXTC)</h2>
-              </a>
-            </li>
-            <li>
-              <a href={ETRX_Major_19_20_pdf} target="_blank">
-                <h2>MAJOR PROJECTS LIST 2019-20 (ETRX)</h2>
-              </a>
-            </li>
-            <li>
-              <a href={EXTC_Major_18_19_pdf} target="_blank">
-                <h2>MAJOR PROJECTS LIST 2018-19 (EXTC)</h2>
-              </a>
-            </li>
-            <li>
-              <a href={ETRX_Major_18_19_pdf} target="_blank">
-                <h2>MAJOR PROJECTS LIST 2018-19 (ETRX)</h2>
-              </a>
-            </li>
-            <li>
-              <a href={EXTC_Major_17_18_pdf} target="_blank">
-                <h2>MAJOR PROJECTS LIST 2017-16 (EXTC)</h2>
-              </a>
-            </li>
-            <li>
-              <a href={EXTC_Major_16_17_pdf} target="_blank">
-                <h2>MAJOR PROJECTS LIST 2016-17 (EXTC)</h2>
-              </a>
-            </li>
-          </ul>
-
-        </Container>
-      </section>
+        {/* PROJECT GUIDELINES SECTION */}
+        <h3 className="text-capitalize text-center mb-4 mt-4">
+          Guidelines for Project
+        </h3>
+        <Card>
+          <Card.Body>
+            <p>
+              The following file consists of a number of examples how to use
+              LaTeX for writing assignment, B.E., M.E. synopsis, B.E., M.E.
+              reports, Ph.D title to Ph.D thesis, conference, journal and
+              transactions paper writing and presentation.
+            </p>
+            <ul style={{ marginLeft: "50px" }}>
+              <li>
+                <a href={ProjectReportTemplate} target="_blank">
+                  <h2>
+                    Template for Project Report / Paper Writing / Assignment
+                  </h2>
+                </a>
+              </li>
+              <li>
+                <a href={PhD_Synopsis_Template} target="_blank">
+                  <h2>PhD Synopsis Template</h2>
+                </a>
+              </li>
+              <li>
+                <a href={ME_Thesis_Template} target="_blank">
+                  <h2>M.E. Thesis Template</h2>
+                </a>
+              </li>
+              <li>
+                <a href={FYP_Handbook} target="_blank">
+                  <h2>Final Year Project Hand Book</h2>
+                </a>
+              </li>
+              <li>
+                <a href={ME_Project_Presentation_Template} target="_blank">
+                  <h2>M.E. Project Special Topic Presentation Template</h2>
+                </a>
+              </li>
+              <li>
+                <a href="https://youtu.be/U7Sg1IOh0VA" target="_blank">
+                  <h2>Dos and Don'ts in Technical Writing</h2>
+                </a>
+              </li>
+              <li>
+                <a href="https://youtu.be/0J_eEZTacrg" target="_blank">
+                  <h2>Tips for Technical Presentation</h2>
+                </a>
+              </li>
+              <li>
+                <a href="https://youtu.be/Kwv4lON6hHA" target="_blank">
+                  <h2>Why Latex</h2>
+                </a>
+              </li>
+              <li>
+                <a href="https://youtu.be/99vjiM7nQAw" target="_blank">
+                  <h2>Linux Commands</h2>
+                </a>
+              </li>
+              <li>
+                <a href="https://youtu.be/vheyby-eDJU" target="_blank">
+                  <h2>How to write Technical Document using Latex</h2>
+                </a>
+              </li>
+              <li>
+                <a href="https://youtu.be/7W87A77doUI" target="_blank">
+                  <h2>
+                    How to Write Conference and Journal Papers using Latex
+                  </h2>
+                </a>
+              </li>
+              <li>
+                <a href="https://youtu.be/Q-IOIpOmPjI" target="_blank">
+                  <h2>
+                    How to prepare presentation slides using latex and the
+                    features of Xfig and Xmgrace tools
+                  </h2>
+                </a>
+              </li>
+            </ul>
+          </Card.Body>
+        </Card>
+      </Container>
     );
   }
 }

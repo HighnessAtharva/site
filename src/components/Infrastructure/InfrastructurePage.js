@@ -13,7 +13,7 @@ class InfrastructurePage extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src="https://www.psyec.edu.in/assets/img/cover/eee.webp"
+                src="https://i.ibb.co/x5Lsr9y/205.png"
                 className="img-fluid labBannerImg"
               />
               <Card.Body>
@@ -32,7 +32,7 @@ class InfrastructurePage extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src="https://www.psyec.edu.in/assets/img/cover/eee.webp"
+                src="https://i.ibb.co/KXhy7SC/206.png"
                 className="img-fluid labBannerImg"
               />
               <Card.Body>
@@ -51,7 +51,7 @@ class InfrastructurePage extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src="https://images.spiceworks.com/wp-content/uploads/2023/10/12102017/Embedded-System.jpg"
+                src="https://i.ibb.co/jLJsdfP/Embedded-System.png"
                 className="img-fluid labBannerImg"
               />
               <Card.Body>
@@ -70,7 +70,7 @@ class InfrastructurePage extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src="https://nsfgradfellows.org/wp-content/uploads/2021/07/AdobeStock_67901546-2-750x400.jpg"
+                src="https://i.ibb.co/zPs0W8G/208.png"
                 className="img-fluid labBannerImg"
               />
               <Card.Body>
@@ -89,7 +89,7 @@ class InfrastructurePage extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src="https://www.shutterstock.com/image-photo/electronic-circuit-board-digital-information-600nw-755896279.jpg"
+                src="https://i.ibb.co/KxRdqvJ/img2.png"
                 className="img-fluid labBannerImg"
               />
               <Card.Body>
@@ -109,7 +109,7 @@ class InfrastructurePage extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src="https://nsfgradfellows.org/wp-content/uploads/2021/07/AdobeStock_67901546-2-750x400.jpg"
+                src="https://i.ibb.co/b7TbfCq/09.png"
                 className="img-fluid labBannerImg"
               />
               <Card.Body>
@@ -129,7 +129,8 @@ class InfrastructurePage extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src="https://www.psyec.edu.in/assets/img/cover/eee.webp"
+                src="https://i.ibb.co/vZZB9md/213.png"
+               
                 className="img-fluid labBannerImg"
               />
               <Card.Body>
@@ -149,7 +150,7 @@ class InfrastructurePage extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src="https://www.psyec.edu.in/assets/img/cover/eee.webp"
+                src="https://i.ibb.co/fXNyktM/eee.png"
                 className="img-fluid labBannerImg"
               />
               <Card.Body>
@@ -169,7 +170,7 @@ class InfrastructurePage extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src="https://nsfgradfellows.org/wp-content/uploads/2021/07/AdobeStock_67901546-2-750x400.jpg"
+                src="https://i.ibb.co/jy9C901/207.png"
                 className="img-fluid labBannerImg"
               />
               <Card.Body>
@@ -188,7 +189,7 @@ class InfrastructurePage extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src="https://nsfgradfellows.org/wp-content/uploads/2021/07/AdobeStock_67901546-2-750x400.jpg"
+                src="https://i.ibb.co/9wj6J8L/img.png"
                 className="img-fluid labBannerImg"
               />
               <Card.Body>
@@ -210,7 +211,7 @@ class InfrastructurePage extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src="https://nsfgradfellows.org/wp-content/uploads/2021/07/AdobeStock_67901546-2-750x400.jpg"
+                src="https://i.ibb.co/X5HF4K5/211.png"
                 className="img-fluid labBannerImg"
               />
               <Card.Body>
@@ -231,7 +232,7 @@ class InfrastructurePage extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src="https://www.psyec.edu.in/assets/img/cover/eee.webp"
+                src="https://i.ibb.co/Mp2PFyV/212.png"
                 className="img-fluid labBannerImg"
               />
               <Card.Body>
@@ -250,7 +251,7 @@ class InfrastructurePage extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src="https://www.psyec.edu.in/assets/img/cover/eee.webp"
+                src="https://i.ibb.co/8PXDdFt/210.png"
                 className="img-fluid labBannerImg"
               />
               <Card.Body>
@@ -273,7 +274,7 @@ class InfrastructurePage extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src="https://www.psyec.edu.in/assets/img/cover/eee.webp"
+                src="https://i.ibb.co/GC9mmkd/c12.png"
                 className="img-fluid labBannerImg"
               />
               <Card.Body>
@@ -292,7 +293,7 @@ class InfrastructurePage extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src="https://www.psyec.edu.in/assets/img/cover/eee.webp"
+                src="https://i.ibb.co/7QCL7tQ/c11.png"
                 className="img-fluid labBannerImg"
               />
               <Card.Body>
