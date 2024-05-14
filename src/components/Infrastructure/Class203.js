@@ -7,7 +7,7 @@ class Class203 extends Component {
   render() {
     return (
       <Container>
-        <h1> Classroom 203</h1>
+        <h3 className="text-capitalize text-center mb-4 mt-4">Classroom 203</h3>
         <Card className="mt-2">
           <Card.Body>
             <ClassGallery203 />

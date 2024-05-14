@@ -6,15 +6,18 @@ import consultancyData from "./consultancyData";
 
 export class consultancy extends Component {
   render() {
-    
     return (
-      <Container>
-      <h1 className="text-center mb-4">
-      EXTC Consultancy Projects
-      </h1>
-      <div>
-       
-         
+      <>
+        <Container className="global-container text-center" fluid>
+          <Row>
+            <Col>
+              <h3>EXTC CONSULTANCY PROJECTS</h3>
+            </Col>
+          </Row>
+        </Container>
+        <Container>
+          <br />
+          <div>
             <table className="table table-striped">
               <thead>
                 <tr>
@@ -25,12 +28,10 @@ export class consultancy extends Component {
                   <th>Amount</th>
                   <th>Duration</th>
                   <th>Completion Status</th>
-                  
-                 
                 </tr>
               </thead>
               <tbody>
-              {consultancyData.map((consultancy) => (
+                {consultancyData.map((consultancy) => (
                   <tr key={consultancy.id}>
                     <td>{consultancy.id}</td>
                     <td>{consultancy.name}</td>
@@ -45,9 +46,8 @@ export class consultancy extends Component {
             </table>
             <br></br>
           </div>
-       
-     
-    </Container>
+        </Container>
+      </>
     );
   }
 }

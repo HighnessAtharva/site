@@ -9,13 +9,18 @@ export class MTech extends Component {
   render() {
 
     return (
-      <section id="MTech" className="MTech py-5">
+      <section >
+        <Container className="global-container text-center" fluid>
+            <Row>
+              <Col>
+                <h3>M .Tech PROGRAM</h3>
+              </Col>
+            </Row>
+          </Container>
         <Container>
           <Row>
             <Col xs={10} sm={6} className="mx-auto text-center course-title">
-              <h1 className="text-capitalize">
-                <strong style={{ color: "brown" }}>M.Tech </strong>Program
-              </h1>
+             
               <p
                 style={{
                   borderTop: "3px solid white",
@@ -32,10 +37,10 @@ export class MTech extends Component {
           <Row>
             <Col>
               <div className="mtech-container">
-                <div className="mtech-item">
+                {/* <div className="mtech-item">
                   <h1>Timetable</h1>
                   <p>Placeholder text for Timetable</p>
-                </div>
+                </div> */}
                 <div className="mtech-item">
                   {/* <h1>Syllabus</h1> */}
 

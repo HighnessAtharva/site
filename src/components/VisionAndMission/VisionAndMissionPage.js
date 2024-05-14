@@ -7,9 +7,13 @@ class VisionAndMissionPage extends Component {
     return (
       <>
         <div>
-          <h3 className="text-capitalize text-center mb-4 mt-4">
-            UNDERGRADUATE PROGRAM
-          </h3>
+          <Container className="global-container text-center" fluid>
+            <Row>
+              <Col>
+                <h3>UNDERGRADUATE PROGRAM</h3>
+              </Col>
+            </Row>
+          </Container>
           <Container className="container-style">
             <h3 className="text-center mb-4">Vision</h3>
             <p
@@ -261,10 +265,15 @@ class VisionAndMissionPage extends Component {
             </p>
           </Container>
         </div>
+        <br />
         <div>
-          <h3 className="text-capitalize text-center mb-4 mt-4">
-            POSTGRADUATE PROGRAM
-          </h3>
+          <Container className="global-container text-center" fluid>
+            <Row>
+              <Col>
+                <h3>POSTGRADUATE PROGRAM</h3>
+              </Col>
+            </Row>
+          </Container>
           <Container className="container-style">
             <h3 className="text-center mb-4">Vision</h3>
             <p

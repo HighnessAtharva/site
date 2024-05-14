@@ -19,13 +19,18 @@ import EXTC_Scheme from  "../../pdfs/btech_syllabus/BTECH_EXTC_2021-2025_Scheme_
 class BTech extends Component {
   render() {
     return (
-      <section id="BTech" className="BTech py-5">
+      <section >
+        <Container className="global-container text-center" fluid>
+            <Row>
+              <Col>
+                <h3>B.Tech PROGRAM</h3>
+              </Col>
+            </Row>
+          </Container>
         <Container>
           <Row>
             <Col xs={10} sm={6} className="mx-auto text-center course-title">
-              <h3 className="text-capitalize text-center mb-4 mt-4">
-                <strong >B.Tech Program </strong>
-              </h3>
+              
               <p
                 style={{
                   borderTop: "3px solid white",

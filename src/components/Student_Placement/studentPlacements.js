@@ -104,67 +104,90 @@ class StudentPlacements extends Component {
     ];
 
     return (
-      <Container>
-
-        <h3 class="text-center mt-4">STUDENT PLACEMENT RECORDS</h3>
-        <Row className="justify-content-centeralign-items-center">
-        <Col xs={12} md={6}>
-          <Image src={BannerImg} className="img-fluid" fluid />
-        </Col>
-        <Col xs={12} md={6}>
-          <Image src={PlacementImg} className="img-fluid" fluid />
-        </Col>
-        </Row>
-            <table className="table">
-              <thead>
-                <tr>
-                  <th>Academic Year</th>
-                  <th>Appeared</th>
-                  <th>Placed</th>
-                  <th>Percentage</th>
+      <>
+        <Container className="global-container text-center" fluid>
+          <Row>
+            <Col>
+              <h3>STUDENT PLACEMENT RECORDS</h3>
+            </Col>
+          </Row>
+        </Container>
+        <Container>
+          <br />
+          <Row className="justify-content-centeralign-items-center">
+            <Col xs={12} md={6}>
+              <Image src={BannerImg} className="img-fluid" fluid />
+            </Col>
+            <Col xs={12} md={6}>
+              <Image src={PlacementImg} className="img-fluid" fluid />
+            </Col>
+          </Row>
+          <br />
+          <table className="table">
+            <thead>
+              <tr>
+                <th>Academic Year</th>
+                <th>Appeared</th>
+                <th>Placed</th>
+                <th>Percentage</th>
+              </tr>
+            </thead>
+            <tbody>
+              {placementStatistics.map((data, index) => (
+                <tr key={index}>
+                  <td>{data.academicYear}</td>
+                  <td>{data.appeared}</td>
+                  <td>{data.placed}</td>
+                  <td>{data.percentage}</td>
                 </tr>
-              </thead>
-              <tbody>
-                {placementStatistics.map((data, index) => (
-                  <tr key={index}>
-                    <td>{data.academicYear}</td>
-                    <td>{data.appeared}</td>
-                    <td>{data.placed}</td>
-                    <td>{data.percentage}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-
-            <h3 class="text-center mt-4">HIGHER STUDIES</h3>
-            <div>
-              <Image src={HigherStudies}  fluid />
-              {placementData.map((yearData, index) => (
-                <div key={index}>
-                  <h3>({yearData.year})</h3>
-                  <table className="table">
-                    <thead>
-                      <tr>
-                        <th>Profile</th>
-                        <th>Percentage</th>
-                        <th>Details</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {yearData.profiles.map((profile, profileIndex) => (
-                        <tr key={profileIndex}>
-                          <td>{profile.profile}</td>
-                          <td>{profile.percentage}</td>
-                          <td>{profile.details}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
               ))}
-            </div>
-
-      </Container>
+            </tbody>
+          </table>
+          <br />
+        </Container>
+        <Container className="global-container text-center" fluid>
+          <Row>
+            <Col>
+              <h3>HIGHER STUDIES</h3>
+            </Col>
+          </Row>
+        </Container>
+        <Container>
+          <br />
+          <div>
+            <Image
+              src={HigherStudies}
+              fluid
+              style={{ height: "300px", display: "block", margin: "auto" }}
+            />
+            <br />
+            <br />
+            {placementData.map((yearData, index) => (
+              <div key={index}>
+                <h3>({yearData.year})</h3>
+                <table className="table">
+                  <thead>
+                    <tr>
+                      <th>Profile</th>
+                      <th>Percentage</th>
+                      <th>Details</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {yearData.profiles.map((profile, profileIndex) => (
+                      <tr key={profileIndex}>
+                        <td>{profile.profile}</td>
+                        <td>{profile.percentage}</td>
+                        <td>{profile.details}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </>
     );
   }
 }

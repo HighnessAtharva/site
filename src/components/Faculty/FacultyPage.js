@@ -32,32 +32,20 @@ class FacultyPage extends Component {
 
     return (
       <section>
-        <Container
-          style={{ backgroundColor: "brown", color: "#fff", height: "60px" }}
-          className="text-center"
-          fluid
-        >
+        <Container className="global-container text-center" fluid>
           <Row>
             <Col>
-              <h3
-                style={{ textAlign: "center", margin: "5px", padding: "10px" }}
-              >
-                FACULTY LIST
-              </h3>
+              <h3>FACULTY LIST</h3>
             </Col>
           </Row>
         </Container>
         <Container className="mt-5 mb-5">{facultyRows}</Container>
-        <Container>
-          <h1
-            style={{
-              textAlign: "center",
-              marginTop: "5px",
-              paddingTop: "10px",
-            }}
-          >
-            Support Staff
-          </h1>
+        <Container className="global-container text-center" fluid>
+          <Row>
+            <Col>
+              <h3>SUPPORT STAFF</h3>
+            </Col>
+          </Row>
         </Container>
         <Container className="mt-5 mb-5">{supportStaffRows}</Container>
       </section>
@@ -69,14 +57,17 @@ class FacultyPage extends Component {
       <div className="faculty-card">
         <div className="faculty-image">
           <Image src={faculty.image} fluid />
-          <div >
-          <a href={faculty.url}>
-            <i className="fab fa-linkedin-in"></i>
-          </a>
-          <a href={faculty.scholar}>
-      <GoogleScholarIcon width="25" height="25" style={{ marginLeft: '5px' }} />
-    </a>
-         
+          <div>
+            <a href={faculty.url}>
+              <i className="fab fa-linkedin-in"></i>
+            </a>
+            <a href={faculty.scholar}>
+              <GoogleScholarIcon
+                width="25"
+                height="25"
+                style={{ marginLeft: "5px" }}
+              />
+            </a>
           </div>
         </div>
         <div className="faculty-details">

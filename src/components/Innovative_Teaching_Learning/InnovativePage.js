@@ -6,13 +6,21 @@ import yearWisePractices from "./yearWisePractices";
 class InnovativePage extends Component {
   render() {
     return (
+      <>
+      <Container className="global-container text-center" fluid>
+          <Row>
+            <Col>
+              <h3>INNOVATIVE TEACHING LEARNING PRACTICES</h3>
+            </Col>
+          </Row>
+        </Container>
+      
       <Container>
-        <h1 className="text-center mb-4">
-          Innovative Teaching Learning Practices
-        </h1>
+        
         <div>
           {yearWisePractices.map((yearData, index) => (
             <div key={index}>
+              <br />
               <h2 className="text-center mb-4">
                 Academic Year: ({yearData.year})
               </h2>
@@ -57,6 +65,7 @@ class InnovativePage extends Component {
           ))}
         </div>
       </Container>
+      </>
     );
   }
 }

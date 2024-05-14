@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import { Button, Container, Row, Col, Carousel, Image } from "react-bootstrap";
-import slide01 from "../../images/banner.png";
-import slide02 from "../../images/slide-02.jpg";
-import slide03 from "../../images/slide-03.jpg";
+
+import slide02 from "../../images/banner2.jpg";
+import slide03 from "../../images/banner3.jpg";
+import slide04 from "../../images/banner4.jpg";
 import "./header.css";
 
 class Slider extends Component {
@@ -15,12 +16,12 @@ class Slider extends Component {
               <Carousel.Item>
                 <Image
                   className="d-block w-100"
-                  src={slide01}
+                  src={slide04}
                   alt="First slide"
                   fluid
-                  style={{ objectFit: "cover", opacity: "0.5", borderRadius: "10px", borderRadius: "10px"}}
+                  style={{ objectFit: "cover",  borderRadius: "10px", borderRadius: "10px"}}
                 />
-                <Carousel.Caption
+               {/*  <Carousel.Caption
                   className="text-left"
                   data-aos="fade-down"
                   // data-aos-offset="300"
@@ -34,41 +35,25 @@ class Slider extends Component {
                     effectively using the scientific and technical knowledge for
                     the betterment of society.”
                   </p>
-                  <Button
+                   <Button
                     variant="danger"
                     style={{ fontSize: "1.2rem", marginBottom: 10 }}
                   >
 Read More
-                  </Button>
-                </Carousel.Caption>
+                  </Button> 
+                </Carousel.Caption> */}
               </Carousel.Item>
+             
               <Carousel.Item>
                 <Image
                   className="d-block w-100"
                   src={slide02}
                   alt="Third slide"
                   fluid
-                  style={{ objectFit: "cover", opacity: "0.5", borderRadius: "10px" }}
+                  style={{ objectFit: "cover", borderRadius: "10px" }}
                 />
 
-                <Carousel.Caption
-                  data-aos="fade-right"
-                  className="text-left"
-                  style={{ fontSize: "1.8rem" }}
-                >
-                  <h1 style={{ fontSize: "3rem", fontWeight: "bold", color: "black", marginLeft: "-33rem" }}>
-                    Second slide label
-                  </h1>
-                  <p style={{ fontSize: "1.5rem", lineHeight: "1.6" }}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                  <Button
-                    variant="danger"
-                    style={{ fontSize: "1.2rem", marginBottom: 10 }}
-                  >
-                    Now
-                  </Button>
-                </Carousel.Caption>
+
               </Carousel.Item>
               <Carousel.Item>
                 <Image
@@ -76,28 +61,10 @@ Read More
                   src={slide03}
                   alt="Third slide"
                   fluid
-                  style={{ objectFit: "cover", opacity: "0.5", borderRadius: "10px" }}
+                  style={{ objectFit: "cover",  borderRadius: "10px" }}
                 />
 
-                <Carousel.Caption
-                  data-aos="fade-right"
-                  className="text-left"
-                  style={{ fontSize: "1.8rem" }}
-                >
-                  <h1 style={{ fontSize: "3rem", fontWeight: "bold", color: "black", marginLeft: "-33rem" }}>
-                    Third slide label
-                  </h1>
-                  <p style={{ fontSize: "1.5rem", lineHeight: "1.6" }}>
-                    Praesent commodo cursus magna, vel scelerisque nisl
-                    consectetur.
-                  </p>
-                  <Button
-                    variant="danger"
-                    style={{ fontSize: "1.2rem", marginBottom: 10 }}
-                  >
-                    Now
-                  </Button>
-                </Carousel.Caption>
+
               </Carousel.Item>
             </Carousel>
           </Col>

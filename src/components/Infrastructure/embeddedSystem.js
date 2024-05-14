@@ -7,7 +7,9 @@ class EmbeddedSystem extends Component {
   render() {
     return (
       <Container>
-        <h1>Embedded System Lab</h1>
+        <h3 className="text-capitalize text-center mb-4 mt-4">
+          Embedded System Lab
+        </h3>
         <Card className="mt-2">
           <Card.Body>
             <LabGallery />

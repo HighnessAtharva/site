@@ -6,6 +6,7 @@ import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Topbar from "./container/header/Topbar";
 import About from "./container/about/About";
 import VideoPage from "./container/videoSection/VideoPage";
+import "./global_styles.css";
 
 //
 import BTech from "./container/Btech/BTechPage";
@@ -51,6 +52,7 @@ import ElectronicsDeviceLab from "./components/Infrastructure/ElectronicsDeviceL
 import FiberOpticLab from "./components/Infrastructure/FiberOpticLab";
 import ResearchLab from "./components/Infrastructure/ResearchLab";
 import InstrumentationLab from "./components/Infrastructure/InstrumentationLab";
+import Lab205 from "./components/Infrastructure/Lab205";
 import Lab502 from "./components/Infrastructure/Lab502";
 import Lab507A from "./components/Infrastructure/Lab507A";
 import Lab508 from "./components/Infrastructure/Lab508";
@@ -193,6 +195,9 @@ class App extends React.Component {
             </Route>
             <Route exact path="/instrumentationLab">
               <InstrumentationLab />
+            </Route>
+            <Route exact path="/Lab205">
+              <Lab205  />
             </Route>
             <Route exact path="/Lab507">
               <Lab507A />

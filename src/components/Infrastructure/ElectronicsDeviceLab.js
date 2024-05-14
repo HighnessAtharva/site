@@ -7,7 +7,9 @@ class ElectronicsDeviceLab extends Component {
   render() {
     return (
       <Container>
-        <h1>Electronics and Devices Lab</h1>
+        <h3 className="text-capitalize text-center mb-4 mt-4">
+          Electronics and Devices Lab
+        </h3>
         <Card className="mt-2">
           <Card.Body>
             <LabGalleryEandD />

@@ -7,9 +7,16 @@ import FacultyAchievementGallery from "./../../container/gallery/FacultyAchievem
 class FacultyAchievements extends Component {
   render() {
     return (
+      <>
+       <Container className="global-container text-center" fluid>
+          <Row>
+            <Col>
+              <h3>FACULTY ACHIEVEMENTS</h3>
+            </Col>
+          </Row>
+        </Container>
       <Container>
-        <h3 className="text-capitalize text-center mb-4 mt-4">FACULTY ACHIEVEMENTS</h3>
-
+      
         <Card className="mt-2">
           <Card.Body>
             <FacultyAchievementGallery />
@@ -33,6 +40,7 @@ class FacultyAchievements extends Component {
           </Card.Body>
         </Card>
       </Container>
+      </>
     );
   }
 }

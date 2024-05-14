@@ -16,25 +16,16 @@ import BOS2324 from "../../pdfs/bos/BoS_2023-24.pdf";
 class BOS extends Component {
   render() {
     return (
-      <section id="BTech" className="BTech py-5">
+      <section >
+        <Container className="global-container text-center" fluid>
+            <Row>
+              <Col>
+                <h3> BOARD OF STUDIES</h3>
+              </Col>
+            </Row>
+          </Container>
         <Container>
-          <Row>
-            <Col xs={10} sm={6} className="mx-auto text-center course-title">
-            <h3 className="text-capitalize text-center mb-4 mt-4">
-                BOARD OF STUDIES
-              </h3>
-              <p
-                style={{
-                  borderTop: "3px solid white",
-                  width: 70,
-                  marginTop: 20,
-                }}
-              ></p>
-              {/* <p data-aos="fade-up">
-                Our Featured BTech programs are selected through a rigorous process and uniquely created for each semester.
-              </p> */}
-            </Col>
-          </Row>
+          
           <Row>
             <Col>
               <div className="btech-container">

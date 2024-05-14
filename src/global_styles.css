@@ -1,0 +1,13 @@
+.global-container {
+    background-color: brown;
+    color: #fff;
+    height: 60px;
+  }
+  
+  .global-container h3 {
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    font-weight: 750;
+  }
+  

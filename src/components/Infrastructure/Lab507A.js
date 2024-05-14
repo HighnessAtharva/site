@@ -7,7 +7,8 @@ class Lab507A extends Component {
   render() {
     return (
       <Container>
-        <h1> Lab 507</h1>
+        <h3 className="text-capitalize text-center mb-4 mt-4">Lab 507</h3>
+
         <Card className="mt-2">
           <Card.Body>
             <LabGallery507 />
@@ -56,7 +57,6 @@ class Lab507A extends Component {
                   <li>MCAD Translators (Perpetual License)</li>
                 </ul>
               </p>
-              
             </div>
           </Card.Body>
         </Card>

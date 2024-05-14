@@ -7,7 +7,9 @@ class AnalogCircuitLab extends Component {
   render() {
     return (
       <Container>
-        <h1>Analog Circuit Lab</h1>
+        <h3 className="text-capitalize text-center mb-4 mt-4">
+          Analog Circuit Lab
+        </h3>
         <Card className="mt-2">
           <Card.Body>
             <LabGalleryAnalogCircuit />
@@ -42,7 +44,7 @@ class AnalogCircuitLab extends Component {
               <p>
                 <b>List of Components:</b>
               </p>
-              <ul style={{marginLeft: "50px"}}>
+              <ul style={{ marginLeft: "50px" }}>
                 <li>Dual Power Supply (0-32 Volt, 2 Amp) - JOMA</li>
                 <li>4 &amp; 1/2 Digit True RMS Multimeter - HTC</li>
                 <li>50 MHz Digital Storage Oscilloscope - Model Scientific</li>

@@ -7,7 +7,9 @@ class Lab502 extends Component {
   render() {
     return (
       <Container>
-        <h1>Lab 502: Digital System Laboratory</h1>
+        <h3 className="text-capitalize text-center mb-4 mt-4">
+          Lab 502: Digital System Laboratory
+        </h3>
         <Card className="mt-2">
           <Card.Body>
             <LabGallery502 />

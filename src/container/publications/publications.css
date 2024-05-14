@@ -1,6 +1,9 @@
 /* .publications {
   background-color: #b4d1ff;
 } */
+iframe::-webkit-scrollbar {
+  display: none;
+}
 
 #docTitle{
   display: none;
