@@ -60,7 +60,7 @@ class FETSPage extends Component {
             <CommitteeCard
               name="FETS"
               description="Forum for Electronic and telecommunication students (FETS). Website is coming soon."
-              link="#"
+              link="http://fets.spit.ac.in/"
               imageUrl={FetsLogo}
             />
           </Row>
