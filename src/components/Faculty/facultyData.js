@@ -65,7 +65,7 @@ module.exports = [
   {
     name: "Dr. Deepak C Karia",
     designation: "Associate Professor",
-    image: "https://i.ibb.co/SttkcYf/PXL-20240510-055548389.jpg",
+    image: "https://i.ibb.co/MpGsyyt/PXL-20240510-054630871.jpg",
     qualification: "Ph.D(Mumbai University)",
     experience: "22+ Years",
     expertise: "Communication, Networking",
@@ -117,7 +117,7 @@ module.exports = [
   {
     name: "Dr. P. V. Kasambe",
     designation: "Assistant Professor",
-    image: "https://i.ibb.co/MRZqLNW/PXL-20240510-054908901.jpg",
+    image: "https://i.ibb.co/D5YTBsB/PXL-20240510-060037933.jpg",
     qualification:
       "Ph.D Electronics (University of Mumbai), M.E. (Electronics, University of Mumbai)",
     experience: "24 Years",
@@ -130,7 +130,7 @@ module.exports = [
   {
     name: "Dr. Anand D. Mane",
     designation: "Assistant Professor",
-    image: "https://i.ibb.co/MpGsyyt/PXL-20240510-054630871.jpg",
+    image: "https://i.ibb.co/SttkcYf/PXL-20240510-055548389.jpg",
     qualification:
       "Ph.D (Mumbai University), M.E. (Communication Engineering, Electronics Engineering)",
     experience: "25 Years Teaching, 2 Years Industry",
@@ -186,7 +186,7 @@ module.exports = [
   {
     name: "Prof. Milind Paraye",
     designation: "Assistant Professor",
-    image: "https://i.ibb.co/dQgWXvh/PXL-20240510-055619724.jpg",
+    image: "https://i.ibb.co/Nm2MmcM/F16.png",
     qualification: "M.E. (Pursuing Ph.D.)",
     experience: "14 Years",
     expertise: "Embedded Systems, PV solar, ML, AI",
@@ -211,7 +211,7 @@ module.exports = [
   {
     name: "Prof. Najib Ghatte",
     designation: "Assistant Professor",
-    image: "https://i.ibb.co/D5YTBsB/PXL-20240510-060037933.jpg",
+    image: "https://i.ibb.co/MRZqLNW/PXL-20240510-054908901.jpg",
     qualification: "B.E; M.E",
     experience: "10 Years",
     expertise:
@@ -249,7 +249,7 @@ module.exports = [
   {
     name: "Prof. Sneha A. Weakey",
     designation: "Assistant Professor",
-    image: "https://i.ibb.co/VJdJT0f/PXL-20240510-055823936.jpg",
+    image: "https://i.ibb.co/BrNsHpk/F21.jpg",
     qualification: "M.Tech (Control System)",
     experience: "6 Years",
     expertise: "Control Systems, Digital Circuits, Electronics Devices",
@@ -270,5 +270,29 @@ module.exports = [
     phone: "(022) – 69846900 EXT:",
     url: "https://www.linkedin.com/in/santoshkumar-sabat/",
     scholar: "https://scholar.google.com/citations?user=N74EJiQAAAAJ&hl=en",
+  },
+  {
+    name: "Dr. Sujata Kulkarni",
+    designation: "Associate Professor",
+    image: "https://i.ibb.co/VJdJT0f/PXL-20240510-055823936.jpg",
+    qualification: "Ph. D",
+    experience: "20+ Years",
+    expertise: "Pattern Recognition, Communication and Networking, Wireless Communication Networks, Embedded System",
+    email: "sujata_kulkarni@spit.ac.in",
+    phone: "(022) – 69846900 EXT:",
+    url: " linkedin.com/in/sujata-kulkarni-a8a94018b",
+    scholar: "https://scholar.google.com/citations?hl=en&user=WdAgkpAAAAJ&view_op=list_works&citft=1&citft=2&email_for_op=sujata_kulkarni%40spit.ac.in&gmla=AJsN-F6KnSoSiZ9w_sHyuwU9SzOfEtR8lXUwn9nCkN5VCPhYAoK_T3vT4AOp8gGOR53K3_zjxYYa10Fi4Bhzxv3XCtjTbP-6cw",
+  },
+  {
+    name: "Prof. Dayanand Ambawade",
+    designation: "Associate Professor",
+    image: "https://i.ibb.co/dQgWXvh/PXL-20240510-055619724.jpg",
+    qualification: "M.Tech (Communication) IIT, Bombay, Pursuing Ph.D",
+    experience: "20+ Years",
+    expertise: "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
+    email: "dd_ambawade@spit.ac.in",
+    phone: "(022) – 69846900 EXT:69846900 EXT: ",
+    url: "https://www.linkedin.com/in/dayanand-ambawade-a491a754/",
+    scholar: "https://scholar.google.com/citations?user=jW3ErDgAAAAJ&hl=en",
   },
 ];

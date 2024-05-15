@@ -11,13 +11,13 @@ class About extends Component {
       <section
         className="about py-5"
         id="about"
-        style={{ backgroundColor: "#fff" }}
+        style={{ backgroundColor: "#fff", justifyContent: "center"}}
       >
         <Container>
 
           <Card className="card-style">
             <h1>About</h1>
-            <p>
+            <p  style={{ textAlign: "justify"}}>
               The B.E. Electronics and Telecommunications Engineering is a
               comprehensive four-year program that imparts a well-rounded
               education and a strong foundation in electronics, communications,
@@ -51,7 +51,7 @@ class About extends Component {
           </Card>
 
 
-          <Card className="card-style">
+          <Card className="card-style" style={{ textAlign: "justify"}}>
             <h1>From HOD's Desk</h1>
            <img src = {hodImg} width="300" height="300" style={{ borderRadius: "50%", display: "block", margin: "auto", marginTop: "20px", marginBottom: "20px"}}/>
             <p>

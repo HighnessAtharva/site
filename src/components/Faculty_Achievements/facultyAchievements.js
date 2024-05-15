@@ -15,7 +15,7 @@ class FacultyAchievements extends Component {
             </Col>
           </Row>
         </Container>
-      <Container>
+      <Container >
       
         <Card className="mt-2">
           <Card.Body>

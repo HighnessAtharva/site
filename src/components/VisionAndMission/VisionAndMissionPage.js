@@ -6,7 +6,7 @@ class VisionAndMissionPage extends Component {
   render() {
     return (
       <>
-        <div>
+        <div style={{ textAlign: "justify"}}>
           <Container className="global-container text-center" fluid>
             <Row>
               <Col>
@@ -14,7 +14,7 @@ class VisionAndMissionPage extends Component {
               </Col>
             </Row>
           </Container>
-          <Container className="container-style">
+          <Container className="container-style" >
             <h3 className="text-center mb-4">Vision</h3>
             <p
               style={{
@@ -30,7 +30,7 @@ class VisionAndMissionPage extends Component {
               </strong>
             </p>
           </Container>
-          <Container className="container-style">
+          <Container className="container-style" style={{ textAlign: "justify"}}>
             <h3 className="text-center mb-4">Mission</h3>
             <strong>
               <ul>
@@ -266,7 +266,7 @@ class VisionAndMissionPage extends Component {
           </Container>
         </div>
         <br />
-        <div>
+        <div style={{ textAlign: "justify"}}>
           <Container className="global-container text-center" fluid>
             <Row>
               <Col>
