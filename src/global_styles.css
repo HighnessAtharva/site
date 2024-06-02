@@ -3,11 +3,27 @@
     color: #fff;
     height: 60px;
   }
-  
+
   .global-container h3 {
     text-align: center;
     margin: 5px;
     padding: 10px;
     font-weight: 750;
   }
-  
+
+
+  @media (max-width: 750px) {
+    h3 {
+      font-size: 1.5rem !important;
+      margin: 0px !important;
+    }
+  }
+
+  @media (max-width: 550px) {
+    h3 {
+      font-size: 1.2rem !important;
+      margin: 0px !important;
+    }
+  }
+
+

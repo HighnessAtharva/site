@@ -49,3 +49,11 @@
 .img-container:hover .course-item-icon {
   transform: translate(0, 0);
 }
+
+
+@media (max-width: 550px) {
+  h3 {
+    font-size: 1.2rem !important;
+    margin: 0px !important;
+  }
+}
