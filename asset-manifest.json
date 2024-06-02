@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/site/static/css/main.1807bed1.chunk.css",
-    "main.js": "/site/static/js/main.e8318caf.chunk.js",
-    "main.js.map": "/site/static/js/main.e8318caf.chunk.js.map",
+    "main.css": "/site/static/css/main.94c874f2.chunk.css",
+    "main.js": "/site/static/js/main.9ff1ae15.chunk.js",
+    "main.js.map": "/site/static/js/main.9ff1ae15.chunk.js.map",
     "runtime-main.js": "/site/static/js/runtime-main.c0375134.js",
     "runtime-main.js.map": "/site/static/js/runtime-main.c0375134.js.map",
     "static/css/2.69a98f9d.chunk.css": "/site/static/css/2.69a98f9d.chunk.css",
-    "static/js/2.99f91414.chunk.js": "/site/static/js/2.99f91414.chunk.js",
-    "static/js/2.99f91414.chunk.js.map": "/site/static/js/2.99f91414.chunk.js.map",
+    "static/js/2.37cc24d7.chunk.js": "/site/static/js/2.37cc24d7.chunk.js",
+    "static/js/2.37cc24d7.chunk.js.map": "/site/static/js/2.37cc24d7.chunk.js.map",
     "index.html": "/site/index.html",
-    "precache-manifest.01bef8760d0e73b7b1aec106e6c968a3.js": "/site/precache-manifest.01bef8760d0e73b7b1aec106e6c968a3.js",
+    "precache-manifest.c431055a3777e91f00d96d9008cf12f4.js": "/site/precache-manifest.c431055a3777e91f00d96d9008cf12f4.js",
     "service-worker.js": "/site/service-worker.js",
     "static/css/2.69a98f9d.chunk.css.map": "/site/static/css/2.69a98f9d.chunk.css.map",
-    "static/css/main.1807bed1.chunk.css.map": "/site/static/css/main.1807bed1.chunk.css.map",
-    "static/js/2.99f91414.chunk.js.LICENSE.txt": "/site/static/js/2.99f91414.chunk.js.LICENSE.txt",
+    "static/css/main.94c874f2.chunk.css.map": "/site/static/css/main.94c874f2.chunk.css.map",
+    "static/js/2.37cc24d7.chunk.js.LICENSE.txt": "/site/static/js/2.37cc24d7.chunk.js.LICENSE.txt",
     "static/media/BE _EXTC_ETRX_ODD_2023-2024.pdf": "/site/static/media/BE _EXTC_ETRX_ODD_2023-2024.9feb2237.pdf",
     "static/media/BE-EXTC_FYP.pdf": "/site/static/media/BE-EXTC_FYP.f2d5b0e4.pdf",
     "static/media/BTECH_EXTC_2021-2025_Scheme_modified.pdf": "/site/static/media/BTECH_EXTC_2021-2025_Scheme_modified.19002565.pdf",
@@ -77,8 +77,8 @@
   "entrypoints": [
     "static/js/runtime-main.c0375134.js",
     "static/css/2.69a98f9d.chunk.css",
-    "static/js/2.99f91414.chunk.js",
-    "static/css/main.1807bed1.chunk.css",
-    "static/js/main.e8318caf.chunk.js"
+    "static/js/2.37cc24d7.chunk.js",
+    "static/css/main.94c874f2.chunk.css",
+    "static/js/main.9ff1ae15.chunk.js"
   ]
 }
