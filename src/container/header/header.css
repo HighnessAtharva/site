@@ -74,8 +74,9 @@ a:hover {
   }
 
   .bigHeader {
-    font-size: 1.5rem;
-    margin-bottom: 0;
+    font-size: 2rem;
+    padding: 0px;
+    margin: 0px;
   }
 }
 
@@ -86,4 +87,15 @@ a:hover {
   .carousel-caption h1 {
     font-size: 1.7rem;
   }
+  .bigHeader {
+    font-size: 1.2rem;
+    padding: 0px;
+    margin: 0px;
+    text-align:left;
+  }
+
+  .navbar-brand img{
+    width: 75px;
+  }
+
 }
