@@ -1,4 +1,4 @@
-.bigHeader{
+.bigHeader {
   font-size: 2.5rem;
   padding-bottom: 1.5rem;
 }
@@ -9,7 +9,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0,0,0);
+  color: rgba(0, 0, 0);
 }
 
 .nav-link {
@@ -22,19 +22,17 @@
   text-decoration: none !important;
 }
 
-
-.nav-item{
-  border-right: 1px solid rgba(0,0,0,0.3);
+.nav-item {
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.nav{
+.nav {
   border: 5px solid black;
 }
 
-.navbar-nav>a{
-  border-right: 1px solid rgba(0,0,0,0.3);
+.navbar-nav > a {
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
 }
-
 
 a:hover {
   text-decoration: none;
@@ -52,7 +50,6 @@ a:hover {
 
 .div-col {
   width: 100%;
-  height: calc(100vh - 76px);
   flex: 1 !important;
   padding: 0;
   max-width: 100% !important;
@@ -60,7 +57,7 @@ a:hover {
 
 .carousel-item img {
   width: 100%;
-  height: calc(100vh);
+  height: auto; /* Ensure images maintain aspect ratio */
 }
 
 .carousel-caption {
@@ -91,11 +88,17 @@ a:hover {
     font-size: 1.2rem;
     padding: 0px;
     margin: 0px;
-    text-align:left;
+    text-align: left;
   }
 
-  .navbar-brand img{
+  .navbar-brand img {
     width: 75px;
+    height: 75px;
   }
 
+  .carousel-item img {
+    height: 550px !important;
+    width: 100%;
+    border-radius: 1px;
+  }
 }
