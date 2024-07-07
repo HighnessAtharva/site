@@ -1,3 +1,5 @@
+// CREATED BY ATHARVA SHAH & ISHANI MATHUR FOR EXTC DEPARTMENT
+
 import React, { Component } from "react";
 import { Row, Col, Card, Container } from "react-bootstrap";
 import "./Alumni.css"; // Your custom CSS file

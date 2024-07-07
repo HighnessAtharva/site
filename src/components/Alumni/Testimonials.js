@@ -1,3 +1,5 @@
+// CREATED BY ATHARVA SHAH & ISHANI MATHUR FOR EXTC DEPARTMENT
+
 const testimonialsJson = [
   {
     name: "MR. SAHIL KRISHNADAS",

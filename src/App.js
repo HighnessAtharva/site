@@ -1,3 +1,5 @@
+// CREATED BY ATHARVA SHAH & ISHANI MATHUR FOR EXTC DEPARTMENT
+
 import React from "react";
 import AOS from "aos";
 import "./App.css";

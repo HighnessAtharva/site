@@ -1,78 +1,85 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# EXTC Official Website
 
-### `Demo` - 
+## Installation
 
-![website](https://i.ibb.co/2Shb74Q/Screenshot-from-2020-11-04-22-36-03.png)
+```bash
+npm install
+```
 
-#
+## Start Local Server
 
-## Setup
+```bash
+npm run start
+```
 
-Run `npm install --force` in the root directory of the project. Once all dependencies are installed run `npm run start`. 
+## Make a Build Folder
 
-## Available Scripts
+```bash
+npm run build
+```
 
-In the project directory, you can run:
+## Deploy to Github Pages
 
-### `npm run start`
+```bash
+npm run deploy
+```
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## To change Navbar Items
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![alt text](image.png)
+NOTE THAT THE HOME PAGE CONTENT RESIDES IN about.js and slider.js both of which are in the containers folder. If unsure which content lies where check the URL routing from app.js and then topbar.js to find the respective component.
 
-### `npm run test`
+- Visit Topbar.js in src/components/Topbar.js
+![alt text](image-1.png)
+- For each item in the navbar, add a new Link tag with the path and name of the item
+- For dropdown items use a NavDropdown tag and add a title and a list of items using NavDropdown.Item tags and direct them to the respective paths as seen in the image.
+- Here Home and Vision & Mission are normal nav items and Academics is a dropdown item with 4 items in it.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Note that for every navbar items that you create, you need to include the path in the App.js file as well.
 
-### `npm run build`
+## To Add a new page
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Create a new component or container in the components or containers folder.
+![alt text](image-3.png)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- Suppose you wanted to make a page called Alumni in the components folder, you would create a new file called `Alumni.js` and add React code like below. Do not forget to export the component at the end of the file. Refer other files in the components folder for reference.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![alt text](image-4.png)
 
-### `npm run eject`
+- Import that component or container in `App.js`
+![alt text](image-5.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Add a new Route tag with the path and the component name in the same `App.js` as seen below. This means if the path is /alumni, the component Alumni will be rendered.
+![alt text](image-6.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Now the final path is adding a Nav link that directs the user to new page (in our scenario Alumni) in the `Topbar.js` file as seen in the image below.
+- Add a new Link tag with the path and name of the item.
+![alt text](image-7.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## To Add a new tab in Navbar
+![alt text](image-8.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Visit Topbar.js in src/components/Topbar.js
+- For each item in the navbar, add a new Link tag with the path and name of the item below the existing items. You can also reorder the items as per your requirement to move them left or right in the navbar.
 
-## Learn More
+## To Add new timetables/syllabus
+![alt text](image-9.png)
+- All PDFs of timetables and syllabus are present under `src/pdfs` folder. Visit the respective folder (like Btech, Mtech, etc) and add the PDFs there with a proper name.
+- Now visit the respective React component (like Btech.js, Mtech.js, etc) in the containers folder. Assuming you want to add a PDF for Btech, visit Btech.js.
+![alt text](image-10.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Copy paste one of these import statements and rename the PDF file name as per your requirement. Note that the file name should be the same as the one you added in the pdfs folder.
+![alt text](image-11.png)
 
-### Code Splitting
+- Use the same file name you imported above in a li tag with a href and target as _blank in the render method of the component. This will create a new tab in the respective page with the PDF.
+![alt text](image-12.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Styling
 
-### Analyzing the Bundle Size
+Styling can be changed by visiting the respective component folder and changing the CSS file. For example, if you want to change the styling of the FETs page, visit FETS.css in the components folder and change the CSS as per your requirement. To find files faster use shortcut Ctrl + P and type the file name.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
+**CREATED BY ATHARVA SHAH & ISHANI MATHUR FOR EXTC DEPARTMENT**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+For any documentation related queries, contact Atharva Shah (highnessatharva@gmail.com) or Ishani Mathur (mathurishani13@gmail.com).

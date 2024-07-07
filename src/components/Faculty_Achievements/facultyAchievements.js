@@ -1,3 +1,5 @@
+// CREATED BY ATHARVA SHAH & ISHANI MATHUR FOR EXTC DEPARTMENT
+
 import React, { Component } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import "./achievements.css";
@@ -16,7 +18,7 @@ class FacultyAchievements extends Component {
           </Row>
         </Container>
       <Container >
-      
+
         <Card className="mt-2">
           <Card.Body>
             <FacultyAchievementGallery />
