@@ -80,6 +80,24 @@ Note that for every navbar items that you create, you need to include the path i
 - Use the same file name you imported above in a li tag with a href and target as _blank in the render method of the component. This will create a new tab in the respective page with the PDF.
 ![alt text](help-asset/image-12.png)
 
+## To Add a new faculty
+
+- To add/update faculty details visit facultyData.js and add the data in the follwoing format.
+![alt text](help-asset/image-13.png)
+
+- To add/update support staff details visit supportStaffData.js and add the data in the follwoing format.
+![alt text](help-asset/image-14.png)
+
+- The data is rendered into FacultyPage.js that uses the data from facultyData.js and supportStaffData.js to display information about faculty and support staff.
+
+## To Add a new alumni testimonial
+
+- To add a new alumni testimonial visit Testimonials.js and add the data in the follwoing format.
+![alt text](help-asset/image-15.png)
+
+- The data is rendered into AlumniPage.js that uses the data from Testimonials.js to display the testimonials.
+
+
 ## Styling
 
 Styling can be changed by visiting the respective component folder and changing the CSS file. For example, if you want to change the styling of the FETs page, visit FETS.css in the components folder and change the CSS as per your requirement. To find files faster use shortcut Ctrl + P and type the file name.
