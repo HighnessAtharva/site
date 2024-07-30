@@ -1,7 +1,4 @@
-const fdpConductedData = [
-  {
-    year: "2020",
-    data: [
+export const fdpConductedData2020 = [
       {
         id: 1,
         fdp: "AICTE ATAL Sponsored FDP on Biomedical Engineering Systems and Technologies (Biosimilar Technologies)",
@@ -152,11 +149,9 @@ const fdpConductedData = [
         manDays: 360,
         manHours: 360,
       },
-    ],
-  },
-  {
-    year: "2021",
-    data: [
+    ];
+
+export const fdpConductedData2021 = [
       {
         id: 16,
         fdp: "One Day Workshop on Sequel App",
@@ -207,8 +202,4 @@ const fdpConductedData = [
         manDays: 600,
         manHours: 3000,
       },
-    ],
-  },
-];
-
-export default fdpConductedData;
+    ];
