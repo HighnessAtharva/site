@@ -34,8 +34,22 @@ video {
   object-fit: contain;
 }
 
+iframe {
+  max-width: auto;
+  height: 550px;
+  object-fit: contain;
+}
+
 @media (max-width: 950px) {
   video {
+    height: 450px;
+  }
+
+  iframe {
+    height: 450px;
+  }
+
+  .video-container {
     height: 450px;
   }
 }
@@ -44,11 +58,27 @@ video {
   video {
     height: 350px;
   }
+
+  iframe {
+    height: 350px;
+  }
+
+  .video-container {
+    height: 350px;
+  }
 }
 
 @media (max-width: 450px) {
   video {
-    height: 250px;
+    height: 100px;
+  }
+
+  iframe {
+    height: 100px;
+  }
+
+  .video-container {
+    height: 100px;
   }
 }
 
@@ -85,5 +115,13 @@ video {
 @media (max-width: 500px) {
   .video-text {
     font-size: 2.1rem;
+  }
+
+  iframe {
+    height: 250px;
+  }
+
+  .video-container {
+    height: 250px;
   }
 }

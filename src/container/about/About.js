@@ -45,9 +45,13 @@ class About extends Component {
           <Card className="card-style">
           {/* add the EXTCVideo here as embed */}
 
-            <video controls autoplay loop>
+            {/* <video controls autoplay loop>
               <source src={extcvideo} type="video/mp4" />
-            </video>
+            </video> */}
+            <iframe src={extcvideo}
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+              title="EXTC_Video"></iframe>
           </Card>
 
 
